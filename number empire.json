@@ -953,6 +953,94 @@
         "name": "kanan.png",
         "smoothed": true,
         "userAdded": false
+      },
+      {
+        "file": "meteor2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "meteor2.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "meteor.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "meteor.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "meteor pecah.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "meteor pecah.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "meteor pecah2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "meteor pecah2.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "meteor pecah3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "meteor pecah3.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "meteor pecah4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "meteor pecah4.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "meteor pecah5.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "meteor pecah5.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "heart.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "heart.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "heart2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "heart2.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "heart1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "heart1.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "heart0.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "heart0.png",
+        "smoothed": true,
+        "userAdded": false
       }
     ],
     "resourceFolders": []
@@ -3084,10 +3172,24 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.3797121001947951,
+        "zoomFactor": 0.49508400737489155,
         "windowMask": false
       },
       "objectsGroups": [
+        {
+          "name": "guardianAttackObject",
+          "objects": [
+            {
+              "name": "Tangan_Kiri"
+            },
+            {
+              "name": "Tangan_Kanan"
+            },
+            {
+              "name": "Meteor"
+            }
+          ]
+        },
         {
           "name": "Coin",
           "objects": [
@@ -3140,6 +3242,11 @@
           "name": "guardianAttack",
           "type": "number",
           "value": 0
+        },
+        {
+          "name": "healtPlayer",
+          "type": "number",
+          "value": 3
         }
       ],
       "instances": [
@@ -3229,55 +3336,6 @@
           "height": 0,
           "keepRatio": true,
           "layer": "",
-          "name": "Background_Coin_Target",
-          "persistentUuid": "dfc131d3-51b9-4c2e-9c16-b5244fae10fa",
-          "width": 0,
-          "x": 1051,
-          "y": 0,
-          "zOrder": 6,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 0,
-          "height": 128,
-          "keepRatio": true,
-          "layer": "",
-          "name": "Coin_Target",
-          "persistentUuid": "ba9ff859-5d88-4794-be0d-8127033bb0b1",
-          "width": 128,
-          "x": 1150,
-          "y": 9,
-          "zOrder": 7,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 0,
-          "height": 37,
-          "layer": "",
-          "name": "Step2",
-          "persistentUuid": "b02f1c00-d92d-4f00-8d1a-28abd2f5370a",
-          "width": 205,
-          "x": 1069,
-          "y": 154,
-          "zOrder": 8,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "keepRatio": true,
-          "layer": "",
           "name": "Guardian",
           "persistentUuid": "a5100382-3658-4db4-b96a-315410923bfd",
           "width": 0,
@@ -3300,6 +3358,71 @@
           "x": 517,
           "y": 155,
           "zOrder": 4,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 64,
+          "layer": "UI",
+          "name": "Healt_Player",
+          "persistentUuid": "6643cb33-5940-44db-a878-d701a0d9c994",
+          "width": 210,
+          "x": 1069,
+          "y": 209,
+          "zOrder": 9,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "UI",
+          "name": "Background_Coin_Target",
+          "persistentUuid": "4b17aca2-7fcf-47ba-ad56-b597c7c64a78",
+          "width": 0,
+          "x": 1051,
+          "y": 0,
+          "zOrder": 10,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 128,
+          "keepRatio": true,
+          "layer": "UI",
+          "name": "Coin_Target",
+          "persistentUuid": "c822b552-c88c-4960-9d83-98b06b31dd20",
+          "width": 128,
+          "x": 1150,
+          "y": 9,
+          "zOrder": 11,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 37,
+          "layer": "UI",
+          "name": "Step2",
+          "persistentUuid": "720a78ee-4066-4db2-a89b-f80306d5c308",
+          "width": 205,
+          "x": 1069,
+          "y": 154,
+          "zOrder": 12,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -3581,6 +3704,35 @@
           "effects": [],
           "behaviors": [
             {
+              "name": "Health",
+              "type": "Health::Health",
+              "Health": 3,
+              "CurrentHealth": 0,
+              "MaxHealth": 3,
+              "DamageCooldown": 0,
+              "AllowOverHealing": false,
+              "IsHealthJustDamaged": false,
+              "DamageToBeApplied": 0,
+              "HitAtLeastOnce": false,
+              "ChanceToDodge": 0,
+              "IsJustDodged": false,
+              "HealToBeApplied": 0,
+              "HealthRegenRate": 0,
+              "HealthRegenDelay": 0,
+              "IsJustHealed": false,
+              "CurrentShieldPoints": 2.0247e-320,
+              "MaxShieldPoints": 0,
+              "ShieldDuration": 5,
+              "ShieldRegenRate": 0,
+              "BlockExcessDamage": false,
+              "ShieldRegenDelay": 0,
+              "IsShieldJustDamaged": false,
+              "ShieldDamageTaken": 2.0247e-320,
+              "FlatDamageReduction": 0,
+              "PercentDamageReduction": 0
+            },
+            {
+              "isFolded": true,
               "name": "PlatformerCharacterAnimator",
               "type": "PlatformerCharacterAnimator::PlatformerCharacterAnimator",
               "EnableAnimationChanges": true,
@@ -3595,6 +3747,7 @@
               "Flippable": "Flippable"
             },
             {
+              "isFolded": true,
               "name": "PlatformerObject",
               "type": "PlatformBehavior::PlatformerObjectBehavior",
               "jumpSpeed": 600,
@@ -10751,7 +10904,7 @@
           ]
         },
         {
-          "adaptCollisionMaskAutomatically": true,
+          "adaptCollisionMaskAutomatically": false,
           "assetStoreId": "",
           "name": "Tangan_Kiri",
           "type": "Sprite",
@@ -10791,20 +10944,116 @@
                       "customCollisionMask": [
                         [
                           {
-                            "x": 269,
-                            "y": 269
+                            "x": 269.5,
+                            "y": 330
+                          },
+                          {
+                            "x": 299,
+                            "y": 329
+                          },
+                          {
+                            "x": 300,
+                            "y": 298.5
+                          },
+                          {
+                            "x": 329.5,
+                            "y": 299
+                          },
+                          {
+                            "x": 330,
+                            "y": 269.5
+                          },
+                          {
+                            "x": 360,
+                            "y": 269.5
+                          },
+                          {
+                            "x": 360.5,
+                            "y": 297
+                          },
+                          {
+                            "x": 390,
+                            "y": 299
+                          },
+                          {
+                            "x": 390,
+                            "y": 328
+                          },
+                          {
+                            "x": 570,
+                            "y": 328.5
+                          },
+                          {
+                            "x": 569.5,
+                            "y": 359
+                          },
+                          {
+                            "x": 658.5,
+                            "y": 360
+                          },
+                          {
+                            "x": 659.5,
+                            "y": 449
+                          },
+                          {
+                            "x": 689.5,
+                            "y": 448.5
                           },
                           {
                             "x": 689,
-                            "y": 269
+                            "y": 599
                           },
                           {
-                            "x": 689,
+                            "x": 659.5,
+                            "y": 598.5
+                          },
+                          {
+                            "x": 660,
+                            "y": 658.5
+                          },
+                          {
+                            "x": 630,
+                            "y": 659
+                          },
+                          {
+                            "x": 629.5,
+                            "y": 688.5
+                          },
+                          {
+                            "x": 449.5,
                             "y": 689
                           },
                           {
-                            "x": 269,
-                            "y": 689
+                            "x": 449.5,
+                            "y": 659
+                          },
+                          {
+                            "x": 359.5,
+                            "y": 659.5
+                          },
+                          {
+                            "x": 359.5,
+                            "y": 629.5
+                          },
+                          {
+                            "x": 329.5,
+                            "y": 629
+                          },
+                          {
+                            "x": 328.5,
+                            "y": 599.5
+                          },
+                          {
+                            "x": 299.5,
+                            "y": 598.5
+                          },
+                          {
+                            "x": 300,
+                            "y": 568.5
+                          },
+                          {
+                            "x": 269.5,
+                            "y": 569
                           }
                         ]
                       ]
@@ -10816,7 +11065,7 @@
           ]
         },
         {
-          "adaptCollisionMaskAutomatically": true,
+          "adaptCollisionMaskAutomatically": false,
           "assetStoreId": "",
           "name": "Tangan_Kanan",
           "type": "Sprite",
@@ -10856,20 +11105,642 @@
                       "customCollisionMask": [
                         [
                           {
-                            "x": 269,
-                            "y": 269
+                            "x": 269.5,
+                            "y": 450
                           },
                           {
-                            "x": 689,
-                            "y": 269
+                            "x": 298.5,
+                            "y": 448
                           },
                           {
-                            "x": 689,
-                            "y": 689
+                            "x": 302,
+                            "y": 357
                           },
                           {
-                            "x": 269,
-                            "y": 689
+                            "x": 389,
+                            "y": 358
+                          },
+                          {
+                            "x": 390.5,
+                            "y": 328.5
+                          },
+                          {
+                            "x": 566,
+                            "y": 327
+                          },
+                          {
+                            "x": 568.5,
+                            "y": 302
+                          },
+                          {
+                            "x": 602,
+                            "y": 300.5
+                          },
+                          {
+                            "x": 598.5,
+                            "y": 270
+                          },
+                          {
+                            "x": 628,
+                            "y": 269.5
+                          },
+                          {
+                            "x": 629,
+                            "y": 300
+                          },
+                          {
+                            "x": 658.5,
+                            "y": 300
+                          },
+                          {
+                            "x": 660,
+                            "y": 328.5
+                          },
+                          {
+                            "x": 689.5,
+                            "y": 329
+                          },
+                          {
+                            "x": 690.5,
+                            "y": 569
+                          },
+                          {
+                            "x": 662.5,
+                            "y": 569
+                          },
+                          {
+                            "x": 659.5,
+                            "y": 603.5
+                          },
+                          {
+                            "x": 631,
+                            "y": 599.5
+                          },
+                          {
+                            "x": 629.5,
+                            "y": 626.5
+                          },
+                          {
+                            "x": 600,
+                            "y": 628.5
+                          },
+                          {
+                            "x": 598.5,
+                            "y": 656.5
+                          },
+                          {
+                            "x": 511.5,
+                            "y": 656.5
+                          },
+                          {
+                            "x": 507,
+                            "y": 687.5
+                          },
+                          {
+                            "x": 330.5,
+                            "y": 688
+                          },
+                          {
+                            "x": 328.5,
+                            "y": 660
+                          },
+                          {
+                            "x": 301,
+                            "y": 660
+                          },
+                          {
+                            "x": 299,
+                            "y": 599.5
+                          },
+                          {
+                            "x": 269.5,
+                            "y": 599.5
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "Meteor",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [
+            {
+              "name": "Tween",
+              "type": "Tween::TweenBehavior"
+            }
+          ],
+          "animations": [
+            {
+              "name": "meteor",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "meteor.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 3,
+                            "y": 16
+                          },
+                          {
+                            "x": 182,
+                            "y": 16
+                          },
+                          {
+                            "x": 182,
+                            "y": 114
+                          },
+                          {
+                            "x": 3,
+                            "y": 114
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "meteor2.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 3,
+                            "y": 16
+                          },
+                          {
+                            "x": 182,
+                            "y": 16
+                          },
+                          {
+                            "x": 182,
+                            "y": 114
+                          },
+                          {
+                            "x": 3,
+                            "y": 114
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "pecah",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "meteor pecah.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 3,
+                            "y": 16
+                          },
+                          {
+                            "x": 182,
+                            "y": 16
+                          },
+                          {
+                            "x": 182,
+                            "y": 114
+                          },
+                          {
+                            "x": 3,
+                            "y": 114
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "meteor pecah2.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 3,
+                            "y": 16
+                          },
+                          {
+                            "x": 182,
+                            "y": 16
+                          },
+                          {
+                            "x": 182,
+                            "y": 114
+                          },
+                          {
+                            "x": 3,
+                            "y": 114
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "meteor pecah3.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 3,
+                            "y": 16
+                          },
+                          {
+                            "x": 182,
+                            "y": 16
+                          },
+                          {
+                            "x": 182,
+                            "y": 114
+                          },
+                          {
+                            "x": 3,
+                            "y": 114
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "meteor pecah4.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 3,
+                            "y": 16
+                          },
+                          {
+                            "x": 182,
+                            "y": 16
+                          },
+                          {
+                            "x": 182,
+                            "y": 114
+                          },
+                          {
+                            "x": 3,
+                            "y": 114
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "meteor pecah5.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 3,
+                            "y": 16
+                          },
+                          {
+                            "x": 182,
+                            "y": 16
+                          },
+                          {
+                            "x": 182,
+                            "y": 114
+                          },
+                          {
+                            "x": 3,
+                            "y": 114
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "Healt_Player",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [
+            {
+              "name": "Health",
+              "type": "Health::Health",
+              "Health": 3,
+              "CurrentHealth": 0,
+              "MaxHealth": 3,
+              "DamageCooldown": 0,
+              "AllowOverHealing": false,
+              "IsHealthJustDamaged": false,
+              "DamageToBeApplied": 0,
+              "HitAtLeastOnce": false,
+              "ChanceToDodge": 0,
+              "IsJustDodged": false,
+              "HealToBeApplied": 0,
+              "HealthRegenRate": 0,
+              "HealthRegenDelay": 0,
+              "IsJustHealed": false,
+              "CurrentShieldPoints": 2.0247e-320,
+              "MaxShieldPoints": 0,
+              "ShieldDuration": 5,
+              "ShieldRegenRate": 0,
+              "BlockExcessDamage": false,
+              "ShieldRegenDelay": 0,
+              "IsShieldJustDamaged": false,
+              "ShieldDamageTaken": 2.0247e-320,
+              "FlatDamageReduction": 0,
+              "PercentDamageReduction": 0
+            }
+          ],
+          "animations": [
+            {
+              "name": "3",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "heart.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 259,
+                            "y": 0
+                          },
+                          {
+                            "x": 259,
+                            "y": 79
+                          },
+                          {
+                            "x": 0,
+                            "y": 79
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "2",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "heart2.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 259,
+                            "y": 0
+                          },
+                          {
+                            "x": 259,
+                            "y": 79
+                          },
+                          {
+                            "x": 0,
+                            "y": 79
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "1",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "heart1.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 259,
+                            "y": 0
+                          },
+                          {
+                            "x": 259,
+                            "y": 79
+                          },
+                          {
+                            "x": 0,
+                            "y": 79
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "0",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "heart0.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 259,
+                            "y": 0
+                          },
+                          {
+                            "x": 259,
+                            "y": 79
+                          },
+                          {
+                            "x": 0,
+                            "y": 79
                           }
                         ]
                       ]
@@ -10934,6 +11805,12 @@
           },
           {
             "objectName": "Coin_Lempar_P"
+          },
+          {
+            "objectName": "Meteor"
+          },
+          {
+            "objectName": "Healt_Player"
           }
         ]
       },
@@ -10969,6 +11846,17 @@
                 "inventory",
                 "=",
                 "0"
+              ]
+            },
+            {
+              "type": {
+                "value": "AnimatableCapability::AnimatableBehavior::SetName"
+              },
+              "parameters": [
+                "Healt_Player",
+                "Animation",
+                "=",
+                "healtPlayer"
               ]
             },
             {
@@ -12301,11 +13189,12 @@
           "type": "BuiltinCommonInstructions::Group",
           "events": [
             {
+              "folded": true,
               "type": "BuiltinCommonInstructions::Standard",
               "conditions": [
                 {
                   "type": {
-                    "value": "KeyFromTextPressed"
+                    "value": "KeyFromTextJustPressed"
                   },
                   "parameters": [
                     "",
@@ -12324,274 +13213,273 @@
                 },
                 {
                   "type": {
-                    "value": "BuiltinCommonInstructions::CompareStrings"
-                  },
-                  "parameters": [
-                    "coinValue[0]",
-                    "=",
-                    "Coin_Asli.Animation::Name()"
-                  ]
-                },
-                {
-                  "type": {
                     "value": "BuiltinCommonInstructions::Once"
                   },
                   "parameters": []
                 }
               ],
-              "actions": [
+              "actions": [],
+              "events": [
                 {
-                  "type": {
-                    "value": "Wait"
-                  },
-                  "parameters": [
-                    "0.3"
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "BuiltinCommonInstructions::CompareStrings"
+                      },
+                      "parameters": [
+                        "coinValue[0]",
+                        "!=",
+                        "Coin_Asli.Animation::Name()"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                      },
+                      "parameters": [
+                        "Marcus",
+                        "Animation",
+                        "=",
+                        "\"attack\""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "Wait"
+                      },
+                      "parameters": [
+                        "0.6"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "Create"
+                      },
+                      "parameters": [
+                        "",
+                        "Coin_Lempar_P",
+                        "Marcus.PointX(\"attack\")",
+                        "Marcus.PointY(\"attack\")",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "PathfindingBehavior::SetDestination"
+                      },
+                      "parameters": [
+                        "Coin_Lempar_P",
+                        "Pathfinding",
+                        "=",
+                        "Guardian.X() + Guardian.Width()/2",
+                        "Guardian.Y() + Guardian.Height()/2"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "PathfindingBehavior::Speed"
+                      },
+                      "parameters": [
+                        "Coin_Lempar_P",
+                        "Pathfinding",
+                        "=",
+                        "1000"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "ResizableCapability::ResizableBehavior::SetSize"
+                      },
+                      "parameters": [
+                        "Coin_Lempar_P",
+                        "Resizable",
+                        "45.77",
+                        "45.77"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                      },
+                      "parameters": [
+                        "Coin_Lempar_P",
+                        "Animation",
+                        "=",
+                        "coinValue[0]"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "RemoveVariableAt"
+                      },
+                      "parameters": [
+                        "coinValue",
+                        "0"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "SetNumberVariable"
+                      },
+                      "parameters": [
+                        "inventory",
+                        "-",
+                        "1"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+                      },
+                      "parameters": [
+                        "Step2",
+                        "Text",
+                        "=",
+                        "inventory + \"/10\""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "Wait"
+                      },
+                      "parameters": [
+                        "0.6"
+                      ]
+                    }
                   ]
                 },
                 {
-                  "type": {
-                    "value": "AnimatableCapability::AnimatableBehavior::SetName"
-                  },
-                  "parameters": [
-                    "Marcus",
-                    "Animation",
-                    "=",
-                    "\"attack\""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "Create"
-                  },
-                  "parameters": [
-                    "",
-                    "Coin_Lempar_A",
-                    "Marcus.PointX(\"attack\")",
-                    "Marcus.PointY(\"attack\")",
-                    ""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "PathfindingBehavior::SetDestination"
-                  },
-                  "parameters": [
-                    "Coin_Lempar_A",
-                    "Pathfinding",
-                    "=",
-                    "Guardian.X() + Guardian.Width()/2",
-                    "Guardian.Y() + Guardian.Height()/2"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "PathfindingBehavior::Speed"
-                  },
-                  "parameters": [
-                    "Coin_Lempar_A",
-                    "Pathfinding",
-                    "=",
-                    "500"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "ResizableCapability::ResizableBehavior::SetSize"
-                  },
-                  "parameters": [
-                    "Coin_Lempar_A",
-                    "Resizable",
-                    "45.77",
-                    "45.77"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "AnimatableCapability::AnimatableBehavior::SetName"
-                  },
-                  "parameters": [
-                    "Coin_Lempar_A",
-                    "Animation",
-                    "=",
-                    "coinValue[0]"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "RemoveVariableAt"
-                  },
-                  "parameters": [
-                    "coinValue",
-                    "0"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "SetNumberVariable"
-                  },
-                  "parameters": [
-                    "inventory",
-                    "-",
-                    "1"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "TextContainerCapability::TextContainerBehavior::SetValue"
-                  },
-                  "parameters": [
-                    "Step2",
-                    "Text",
-                    "=",
-                    "inventory + \"/10\""
-                  ]
-                }
-              ]
-            },
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "KeyFromTextPressed"
-                  },
-                  "parameters": [
-                    "",
-                    "\"l\""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "NumberVariable"
-                  },
-                  "parameters": [
-                    "inventory",
-                    ">",
-                    "0"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "BuiltinCommonInstructions::CompareStrings"
-                  },
-                  "parameters": [
-                    "coinValue[0]",
-                    "!=",
-                    "Coin_Asli.Animation::Name()"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "BuiltinCommonInstructions::Once"
-                  },
-                  "parameters": []
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "Wait"
-                  },
-                  "parameters": [
-                    "0.3"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "AnimatableCapability::AnimatableBehavior::SetName"
-                  },
-                  "parameters": [
-                    "Marcus",
-                    "Animation",
-                    "=",
-                    "\"attack\""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "Create"
-                  },
-                  "parameters": [
-                    "",
-                    "Coin_Lempar_P",
-                    "Marcus.PointX(\"attack\")",
-                    "Marcus.PointY(\"attack\")",
-                    ""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "PathfindingBehavior::SetDestination"
-                  },
-                  "parameters": [
-                    "Coin_Lempar_P",
-                    "Pathfinding",
-                    "=",
-                    "Guardian.X() + Guardian.Width()/2",
-                    "Guardian.Y() + Guardian.Height()/2"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "PathfindingBehavior::Speed"
-                  },
-                  "parameters": [
-                    "Coin_Lempar_P",
-                    "Pathfinding",
-                    "=",
-                    "1000"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "ResizableCapability::ResizableBehavior::SetSize"
-                  },
-                  "parameters": [
-                    "Coin_Lempar_P",
-                    "Resizable",
-                    "45.77",
-                    "45.77"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "AnimatableCapability::AnimatableBehavior::SetName"
-                  },
-                  "parameters": [
-                    "Coin_Lempar_P",
-                    "Animation",
-                    "=",
-                    "coinValue[0]"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "RemoveVariableAt"
-                  },
-                  "parameters": [
-                    "coinValue",
-                    "0"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "SetNumberVariable"
-                  },
-                  "parameters": [
-                    "inventory",
-                    "-",
-                    "1"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "TextContainerCapability::TextContainerBehavior::SetValue"
-                  },
-                  "parameters": [
-                    "Step2",
-                    "Text",
-                    "=",
-                    "inventory + \"/10\""
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "BuiltinCommonInstructions::CompareStrings"
+                      },
+                      "parameters": [
+                        "coinValue[0]",
+                        "=",
+                        "Coin_Asli.Animation::Name()"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                      },
+                      "parameters": [
+                        "Marcus",
+                        "Animation",
+                        "=",
+                        "\"attack\""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "Wait"
+                      },
+                      "parameters": [
+                        "0.6"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "Create"
+                      },
+                      "parameters": [
+                        "",
+                        "Coin_Lempar_A",
+                        "Marcus.PointX(\"attack\")",
+                        "Marcus.PointY(\"attack\")",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "PathfindingBehavior::SetDestination"
+                      },
+                      "parameters": [
+                        "Coin_Lempar_A",
+                        "Pathfinding",
+                        "=",
+                        "Guardian.X() + Guardian.Width()/2",
+                        "Guardian.Y() + Guardian.Height()/2"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "PathfindingBehavior::Speed"
+                      },
+                      "parameters": [
+                        "Coin_Lempar_A",
+                        "Pathfinding",
+                        "=",
+                        "500"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "ResizableCapability::ResizableBehavior::SetSize"
+                      },
+                      "parameters": [
+                        "Coin_Lempar_A",
+                        "Resizable",
+                        "45.77",
+                        "45.77"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                      },
+                      "parameters": [
+                        "Coin_Lempar_A",
+                        "Animation",
+                        "=",
+                        "coinValue[0]"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "RemoveVariableAt"
+                      },
+                      "parameters": [
+                        "coinValue",
+                        "0"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "SetNumberVariable"
+                      },
+                      "parameters": [
+                        "inventory",
+                        "-",
+                        "1"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+                      },
+                      "parameters": [
+                        "Step2",
+                        "Text",
+                        "=",
+                        "inventory + \"/10\""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "Wait"
+                      },
+                      "parameters": [
+                        "0.6"
+                      ]
+                    }
                   ]
                 }
               ]
@@ -12650,46 +13538,27 @@
           "parameters": []
         },
         {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "CompareTimer"
-              },
-              "parameters": [
-                "",
-                "\"GuardianAttack\"",
-                ">",
-                "4"
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "AnimatableCapability::AnimatableBehavior::SetName"
-              },
-              "parameters": [
-                "Guardian",
-                "Animation",
-                "=",
-                "\"1\""
-              ]
-            }
-          ],
+          "colorB": 228,
+          "colorG": 176,
+          "colorR": 74,
+          "creationTime": 0,
+          "name": "Guardian Attack",
+          "source": "",
+          "type": "BuiltinCommonInstructions::Group",
           "events": [
             {
+              "folded": true,
               "type": "BuiltinCommonInstructions::Standard",
               "conditions": [
                 {
                   "type": {
-                    "value": "AnimatableCapability::AnimatableBehavior::Name"
+                    "value": "CompareTimer"
                   },
                   "parameters": [
-                    "Guardian",
-                    "Animation",
-                    "=",
-                    "\"1\""
+                    "",
+                    "\"GuardianAttack\"",
+                    ">",
+                    "4"
                   ]
                 },
                 {
@@ -12702,38 +13571,397 @@
               "actions": [
                 {
                   "type": {
-                    "value": "Create"
+                    "value": "SetNumberVariable"
                   },
                   "parameters": [
-                    "",
-                    "Tangan_Kanan",
-                    "1055",
-                    "-176",
-                    ""
+                    "guardianAttack",
+                    "=",
+                    "RandomInRange(1, 3)"
+                  ]
+                }
+              ],
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "NumberVariable"
+                      },
+                      "parameters": [
+                        "guardianAttack",
+                        "=",
+                        "1"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "BuiltinCommonInstructions::Once"
+                      },
+                      "parameters": []
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                      },
+                      "parameters": [
+                        "Guardian",
+                        "Animation",
+                        "=",
+                        "\"1\""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "Create"
+                      },
+                      "parameters": [
+                        "",
+                        "Tangan_Kanan",
+                        "1055",
+                        "-176",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "Tween::TweenBehavior::AddObjectPositionXTween2"
+                      },
+                      "parameters": [
+                        "Tangan_Kanan",
+                        "Tween",
+                        "\"attackKanan\"",
+                        "-805",
+                        "\"linear\"",
+                        "1.5",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "Wait"
+                      },
+                      "parameters": [
+                        "1.5"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "Delete"
+                      },
+                      "parameters": [
+                        "Tangan_Kanan",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                      },
+                      "parameters": [
+                        "Guardian",
+                        "Animation",
+                        "=",
+                        "\"idle\""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "ResetTimer"
+                      },
+                      "parameters": [
+                        "",
+                        "\"GuardianAttack\""
+                      ]
+                    }
                   ]
                 },
                 {
-                  "type": {
-                    "value": "Tween::TweenBehavior::AddObjectPositionXTween2"
-                  },
-                  "parameters": [
-                    "Tangan_Kanan",
-                    "Tween",
-                    "\"attackKanan\"",
-                    "-805",
-                    "\"linear\"",
-                    "0.2",
-                    ""
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "NumberVariable"
+                      },
+                      "parameters": [
+                        "guardianAttack",
+                        "=",
+                        "2"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "BuiltinCommonInstructions::Once"
+                      },
+                      "parameters": []
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                      },
+                      "parameters": [
+                        "Guardian",
+                        "Animation",
+                        "=",
+                        "\"2\""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "Create"
+                      },
+                      "parameters": [
+                        "",
+                        "Tangan_Kiri",
+                        "-801",
+                        "-176",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "Tween::TweenBehavior::AddObjectPositionXTween2"
+                      },
+                      "parameters": [
+                        "Tangan_Kiri",
+                        "Tween",
+                        "\"attackKiri\"",
+                        "1050",
+                        "\"linear\"",
+                        "1.5",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "Wait"
+                      },
+                      "parameters": [
+                        "1.5"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "Delete"
+                      },
+                      "parameters": [
+                        "Tangan_Kiri",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                      },
+                      "parameters": [
+                        "Guardian",
+                        "Animation",
+                        "=",
+                        "\"idle\""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "ResetTimer"
+                      },
+                      "parameters": [
+                        "",
+                        "\"GuardianAttack\""
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "folded": true,
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "NumberVariable"
+                      },
+                      "parameters": [
+                        "guardianAttack",
+                        "=",
+                        "3"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "BuiltinCommonInstructions::Once"
+                      },
+                      "parameters": []
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "Create"
+                      },
+                      "parameters": [
+                        "",
+                        "Meteor",
+                        "RandomInRange(28, 966)",
+                        "-191",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "SetAngle"
+                      },
+                      "parameters": [
+                        "Meteor",
+                        "=",
+                        "-90"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "Tween::TweenBehavior::AddObjectPositionYTween2"
+                      },
+                      "parameters": [
+                        "Meteor",
+                        "Tween",
+                        "\"meteor\"",
+                        "450",
+                        "\"linear\"",
+                        "1.5",
+                        ""
+                      ]
+                    }
+                  ],
+                  "events": [
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "Tween::Exists"
+                          },
+                          "parameters": [
+                            "Meteor",
+                            "Tween",
+                            "\"meteor\""
+                          ]
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "Wait"
+                          },
+                          "parameters": [
+                            "1.5"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                          },
+                          "parameters": [
+                            "Meteor",
+                            "Animation",
+                            "=",
+                            "\"pecah\""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "Wait"
+                          },
+                          "parameters": [
+                            "1.5"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "Delete"
+                          },
+                          "parameters": [
+                            "Meteor",
+                            ""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "ResetTimer"
+                          },
+                          "parameters": [
+                            "",
+                            "\"GuardianAttack\""
+                          ]
+                        }
+                      ]
+                    }
                   ]
                 }
               ]
             },
             {
               "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [],
-              "actions": []
+              "conditions": [
+                {
+                  "type": {
+                    "value": "CollisionNP"
+                  },
+                  "parameters": [
+                    "guardianAttackObject",
+                    "Marcus",
+                    "",
+                    "",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Health::Health::Hit"
+                  },
+                  "parameters": [
+                    "Marcus",
+                    "Health",
+                    "1",
+                    "",
+                    "",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "healtPlayer",
+                    "-",
+                    "1"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                  },
+                  "parameters": [
+                    "Healt_Player",
+                    "Animation",
+                    "=",
+                    "healtPlayer"
+                  ]
+                }
+              ]
             }
-          ]
+          ],
+          "parameters": []
         }
       ],
       "layers": [
@@ -12867,6 +14095,10 @@
         {
           "name": "Flippable",
           "type": "FlippableCapability::FlippableBehavior"
+        },
+        {
+          "name": "Health",
+          "type": "Health::Health"
         },
         {
           "name": "Opacity",
