@@ -1393,6 +1393,77 @@
         "name": "prajurit 4.png",
         "smoothed": true,
         "userAdded": false
+      },
+      {
+        "file": "marcus win.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "marcus win.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "VICTORY.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "VICTORY.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "MENU.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "MENU.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "REPLAY.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "REPLAY.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "kaisar win.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "kaisar win.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "GAME OVER.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "GAME OVER.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "NEXT.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "NEXT.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "SKIP.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "SKIP.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "Pixelmax-Regular.otf",
+        "kind": "font",
+        "metadata": "",
+        "name": "Pixelmax-Regular.otf",
+        "userAdded": false
       }
     ],
     "resourceFolders": []
@@ -3524,7 +3595,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.44819780454103825,
+        "zoomFactor": 0.5468750000000042,
         "windowMask": false
       },
       "objectsGroups": [
@@ -14434,123 +14505,141 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
-          "folded": true,
           "name": "Marcus Collect Coin",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
           "events": [
             {
+              "folded": true,
               "type": "BuiltinCommonInstructions::Standard",
               "conditions": [
                 {
                   "type": {
-                    "value": "CollisionNP"
-                  },
-                  "parameters": [
-                    "Marcus",
-                    "Coin_Asli",
-                    "",
-                    "",
-                    ""
-                  ]
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "Delete"
-                  },
-                  "parameters": [
-                    "Coin_Asli",
-                    ""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "PushString"
-                  },
-                  "parameters": [
-                    "coinValue",
-                    "Coin_Asli.Animation::Name()"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "SetNumberVariable"
+                    "value": "NumberVariable"
                   },
                   "parameters": [
                     "inventory",
-                    "+",
-                    "1"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "TextContainerCapability::TextContainerBehavior::SetValue"
-                  },
-                  "parameters": [
-                    "Step2",
-                    "Text",
-                    "=",
-                    "inventory + \"/10\""
-                  ]
-                }
-              ]
-            },
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "CollisionNP"
-                  },
-                  "parameters": [
-                    "Marcus",
-                    "Coin_Palsu",
-                    "",
-                    "",
-                    ""
+                    "<=",
+                    "10"
                   ]
                 }
               ],
-              "actions": [
+              "actions": [],
+              "events": [
                 {
-                  "type": {
-                    "value": "Delete"
-                  },
-                  "parameters": [
-                    "Coin_Palsu",
-                    ""
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "CollisionNP"
+                      },
+                      "parameters": [
+                        "Marcus",
+                        "Coin_Asli",
+                        "",
+                        "",
+                        ""
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "Delete"
+                      },
+                      "parameters": [
+                        "Coin_Asli",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "PushString"
+                      },
+                      "parameters": [
+                        "coinValue",
+                        "Coin_Asli.Animation::Name()"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "SetNumberVariable"
+                      },
+                      "parameters": [
+                        "inventory",
+                        "+",
+                        "1"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+                      },
+                      "parameters": [
+                        "Step2",
+                        "Text",
+                        "=",
+                        "inventory + \"/10\""
+                      ]
+                    }
                   ]
                 },
                 {
-                  "type": {
-                    "value": "PushString"
-                  },
-                  "parameters": [
-                    "coinValue",
-                    "Coin_Palsu.Animation::Name()"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "SetNumberVariable"
-                  },
-                  "parameters": [
-                    "inventory",
-                    "+",
-                    "1"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "TextContainerCapability::TextContainerBehavior::SetValue"
-                  },
-                  "parameters": [
-                    "Step2",
-                    "Text",
-                    "=",
-                    "inventory + \"/10\""
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "CollisionNP"
+                      },
+                      "parameters": [
+                        "Marcus",
+                        "Coin_Palsu",
+                        "",
+                        "",
+                        ""
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "Delete"
+                      },
+                      "parameters": [
+                        "Coin_Palsu",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "PushString"
+                      },
+                      "parameters": [
+                        "coinValue",
+                        "Coin_Palsu.Animation::Name()"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "SetNumberVariable"
+                      },
+                      "parameters": [
+                        "inventory",
+                        "+",
+                        "1"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+                      },
+                      "parameters": [
+                        "Step2",
+                        "Text",
+                        "=",
+                        "inventory + \"/10\""
+                      ]
+                    }
                   ]
                 }
               ]
@@ -15612,6 +15701,112 @@
           "isLightingLayer": false,
           "isLocked": false,
           "name": "UI",
+          "renderingType": "",
+          "visibility": true,
+          "cameras": [],
+          "effects": [
+            {
+              "effectType": "Scene3D::HemisphereLight",
+              "name": "3D Ambient Hemisphere Light",
+              "doubleParameters": {
+                "elevation": 40,
+                "intensity": 0.33,
+                "rotation": 300
+              },
+              "stringParameters": {
+                "groundColor": "127;127;127",
+                "skyColor": "255;255;255",
+                "top": "Z+"
+              },
+              "booleanParameters": {}
+            },
+            {
+              "effectType": "Scene3D::DirectionalLight",
+              "name": "3D Sun Light",
+              "doubleParameters": {
+                "distanceFromCamera": 1500,
+                "elevation": 40,
+                "frustumSize": 4000,
+                "intensity": 0.75,
+                "minimumShadowBias": 0,
+                "rotation": 300
+              },
+              "stringParameters": {
+                "color": "255;255;255",
+                "shadowQuality": "medium",
+                "top": "Z+"
+              },
+              "booleanParameters": {
+                "isCastingShadow": true
+              }
+            }
+          ]
+        },
+        {
+          "ambientLightColorB": 200,
+          "ambientLightColorG": 200,
+          "ambientLightColorR": 200,
+          "camera3DFarPlaneDistance": 10000,
+          "camera3DFieldOfView": 45,
+          "camera3DNearPlaneDistance": 3,
+          "cameraType": "",
+          "followBaseLayerCamera": false,
+          "isLightingLayer": false,
+          "isLocked": false,
+          "name": "Win",
+          "renderingType": "",
+          "visibility": true,
+          "cameras": [],
+          "effects": [
+            {
+              "effectType": "Scene3D::HemisphereLight",
+              "name": "3D Ambient Hemisphere Light",
+              "doubleParameters": {
+                "elevation": 40,
+                "intensity": 0.33,
+                "rotation": 300
+              },
+              "stringParameters": {
+                "groundColor": "127;127;127",
+                "skyColor": "255;255;255",
+                "top": "Z+"
+              },
+              "booleanParameters": {}
+            },
+            {
+              "effectType": "Scene3D::DirectionalLight",
+              "name": "3D Sun Light",
+              "doubleParameters": {
+                "distanceFromCamera": 1500,
+                "elevation": 40,
+                "frustumSize": 4000,
+                "intensity": 0.75,
+                "minimumShadowBias": 0,
+                "rotation": 300
+              },
+              "stringParameters": {
+                "color": "255;255;255",
+                "shadowQuality": "medium",
+                "top": "Z+"
+              },
+              "booleanParameters": {
+                "isCastingShadow": true
+              }
+            }
+          ]
+        },
+        {
+          "ambientLightColorB": 200,
+          "ambientLightColorG": 200,
+          "ambientLightColorR": 200,
+          "camera3DFarPlaneDistance": 10000,
+          "camera3DFieldOfView": 45,
+          "camera3DNearPlaneDistance": 3,
+          "cameraType": "",
+          "followBaseLayerCamera": false,
+          "isLightingLayer": false,
+          "isLocked": false,
+          "name": "Lose",
           "renderingType": "",
           "visibility": true,
           "cameras": [],
@@ -27909,7 +28104,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.37971210019479557,
+        "zoomFactor": 0.23089183385225015,
         "windowMask": false
       },
       "objectsGroups": [
@@ -27975,6 +28170,11 @@
           "name": "healtBos1",
           "type": "number",
           "value": 8
+        },
+        {
+          "name": "isWin",
+          "type": "number",
+          "value": 0
         }
       ],
       "instances": [
@@ -28063,7 +28263,7 @@
           "customSize": true,
           "depth": 0,
           "height": 64,
-          "layer": "UI",
+          "layer": "",
           "name": "Healt_Player",
           "persistentUuid": "6643cb33-5940-44db-a878-d701a0d9c994",
           "width": 210,
@@ -28079,7 +28279,7 @@
           "customSize": false,
           "height": 0,
           "keepRatio": true,
-          "layer": "UI",
+          "layer": "",
           "name": "Background_Coin_Target",
           "persistentUuid": "4b17aca2-7fcf-47ba-ad56-b597c7c64a78",
           "width": 0,
@@ -28096,7 +28296,7 @@
           "depth": 0,
           "height": 128,
           "keepRatio": true,
-          "layer": "UI",
+          "layer": "",
           "name": "Coin_Target",
           "persistentUuid": "c822b552-c88c-4960-9d83-98b06b31dd20",
           "width": 128,
@@ -28112,7 +28312,7 @@
           "customSize": true,
           "depth": 0,
           "height": 37,
-          "layer": "UI",
+          "layer": "",
           "name": "Step2",
           "persistentUuid": "720a78ee-4066-4db2-a89b-f80306d5c308",
           "width": 205,
@@ -28128,7 +28328,7 @@
           "customSize": false,
           "height": 0,
           "keepRatio": true,
-          "layer": "UI",
+          "layer": "",
           "name": "HealtBos",
           "persistentUuid": "eb7853a8-b026-49bd-8552-29f759901c7b",
           "width": 0,
@@ -28144,7 +28344,7 @@
           "customSize": false,
           "height": 0,
           "keepRatio": true,
-          "layer": "UI",
+          "layer": "",
           "name": "HeadBos",
           "persistentUuid": "6d2ba552-68e1-48c0-a749-8a13ce3752a2",
           "width": 0,
@@ -28183,6 +28383,73 @@
           "x": 348,
           "y": 339,
           "zOrder": 4,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "Win",
+          "name": "Marcus_Win",
+          "persistentUuid": "7f40f5d0-5e24-4f60-8c2e-cb46b1fba318",
+          "width": 0,
+          "x": 304,
+          "y": 716,
+          "zOrder": 15,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "Win",
+          "name": "Victory",
+          "opacity": 0,
+          "persistentUuid": "b1993f49-4330-4779-b225-e52c21e7381b",
+          "width": 0,
+          "x": 351,
+          "y": 498,
+          "zOrder": 16,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "Loss",
+          "name": "Kaisar_Win",
+          "persistentUuid": "2f715824-2764-4c7c-b43c-8eaeb152cb2a",
+          "width": 0,
+          "x": 134,
+          "y": 719,
+          "zOrder": 17,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 126,
+          "keepRatio": true,
+          "layer": "Loss",
+          "name": "GameOver",
+          "opacity": 0,
+          "persistentUuid": "f112a2e3-6e4d-4b89-9c29-04c4e692558d",
+          "width": 760,
+          "x": 258,
+          "y": 499,
+          "zOrder": 18,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -36810,20 +37077,9 @@
           "effects": [],
           "behaviors": [
             {
-              "name": "PlatformerCharacterAnimator",
-              "type": "PlatformerCharacterAnimator::PlatformerCharacterAnimator",
-              "EnableAnimationChanges": true,
-              "EnableHorizontalFlipping": true,
-              "IdleAnimationName": "idle",
-              "RunAnimationName": "Run",
-              "JumpAnimationName": "Jump",
-              "FallAnimationName": "Fall",
-              "ClimbAnimationName": "Climb",
-              "PlatformerBehavior": "PlatformerObject",
-              "Animation": "Animation",
-              "Flippable": "Flippable"
-            },
-            {
+              "isFolded": true,
+              "name": "PlatformerObject",
+              "type": "PlatformBehavior::PlatformerObjectBehavior",
               "acceleration": 1500,
               "canGoDownFromJumpthru": true,
               "canGrabPlatforms": false,
@@ -36831,15 +37087,12 @@
               "deceleration": 1500,
               "gravity": 1000,
               "ignoreDefaultControls": true,
-              "isFolded": true,
               "jumpSpeed": 600,
               "jumpSustainTime": 0.2,
               "ladderClimbingSpeed": 150,
               "maxFallingSpeed": 700,
               "maxSpeed": 250,
-              "name": "PlatformerObject",
               "slopeMaxAngle": 60,
-              "type": "PlatformBehavior::PlatformerObjectBehavior",
               "useLegacyTrajectory": false,
               "useRepeatedJump": false,
               "xGrabTolerance": 10,
@@ -37011,574 +37264,6 @@
                   "looping": false,
                   "timeBetweenFrames": 0.2,
                   "sprites": [
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "prajurit 1.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 14.5,
-                            "y": 78.5
-                          },
-                          {
-                            "x": 7,
-                            "y": 75.5
-                          },
-                          {
-                            "x": 4,
-                            "y": 74
-                          },
-                          {
-                            "x": 5,
-                            "y": 71
-                          },
-                          {
-                            "x": 16.5,
-                            "y": 66
-                          },
-                          {
-                            "x": 22,
-                            "y": 66
-                          },
-                          {
-                            "x": 26,
-                            "y": 69.5
-                          },
-                          {
-                            "x": 42,
-                            "y": 69.5
-                          },
-                          {
-                            "x": 43,
-                            "y": 57
-                          },
-                          {
-                            "x": 37,
-                            "y": 57
-                          },
-                          {
-                            "x": 36.5,
-                            "y": 49.5
-                          },
-                          {
-                            "x": 30.5,
-                            "y": 45
-                          },
-                          {
-                            "x": 30,
-                            "y": 29
-                          },
-                          {
-                            "x": 40,
-                            "y": 21.5
-                          },
-                          {
-                            "x": 39.5,
-                            "y": 15.5
-                          },
-                          {
-                            "x": 32,
-                            "y": 8.5
-                          },
-                          {
-                            "x": 32,
-                            "y": 3.5
-                          },
-                          {
-                            "x": 40,
-                            "y": 0
-                          },
-                          {
-                            "x": 54,
-                            "y": 0
-                          },
-                          {
-                            "x": 65,
-                            "y": 1
-                          },
-                          {
-                            "x": 76,
-                            "y": 17
-                          },
-                          {
-                            "x": 78,
-                            "y": 34
-                          },
-                          {
-                            "x": 83.5,
-                            "y": 51
-                          },
-                          {
-                            "x": 70,
-                            "y": 54.5
-                          },
-                          {
-                            "x": 59,
-                            "y": 54.5
-                          },
-                          {
-                            "x": 62.5,
-                            "y": 58
-                          },
-                          {
-                            "x": 62.5,
-                            "y": 69.5
-                          },
-                          {
-                            "x": 77,
-                            "y": 69
-                          },
-                          {
-                            "x": 82.5,
-                            "y": 67
-                          },
-                          {
-                            "x": 86.5,
-                            "y": 70
-                          },
-                          {
-                            "x": 86.5,
-                            "y": 75
-                          },
-                          {
-                            "x": 82.5,
-                            "y": 78.5
-                          },
-                          {
-                            "x": 78,
-                            "y": 75.5
-                          },
-                          {
-                            "x": 63.5,
-                            "y": 75.5
-                          },
-                          {
-                            "x": 59,
-                            "y": 82.5
-                          },
-                          {
-                            "x": 59.5,
-                            "y": 95
-                          },
-                          {
-                            "x": 57,
-                            "y": 98
-                          },
-                          {
-                            "x": 40.5,
-                            "y": 98
-                          },
-                          {
-                            "x": 40,
-                            "y": 94.5
-                          },
-                          {
-                            "x": 43,
-                            "y": 82
-                          },
-                          {
-                            "x": 42,
-                            "y": 75.5
-                          },
-                          {
-                            "x": 27,
-                            "y": 75.5
-                          },
-                          {
-                            "x": 24.5,
-                            "y": 78.5
-                          }
-                        ]
-                      ]
-                    },
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "prajurit 2.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 21,
-                            "y": 74.5
-                          },
-                          {
-                            "x": 16,
-                            "y": 73.5
-                          },
-                          {
-                            "x": 15.5,
-                            "y": 68
-                          },
-                          {
-                            "x": 24,
-                            "y": 65
-                          },
-                          {
-                            "x": 27.5,
-                            "y": 62.5
-                          },
-                          {
-                            "x": 32.5,
-                            "y": 62.5
-                          },
-                          {
-                            "x": 36,
-                            "y": 65
-                          },
-                          {
-                            "x": 43,
-                            "y": 57
-                          },
-                          {
-                            "x": 37,
-                            "y": 57
-                          },
-                          {
-                            "x": 36.5,
-                            "y": 49.5
-                          },
-                          {
-                            "x": 30.5,
-                            "y": 45
-                          },
-                          {
-                            "x": 30,
-                            "y": 29
-                          },
-                          {
-                            "x": 40,
-                            "y": 21.5
-                          },
-                          {
-                            "x": 39.5,
-                            "y": 15.5
-                          },
-                          {
-                            "x": 32,
-                            "y": 8.5
-                          },
-                          {
-                            "x": 32,
-                            "y": 3.5
-                          },
-                          {
-                            "x": 40,
-                            "y": 0
-                          },
-                          {
-                            "x": 54,
-                            "y": 0
-                          },
-                          {
-                            "x": 65,
-                            "y": 1
-                          },
-                          {
-                            "x": 76,
-                            "y": 17
-                          },
-                          {
-                            "x": 78,
-                            "y": 34
-                          },
-                          {
-                            "x": 83.5,
-                            "y": 51
-                          },
-                          {
-                            "x": 70,
-                            "y": 54.5
-                          },
-                          {
-                            "x": 59,
-                            "y": 54.5
-                          },
-                          {
-                            "x": 65.5,
-                            "y": 65.5
-                          },
-                          {
-                            "x": 76.5,
-                            "y": 66.5
-                          },
-                          {
-                            "x": 96.5,
-                            "y": 65
-                          },
-                          {
-                            "x": 96.5,
-                            "y": 74.5
-                          },
-                          {
-                            "x": 89,
-                            "y": 73.5
-                          },
-                          {
-                            "x": 79,
-                            "y": 73
-                          },
-                          {
-                            "x": 67.5,
-                            "y": 73
-                          },
-                          {
-                            "x": 61.5,
-                            "y": 81
-                          },
-                          {
-                            "x": 69.5,
-                            "y": 86.5
-                          },
-                          {
-                            "x": 66.5,
-                            "y": 98
-                          },
-                          {
-                            "x": 57,
-                            "y": 98
-                          },
-                          {
-                            "x": 38.5,
-                            "y": 97.5
-                          },
-                          {
-                            "x": 35,
-                            "y": 87.5
-                          },
-                          {
-                            "x": 43,
-                            "y": 84.5
-                          },
-                          {
-                            "x": 42,
-                            "y": 75.5
-                          },
-                          {
-                            "x": 36,
-                            "y": 74.5
-                          },
-                          {
-                            "x": 29,
-                            "y": 76
-                          }
-                        ]
-                      ]
-                    },
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "prajurit 3.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 14.5,
-                            "y": 78.5
-                          },
-                          {
-                            "x": 7,
-                            "y": 75.5
-                          },
-                          {
-                            "x": 4,
-                            "y": 74
-                          },
-                          {
-                            "x": 5,
-                            "y": 71
-                          },
-                          {
-                            "x": 16.5,
-                            "y": 66
-                          },
-                          {
-                            "x": 22,
-                            "y": 66
-                          },
-                          {
-                            "x": 26,
-                            "y": 69.5
-                          },
-                          {
-                            "x": 42,
-                            "y": 69.5
-                          },
-                          {
-                            "x": 43,
-                            "y": 57
-                          },
-                          {
-                            "x": 37,
-                            "y": 57
-                          },
-                          {
-                            "x": 36.5,
-                            "y": 49.5
-                          },
-                          {
-                            "x": 30.5,
-                            "y": 45
-                          },
-                          {
-                            "x": 30,
-                            "y": 29
-                          },
-                          {
-                            "x": 40,
-                            "y": 21.5
-                          },
-                          {
-                            "x": 39.5,
-                            "y": 15.5
-                          },
-                          {
-                            "x": 32,
-                            "y": 8.5
-                          },
-                          {
-                            "x": 32,
-                            "y": 3.5
-                          },
-                          {
-                            "x": 40,
-                            "y": 0
-                          },
-                          {
-                            "x": 54,
-                            "y": 0
-                          },
-                          {
-                            "x": 65,
-                            "y": 1
-                          },
-                          {
-                            "x": 76,
-                            "y": 17
-                          },
-                          {
-                            "x": 78,
-                            "y": 34
-                          },
-                          {
-                            "x": 83.5,
-                            "y": 51
-                          },
-                          {
-                            "x": 70,
-                            "y": 54.5
-                          },
-                          {
-                            "x": 59,
-                            "y": 54.5
-                          },
-                          {
-                            "x": 62.5,
-                            "y": 58
-                          },
-                          {
-                            "x": 62.5,
-                            "y": 69.5
-                          },
-                          {
-                            "x": 77,
-                            "y": 69
-                          },
-                          {
-                            "x": 82.5,
-                            "y": 67
-                          },
-                          {
-                            "x": 86.5,
-                            "y": 70
-                          },
-                          {
-                            "x": 86.5,
-                            "y": 75
-                          },
-                          {
-                            "x": 82.5,
-                            "y": 78.5
-                          },
-                          {
-                            "x": 78,
-                            "y": 75.5
-                          },
-                          {
-                            "x": 63.5,
-                            "y": 75.5
-                          },
-                          {
-                            "x": 59,
-                            "y": 82.5
-                          },
-                          {
-                            "x": 59.5,
-                            "y": 95
-                          },
-                          {
-                            "x": 57,
-                            "y": 98
-                          },
-                          {
-                            "x": 40.5,
-                            "y": 98
-                          },
-                          {
-                            "x": 40,
-                            "y": 94.5
-                          },
-                          {
-                            "x": 43,
-                            "y": 82
-                          },
-                          {
-                            "x": 42,
-                            "y": 75.5
-                          },
-                          {
-                            "x": 27,
-                            "y": 75.5
-                          },
-                          {
-                            "x": 24.5,
-                            "y": 78.5
-                          }
-                        ]
-                      ]
-                    },
                     {
                       "hasCustomCollisionMask": true,
                       "image": "prajurit 4.png",
@@ -37800,6 +37485,446 @@
               ]
             }
           ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "Marcus_Win",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [
+            {
+              "name": "Tween",
+              "type": "Tween::TweenBehavior"
+            }
+          ],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "marcus win.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 85,
+                            "y": 31
+                          },
+                          {
+                            "x": 582,
+                            "y": 31
+                          },
+                          {
+                            "x": 582,
+                            "y": 720
+                          },
+                          {
+                            "x": 85,
+                            "y": 720
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "Victory",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [
+            {
+              "name": "Tween",
+              "type": "Tween::TweenBehavior"
+            }
+          ],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "VICTORY.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 1,
+                            "y": 0
+                          },
+                          {
+                            "x": 581,
+                            "y": 0
+                          },
+                          {
+                            "x": 581,
+                            "y": 126
+                          },
+                          {
+                            "x": 1,
+                            "y": 126
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "Menu",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "MENU.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 186,
+                            "y": 0
+                          },
+                          {
+                            "x": 186,
+                            "y": 57
+                          },
+                          {
+                            "x": 0,
+                            "y": 57
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "Reply",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "REPLAY.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 1,
+                            "y": 0
+                          },
+                          {
+                            "x": 258,
+                            "y": 0
+                          },
+                          {
+                            "x": 258,
+                            "y": 57
+                          },
+                          {
+                            "x": 1,
+                            "y": 57
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "Kaisar_Win",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [
+            {
+              "name": "Tween",
+              "type": "Tween::TweenBehavior"
+            }
+          ],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "kaisar win.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 158,
+                            "y": 15
+                          },
+                          {
+                            "x": 838,
+                            "y": 15
+                          },
+                          {
+                            "x": 838,
+                            "y": 687
+                          },
+                          {
+                            "x": 158,
+                            "y": 687
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "GameOver",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [
+            {
+              "name": "Tween",
+              "type": "Tween::TweenBehavior"
+            }
+          ],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "GAME OVER.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 760,
+                            "y": 0
+                          },
+                          {
+                            "x": 760,
+                            "y": 126
+                          },
+                          {
+                            "x": 0,
+                            "y": 126
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "Next",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "NEXT.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 180,
+                            "y": 0
+                          },
+                          {
+                            "x": 180,
+                            "y": 57
+                          },
+                          {
+                            "x": 0,
+                            "y": 57
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
         }
       ],
       "objectsFolderStructure": {
@@ -37864,6 +37989,27 @@
           },
           {
             "objectName": "Prajurit"
+          },
+          {
+            "objectName": "Marcus_Win"
+          },
+          {
+            "objectName": "Victory"
+          },
+          {
+            "objectName": "Menu"
+          },
+          {
+            "objectName": "Reply"
+          },
+          {
+            "objectName": "Kaisar_Win"
+          },
+          {
+            "objectName": "GameOver"
+          },
+          {
+            "objectName": "Next"
           }
         ]
       },
@@ -37931,7 +38077,7 @@
                 "Step2",
                 "Text",
                 "=",
-                "inventory + \"/10\""
+                "inventory + \"/20\""
               ]
             },
             {
@@ -37991,7 +38137,7 @@
               },
               "parameters": [
                 "",
-                "\"GuardianAttack\""
+                "\"KaisarAttack\""
               ]
             }
           ]
@@ -39135,117 +39281,136 @@
           "type": "BuiltinCommonInstructions::Group",
           "events": [
             {
+              "folded": true,
               "type": "BuiltinCommonInstructions::Standard",
               "conditions": [
                 {
                   "type": {
-                    "value": "CollisionNP"
-                  },
-                  "parameters": [
-                    "Marcus",
-                    "Coin_Asli",
-                    "",
-                    "",
-                    ""
-                  ]
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "Delete"
-                  },
-                  "parameters": [
-                    "Coin_Asli",
-                    ""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "PushString"
-                  },
-                  "parameters": [
-                    "coinValue",
-                    "Coin_Asli.Animation::Name()"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "SetNumberVariable"
+                    "value": "NumberVariable"
                   },
                   "parameters": [
                     "inventory",
-                    "+",
-                    "1"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "TextContainerCapability::TextContainerBehavior::SetValue"
-                  },
-                  "parameters": [
-                    "Step2",
-                    "Text",
-                    "=",
-                    "inventory + \"/10\""
-                  ]
-                }
-              ]
-            },
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "CollisionNP"
-                  },
-                  "parameters": [
-                    "Marcus",
-                    "Coin_Palsu",
-                    "",
-                    "",
-                    ""
+                    "<=",
+                    "20"
                   ]
                 }
               ],
-              "actions": [
+              "actions": [],
+              "events": [
                 {
-                  "type": {
-                    "value": "Delete"
-                  },
-                  "parameters": [
-                    "Coin_Palsu",
-                    ""
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "CollisionNP"
+                      },
+                      "parameters": [
+                        "Marcus",
+                        "Coin_Asli",
+                        "",
+                        "",
+                        ""
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "Delete"
+                      },
+                      "parameters": [
+                        "Coin_Asli",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "PushString"
+                      },
+                      "parameters": [
+                        "coinValue",
+                        "Coin_Asli.Animation::Name()"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "SetNumberVariable"
+                      },
+                      "parameters": [
+                        "inventory",
+                        "+",
+                        "1"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+                      },
+                      "parameters": [
+                        "Step2",
+                        "Text",
+                        "=",
+                        "inventory + \"/20\""
+                      ]
+                    }
                   ]
                 },
                 {
-                  "type": {
-                    "value": "PushString"
-                  },
-                  "parameters": [
-                    "coinValue",
-                    "Coin_Palsu.Animation::Name()"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "SetNumberVariable"
-                  },
-                  "parameters": [
-                    "inventory",
-                    "+",
-                    "1"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "TextContainerCapability::TextContainerBehavior::SetValue"
-                  },
-                  "parameters": [
-                    "Step2",
-                    "Text",
-                    "=",
-                    "inventory + \"/10\""
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "CollisionNP"
+                      },
+                      "parameters": [
+                        "Marcus",
+                        "Coin_Palsu",
+                        "",
+                        "",
+                        ""
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "Delete"
+                      },
+                      "parameters": [
+                        "Coin_Palsu",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "PushString"
+                      },
+                      "parameters": [
+                        "coinValue",
+                        "Coin_Palsu.Animation::Name()"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "SetNumberVariable"
+                      },
+                      "parameters": [
+                        "inventory",
+                        "+",
+                        "1"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+                      },
+                      "parameters": [
+                        "Step2",
+                        "Text",
+                        "=",
+                        "inventory + \"/20\""
+                      ]
+                    }
                   ]
                 }
               ]
@@ -39258,11 +39423,13 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
+          "folded": true,
           "name": "Marcus Attack",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
           "events": [
             {
+              "folded": true,
               "type": "BuiltinCommonInstructions::Standard",
               "conditions": [
                 {
@@ -39572,94 +39739,11 @@
                           ]
                         }
                       ]
-                    },
-                    {
-                      "type": "BuiltinCommonInstructions::Standard",
-                      "conditions": [
-                        {
-                          "type": {
-                            "value": "PathfindingBehavior::DestinationReached"
-                          },
-                          "parameters": [
-                            "Coin_Lempar_A",
-                            "Pathfinding"
-                          ]
-                        }
-                      ],
-                      "actions": [
-                        {
-                          "type": {
-                            "value": "Delete"
-                          },
-                          "parameters": [
-                            "Coin_Lempar_A",
-                            ""
-                          ]
-                        },
-                        {
-                          "type": {
-                            "value": "Health::Health::Hit"
-                          },
-                          "parameters": [
-                            "Kaisar",
-                            "Health",
-                            "1",
-                            "",
-                            "",
-                            ""
-                          ]
-                        },
-                        {
-                          "type": {
-                            "value": "SetNumberVariable"
-                          },
-                          "parameters": [
-                            "healtBos1",
-                            "-",
-                            "1"
-                          ]
-                        },
-                        {
-                          "type": {
-                            "value": "AnimatableCapability::AnimatableBehavior::SetName"
-                          },
-                          "parameters": [
-                            "HealtBos",
-                            "Animation",
-                            "=",
-                            "healtBos1"
-                          ]
-                        }
-                      ]
-                    },
-                    {
-                      "type": "BuiltinCommonInstructions::Standard",
-                      "conditions": [
-                        {
-                          "type": {
-                            "value": "PathfindingBehavior::DestinationReached"
-                          },
-                          "parameters": [
-                            "Coin_Lempar_P",
-                            "Pathfinding"
-                          ]
-                        }
-                      ],
-                      "actions": [
-                        {
-                          "type": {
-                            "value": "Delete"
-                          },
-                          "parameters": [
-                            "Coin_Lempar_P",
-                            ""
-                          ]
-                        }
-                      ]
                     }
                   ]
                 },
                 {
+                  "folded": true,
                   "type": "BuiltinCommonInstructions::Standard",
                   "conditions": [
                     {
@@ -39950,7 +40034,7 @@
                     "value": "PathfindingBehavior::DestinationReached"
                   },
                   "parameters": [
-                    "Coin_Lempar_A",
+                    "Coin_Lempar_P",
                     "Pathfinding"
                   ]
                 },
@@ -39959,8 +40043,8 @@
                     "value": "CollisionNP"
                   },
                   "parameters": [
-                    "Coin_Lempar_A",
-                    "Prajurit",
+                    "Coin_Lempar_P",
+                    "Kaisar",
                     "",
                     "",
                     ""
@@ -39973,16 +40057,7 @@
                     "value": "Delete"
                   },
                   "parameters": [
-                    "Coin_Lempar_A",
-                    ""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "Delete"
-                  },
-                  "parameters": [
-                    "Prajurit",
+                    "Coin_Lempar_P",
                     ""
                   ]
                 }
@@ -39996,10 +40071,72 @@
                     "value": "PathfindingBehavior::DestinationReached"
                   },
                   "parameters": [
-                    "Coin_Lempar_P",
+                    "Coin_Lempar_A",
                     "Pathfinding"
                   ]
                 },
+                {
+                  "type": {
+                    "value": "CollisionNP"
+                  },
+                  "parameters": [
+                    "Coin_Lempar_A",
+                    "Kaisar",
+                    "",
+                    "",
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Delete"
+                  },
+                  "parameters": [
+                    "Coin_Lempar_A",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Health::Health::Hit"
+                  },
+                  "parameters": [
+                    "Kaisar",
+                    "Health",
+                    "1",
+                    "",
+                    "",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "healtBos1",
+                    "-",
+                    "1"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                  },
+                  "parameters": [
+                    "HealtBos",
+                    "Animation",
+                    "=",
+                    "healtBos1"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
                 {
                   "type": {
                     "value": "CollisionNP"
@@ -40024,6 +40161,61 @@
                   ]
                 }
               ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "CollisionNP"
+                  },
+                  "parameters": [
+                    "Coin_Lempar_A",
+                    "Prajurit",
+                    "",
+                    "",
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Delete"
+                  },
+                  "parameters": [
+                    "Coin_Lempar_A",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Delete"
+                  },
+                  "parameters": [
+                    "Warning_Bos_Attack",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Delete"
+                  },
+                  "parameters": [
+                    "Prajurit",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ResetTimer"
+                  },
+                  "parameters": [
+                    "",
+                    "\"KaisarAttack\""
+                  ]
+                }
+              ]
             }
           ],
           "parameters": []
@@ -40033,13 +40225,12 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
+          "folded": true,
           "name": "Kaisar Attack",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
           "events": [
             {
-              "disabled": true,
-              "folded": true,
               "type": "BuiltinCommonInstructions::Standard",
               "conditions": [
                 {
@@ -40048,431 +40239,9 @@
                   },
                   "parameters": [
                     "",
-                    "\"GuardianAttack\"",
+                    "\"KaisarAttack\"",
                     ">",
-                    "4"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "BuiltinCommonInstructions::Once"
-                  },
-                  "parameters": []
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "Create"
-                  },
-                  "parameters": [
-                    "",
-                    "Warning_Bos_Attack",
-                    "550",
-                    "550",
-                    ""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "TextObject::Text::SetFontSize"
-                  },
-                  "parameters": [
-                    "Warning_Bos_Attack",
-                    "=",
-                    "35"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "TextContainerCapability::TextContainerBehavior::SetValue"
-                  },
-                  "parameters": [
-                    "Warning_Bos_Attack",
-                    "Text",
-                    "=",
-                    "\"Bos Attack\""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "Wait"
-                  },
-                  "parameters": [
-                    "1.2"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "SetNumberVariable"
-                  },
-                  "parameters": [
-                    "kaisarAttack",
-                    "=",
-                    "RandomInRange(1, 3)"
-                  ]
-                }
-              ],
-              "events": [
-                {
-                  "type": "BuiltinCommonInstructions::Standard",
-                  "conditions": [
-                    {
-                      "type": {
-                        "value": "NumberVariable"
-                      },
-                      "parameters": [
-                        "kaisarAttack",
-                        "=",
-                        "1"
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "BuiltinCommonInstructions::Once"
-                      },
-                      "parameters": []
-                    }
-                  ],
-                  "actions": [
-                    {
-                      "type": {
-                        "value": "AnimatableCapability::AnimatableBehavior::SetName"
-                      },
-                      "parameters": [
-                        "Guardian",
-                        "Animation",
-                        "=",
-                        "\"1\""
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "Create"
-                      },
-                      "parameters": [
-                        "",
-                        "Tangan_Kanan",
-                        "1055",
-                        "-215",
-                        ""
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "Tween::TweenBehavior::AddObjectPositionXTween2"
-                      },
-                      "parameters": [
-                        "Tangan_Kanan",
-                        "Tween",
-                        "\"attackKanan\"",
-                        "-805",
-                        "\"linear\"",
-                        "1.5",
-                        ""
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "Wait"
-                      },
-                      "parameters": [
-                        "1.5"
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "Delete"
-                      },
-                      "parameters": [
-                        "Tangan_Kanan",
-                        ""
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "AnimatableCapability::AnimatableBehavior::SetName"
-                      },
-                      "parameters": [
-                        "Guardian",
-                        "Animation",
-                        "=",
-                        "\"idle\""
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "Delete"
-                      },
-                      "parameters": [
-                        "Warning_Bos_Attack",
-                        ""
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "ResetTimer"
-                      },
-                      "parameters": [
-                        "",
-                        "\"GuardianAttack\""
-                      ]
-                    }
-                  ]
-                },
-                {
-                  "type": "BuiltinCommonInstructions::Standard",
-                  "conditions": [
-                    {
-                      "type": {
-                        "value": "NumberVariable"
-                      },
-                      "parameters": [
-                        "kaisarAttack",
-                        "=",
-                        "2"
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "BuiltinCommonInstructions::Once"
-                      },
-                      "parameters": []
-                    }
-                  ],
-                  "actions": [
-                    {
-                      "type": {
-                        "value": "AnimatableCapability::AnimatableBehavior::SetName"
-                      },
-                      "parameters": [
-                        "Guardian",
-                        "Animation",
-                        "=",
-                        "\"2\""
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "Create"
-                      },
-                      "parameters": [
-                        "",
-                        "Tangan_Kiri",
-                        "-801",
-                        "-215",
-                        ""
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "Tween::TweenBehavior::AddObjectPositionXTween2"
-                      },
-                      "parameters": [
-                        "Tangan_Kiri",
-                        "Tween",
-                        "\"attackKiri\"",
-                        "1050",
-                        "\"linear\"",
-                        "1.5",
-                        ""
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "Wait"
-                      },
-                      "parameters": [
-                        "1.5"
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "Delete"
-                      },
-                      "parameters": [
-                        "Tangan_Kiri",
-                        ""
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "AnimatableCapability::AnimatableBehavior::SetName"
-                      },
-                      "parameters": [
-                        "Guardian",
-                        "Animation",
-                        "=",
-                        "\"idle\""
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "Delete"
-                      },
-                      "parameters": [
-                        "Warning_Bos_Attack",
-                        ""
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "ResetTimer"
-                      },
-                      "parameters": [
-                        "",
-                        "\"GuardianAttack\""
-                      ]
-                    }
-                  ]
-                },
-                {
-                  "folded": true,
-                  "type": "BuiltinCommonInstructions::Standard",
-                  "conditions": [
-                    {
-                      "type": {
-                        "value": "NumberVariable"
-                      },
-                      "parameters": [
-                        "kaisarAttack",
-                        "=",
-                        "3"
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "BuiltinCommonInstructions::Once"
-                      },
-                      "parameters": []
-                    }
-                  ],
-                  "actions": [
-                    {
-                      "type": {
-                        "value": "Create"
-                      },
-                      "parameters": [
-                        "",
-                        "Meteor",
-                        "RandomInRange(28, 966)",
-                        "-191",
-                        ""
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "SetAngle"
-                      },
-                      "parameters": [
-                        "Meteor",
-                        "=",
-                        "-90"
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "Tween::TweenBehavior::AddObjectPositionYTween2"
-                      },
-                      "parameters": [
-                        "Meteor",
-                        "Tween",
-                        "\"meteor\"",
-                        "450",
-                        "\"linear\"",
-                        "1.5",
-                        ""
-                      ]
-                    }
-                  ],
-                  "events": [
-                    {
-                      "type": "BuiltinCommonInstructions::Standard",
-                      "conditions": [
-                        {
-                          "type": {
-                            "value": "Tween::Exists"
-                          },
-                          "parameters": [
-                            "Meteor",
-                            "Tween",
-                            "\"meteor\""
-                          ]
-                        }
-                      ],
-                      "actions": [
-                        {
-                          "type": {
-                            "value": "Wait"
-                          },
-                          "parameters": [
-                            "1.5"
-                          ]
-                        },
-                        {
-                          "type": {
-                            "value": "AnimatableCapability::AnimatableBehavior::SetName"
-                          },
-                          "parameters": [
-                            "Meteor",
-                            "Animation",
-                            "=",
-                            "\"pecah\""
-                          ]
-                        },
-                        {
-                          "type": {
-                            "value": "Wait"
-                          },
-                          "parameters": [
-                            "0.3"
-                          ]
-                        },
-                        {
-                          "type": {
-                            "value": "Delete"
-                          },
-                          "parameters": [
-                            "Meteor",
-                            ""
-                          ]
-                        },
-                        {
-                          "type": {
-                            "value": "Delete"
-                          },
-                          "parameters": [
-                            "Warning_Bos_Attack",
-                            ""
-                          ]
-                        },
-                        {
-                          "type": {
-                            "value": "ResetTimer"
-                          },
-                          "parameters": [
-                            "",
-                            "\"GuardianAttack\""
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "CompareTimer"
-                  },
-                  "parameters": [
-                    "",
-                    "\"GuardianAttack\"",
-                    ">",
-                    "4"
+                    "5"
                   ]
                 },
                 {
@@ -40556,6 +40325,145 @@
                     "Animation",
                     "=",
                     "\"idle\""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": true,
+                    "value": "Distance"
+                  },
+                  "parameters": [
+                    "Marcus",
+                    "Prajurit",
+                    "40",
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                  },
+                  "parameters": [
+                    "Prajurit",
+                    "Animation",
+                    "=",
+                    "\"idle\""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "Distance"
+                  },
+                  "parameters": [
+                    "Marcus",
+                    "Prajurit",
+                    "40",
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                  },
+                  "parameters": [
+                    "Prajurit",
+                    "Animation",
+                    "=",
+                    "\"attack\""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "AnimatableCapability::AnimatableBehavior::Name"
+                  },
+                  "parameters": [
+                    "Prajurit",
+                    "Animation",
+                    "=",
+                    "\"attack\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "CollisionNP"
+                  },
+                  "parameters": [
+                    "Marcus",
+                    "Prajurit",
+                    "",
+                    "",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "NumberVariable"
+                  },
+                  "parameters": [
+                    "healtPlayer",
+                    ">",
+                    "0"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Health::Health::Hit"
+                  },
+                  "parameters": [
+                    "Marcus",
+                    "Health",
+                    "1",
+                    "",
+                    "",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "healtPlayer",
+                    "-",
+                    "1"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                  },
+                  "parameters": [
+                    "Healt_Player",
+                    "Animation",
+                    "=",
+                    "healtPlayer"
                   ]
                 }
               ]
@@ -40650,20 +40558,1105 @@
           "parameters": []
         },
         {
+          "colorB": 228,
+          "colorG": 176,
+          "colorR": 74,
+          "creationTime": 0,
+          "folded": true,
+          "name": "Win Or Lose",
+          "source": "",
+          "type": "BuiltinCommonInstructions::Group",
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "NumberVariable"
+                  },
+                  "parameters": [
+                    "healtPlayer",
+                    "=",
+                    "0"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "ShowLayer"
+                  },
+                  "parameters": [
+                    "",
+                    "\"Loss\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetLayerEffectParameter"
+                  },
+                  "parameters": [
+                    "",
+                    "",
+                    "\"Effect\"",
+                    "\"brightness\"",
+                    "0.5"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetLayerEffectParameter"
+                  },
+                  "parameters": [
+                    "",
+                    "\"UI\"",
+                    "\"Effect\"",
+                    "\"brightness\"",
+                    "0.5"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Tween::TweenBehavior::AddObjectPositionYTween2"
+                  },
+                  "parameters": [
+                    "Kaisar_Win",
+                    "Tween",
+                    "\"kaisarY\"",
+                    "30",
+                    "\"linear\"",
+                    "0.5",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Tween::TweenBehavior::AddObjectOpacityTween2"
+                  },
+                  "parameters": [
+                    "GameOver",
+                    "Tween",
+                    "\"gameOverTextOpacity\"",
+                    "255",
+                    "\"linear\"",
+                    "0.5",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Create"
+                  },
+                  "parameters": [
+                    "",
+                    "Menu",
+                    "21",
+                    "649",
+                    "\"Loss\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ResizableCapability::ResizableBehavior::SetSize"
+                  },
+                  "parameters": [
+                    "Menu",
+                    "Resizable",
+                    "188",
+                    "60"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Create"
+                  },
+                  "parameters": [
+                    "",
+                    "Reply",
+                    "509",
+                    "646",
+                    "\"Loss\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ResizableCapability::ResizableBehavior::SetSize"
+                  },
+                  "parameters": [
+                    "Reply",
+                    "Resizable",
+                    "255",
+                    "65"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "NumberVariable"
+                  },
+                  "parameters": [
+                    "healtBos1",
+                    "=",
+                    "0"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "ShowLayer"
+                  },
+                  "parameters": [
+                    "",
+                    "\"Win\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetLayerEffectParameter"
+                  },
+                  "parameters": [
+                    "",
+                    "",
+                    "\"Effect\"",
+                    "\"brightness\"",
+                    "0.5"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetLayerEffectParameter"
+                  },
+                  "parameters": [
+                    "",
+                    "\"UI\"",
+                    "\"Effect\"",
+                    "\"brightness\"",
+                    "0.5"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Tween::TweenBehavior::AddObjectPositionYTween2"
+                  },
+                  "parameters": [
+                    "Marcus_Win",
+                    "Tween",
+                    "\"marcusY\"",
+                    "0",
+                    "\"linear\"",
+                    "0.5",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Tween::TweenBehavior::AddObjectOpacityTween2"
+                  },
+                  "parameters": [
+                    "Victory",
+                    "Tween",
+                    "\"victoryTextOpacity\"",
+                    "255",
+                    "\"linear\"",
+                    "0.5",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Create"
+                  },
+                  "parameters": [
+                    "",
+                    "Menu",
+                    "21",
+                    "649",
+                    "\"Win\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ResizableCapability::ResizableBehavior::SetSize"
+                  },
+                  "parameters": [
+                    "Menu",
+                    "Resizable",
+                    "188",
+                    "60"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Create"
+                  },
+                  "parameters": [
+                    "",
+                    "Reply",
+                    "509",
+                    "646",
+                    "\"Win\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ResizableCapability::ResizableBehavior::SetSize"
+                  },
+                  "parameters": [
+                    "Reply",
+                    "Resizable",
+                    "255",
+                    "65"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Create"
+                  },
+                  "parameters": [
+                    "",
+                    "Next",
+                    "1074",
+                    "649",
+                    "\"Win\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ResizableCapability::ResizableBehavior::SetSize"
+                  },
+                  "parameters": [
+                    "Next",
+                    "Resizable",
+                    "182",
+                    "58"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "Tween::Exists"
+                  },
+                  "parameters": [
+                    "GameOver",
+                    "Tween",
+                    "\"gameOverTextOpacity\""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "isWin",
+                    "=",
+                    "1"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "Tween::Exists"
+                  },
+                  "parameters": [
+                    "Victory",
+                    "Tween",
+                    "\"victoryTextOpacity\""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "isWin",
+                    "=",
+                    "1"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "NumberVariable"
+                  },
+                  "parameters": [
+                    "isWin",
+                    "=",
+                    "1"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "ChangeLayerTimeScale"
+                  },
+                  "parameters": [
+                    "",
+                    "",
+                    "0"
+                  ]
+                }
+              ]
+            }
+          ],
+          "parameters": []
+        },
+        {
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
             {
               "type": {
-                "value": "NumberVariable"
+                "value": "SourisSurObjet"
               },
               "parameters": [
-                "healtPlayer",
+                "Reply",
+                "",
+                "",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "MouseButtonFromTextPressed"
+              },
+              "parameters": [
+                "",
+                "\"Left\""
+              ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SetStringVariable"
+              },
+              "parameters": [
+                "Scene",
                 "=",
-                "0"
+                "\"Level3\""
+              ]
+            },
+            {
+              "type": {
+                "value": "Scene"
+              },
+              "parameters": [
+                "",
+                "\"Loading\"",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "SourisSurObjet"
+              },
+              "parameters": [
+                "Menu",
+                "",
+                "",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "MouseButtonFromTextPressed"
+              },
+              "parameters": [
+                "",
+                "\"Left\""
+              ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SetStringVariable"
+              },
+              "parameters": [
+                "Scene",
+                "=",
+                "\"Home\""
+              ]
+            },
+            {
+              "type": {
+                "value": "Scene"
+              },
+              "parameters": [
+                "",
+                "\"Loading\"",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "SourisSurObjet"
+              },
+              "parameters": [
+                "Next",
+                "",
+                "",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "MouseButtonFromTextPressed"
+              },
+              "parameters": [
+                "",
+                "\"Left\""
+              ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SetStringVariable"
+              },
+              "parameters": [
+                "Scene",
+                "=",
+                "\"Credit\""
+              ]
+            },
+            {
+              "type": {
+                "value": "Scene"
+              },
+              "parameters": [
+                "",
+                "\"Loading\"",
+                ""
+              ]
+            }
+          ]
+        }
+      ],
+      "layers": [
+        {
+          "ambientLightColorB": 200,
+          "ambientLightColorG": 200,
+          "ambientLightColorR": 200,
+          "camera3DFarPlaneDistance": 10000,
+          "camera3DFieldOfView": 45,
+          "camera3DNearPlaneDistance": 3,
+          "cameraType": "",
+          "followBaseLayerCamera": false,
+          "isLightingLayer": false,
+          "isLocked": false,
+          "name": "",
+          "renderingType": "",
+          "visibility": true,
+          "cameras": [
+            {
+              "defaultSize": true,
+              "defaultViewport": true,
+              "height": 0,
+              "viewportBottom": 1,
+              "viewportLeft": 0,
+              "viewportRight": 1,
+              "viewportTop": 0,
+              "width": 0
+            }
+          ],
+          "effects": [
+            {
+              "effectType": "Brightness",
+              "name": "Effect",
+              "doubleParameters": {
+                "brightness": 1
+              },
+              "stringParameters": {},
+              "booleanParameters": {}
+            }
+          ]
+        },
+        {
+          "ambientLightColorB": 200,
+          "ambientLightColorG": 200,
+          "ambientLightColorR": 200,
+          "camera3DFarPlaneDistance": 10000,
+          "camera3DFieldOfView": 45,
+          "camera3DNearPlaneDistance": 3,
+          "cameraType": "",
+          "followBaseLayerCamera": false,
+          "isLightingLayer": false,
+          "isLocked": false,
+          "name": "UI",
+          "renderingType": "",
+          "visibility": true,
+          "cameras": [],
+          "effects": [
+            {
+              "effectType": "Brightness",
+              "name": "Effect",
+              "doubleParameters": {
+                "brightness": 1
+              },
+              "stringParameters": {},
+              "booleanParameters": {}
+            }
+          ]
+        },
+        {
+          "ambientLightColorB": 200,
+          "ambientLightColorG": 200,
+          "ambientLightColorR": 200,
+          "camera3DFarPlaneDistance": 10000,
+          "camera3DFieldOfView": 45,
+          "camera3DNearPlaneDistance": 3,
+          "cameraType": "",
+          "followBaseLayerCamera": false,
+          "isLightingLayer": false,
+          "isLocked": false,
+          "name": "Win",
+          "renderingType": "",
+          "visibility": false,
+          "cameras": [],
+          "effects": [
+            {
+              "effectType": "Scene3D::HemisphereLight",
+              "name": "3D Ambient Hemisphere Light",
+              "doubleParameters": {
+                "elevation": 40,
+                "intensity": 0.33,
+                "rotation": 300
+              },
+              "stringParameters": {
+                "groundColor": "127;127;127",
+                "skyColor": "255;255;255",
+                "top": "Z+"
+              },
+              "booleanParameters": {}
+            },
+            {
+              "effectType": "Scene3D::DirectionalLight",
+              "name": "3D Sun Light",
+              "doubleParameters": {
+                "distanceFromCamera": 1500,
+                "elevation": 40,
+                "frustumSize": 4000,
+                "intensity": 0.75,
+                "minimumShadowBias": 0,
+                "rotation": 300
+              },
+              "stringParameters": {
+                "color": "255;255;255",
+                "shadowQuality": "medium",
+                "top": "Z+"
+              },
+              "booleanParameters": {
+                "isCastingShadow": true
+              }
+            }
+          ]
+        },
+        {
+          "ambientLightColorB": 200,
+          "ambientLightColorG": 200,
+          "ambientLightColorR": 200,
+          "camera3DFarPlaneDistance": 10000,
+          "camera3DFieldOfView": 45,
+          "camera3DNearPlaneDistance": 3,
+          "cameraType": "",
+          "followBaseLayerCamera": false,
+          "isLightingLayer": false,
+          "isLocked": false,
+          "name": "Loss",
+          "renderingType": "",
+          "visibility": false,
+          "cameras": [],
+          "effects": []
+        }
+      ],
+      "behaviorsSharedData": [
+        {
+          "name": "Animation",
+          "type": "AnimatableCapability::AnimatableBehavior"
+        },
+        {
+          "name": "Effect",
+          "type": "EffectCapability::EffectBehavior"
+        },
+        {
+          "name": "Flippable",
+          "type": "FlippableCapability::FlippableBehavior"
+        },
+        {
+          "name": "Health",
+          "type": "Health::Health"
+        },
+        {
+          "name": "Opacity",
+          "type": "OpacityCapability::OpacityBehavior"
+        },
+        {
+          "name": "Pathfinding",
+          "type": "PathfindingBehavior::PathfindingBehavior"
+        },
+        {
+          "name": "Platform",
+          "type": "PlatformBehavior::PlatformBehavior"
+        },
+        {
+          "name": "PlatformerCharacterAnimator",
+          "type": "PlatformerCharacterAnimator::PlatformerCharacterAnimator"
+        },
+        {
+          "name": "PlatformerObject",
+          "type": "PlatformBehavior::PlatformerObjectBehavior"
+        },
+        {
+          "name": "Resizable",
+          "type": "ResizableCapability::ResizableBehavior"
+        },
+        {
+          "name": "Scale",
+          "type": "ScalableCapability::ScalableBehavior"
+        },
+        {
+          "name": "ScreenWrap",
+          "type": "ScreenWrap::ScreenWrap"
+        },
+        {
+          "name": "Text",
+          "type": "TextContainerCapability::TextContainerBehavior"
+        },
+        {
+          "name": "Tween",
+          "type": "Tween::TweenBehavior"
+        }
+      ]
+    },
+    {
+      "b": 209,
+      "disableInputWhenNotFocused": true,
+      "mangledName": "Credit",
+      "name": "Credit",
+      "r": 209,
+      "standardSortMethod": true,
+      "stopSoundsOnStartup": true,
+      "title": "",
+      "v": 209,
+      "uiSettings": {
+        "grid": false,
+        "gridType": "rectangular",
+        "gridWidth": 32,
+        "gridHeight": 32,
+        "gridOffsetX": 0,
+        "gridOffsetY": 0,
+        "gridColor": 10401023,
+        "gridAlpha": 0.8,
+        "snap": false,
+        "zoomFactor": 0.3797121001947931,
+        "windowMask": false
+      },
+      "objectsGroups": [],
+      "variables": [],
+      "instances": [
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Background",
+          "persistentUuid": "3b4b0198-49c9-4039-b222-f70e9073b274",
+          "width": 0,
+          "x": 0,
+          "y": 0,
+          "zOrder": 1,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 1776.7556468172486,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Text",
+          "persistentUuid": "0c80dd0b-eba1-42c4-a8d4-5e2767ee0143",
+          "width": 1280,
+          "x": 0,
+          "y": 723,
+          "zOrder": 2,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Skip",
+          "persistentUuid": "95d12dda-8de5-4621-bce5-9b050612e677",
+          "width": 0,
+          "x": 1087,
+          "y": 650,
+          "zOrder": 3,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        }
+      ],
+      "objects": [
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "Background",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "background home.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 1280,
+                            "y": 0
+                          },
+                          {
+                            "x": 1280,
+                            "y": 720
+                          },
+                          {
+                            "x": 0,
+                            "y": 720
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "Skip",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "SKIP.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 1,
+                            "y": 0
+                          },
+                          {
+                            "x": 157,
+                            "y": 0
+                          },
+                          {
+                            "x": 157,
+                            "y": 57
+                          },
+                          {
+                            "x": 1,
+                            "y": 57
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "assetStoreId": "",
+          "bold": false,
+          "italic": false,
+          "name": "Text",
+          "smoothed": true,
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [
+            {
+              "name": "Tween",
+              "type": "Tween::TweenBehavior"
+            }
+          ],
+          "string": "Creadit\n\nscaaca afadad\ndwadwadad\nawdwaddwad\nwdwdwadadawdwa\ndwwadadwadwa\nwadawdwad\nwdwaddaw\nwdawdawdwada",
+          "font": "Pixelmax-Regular.otf",
+          "textAlignment": "center",
+          "characterSize": 48,
+          "color": {
+            "b": 255,
+            "g": 255,
+            "r": 255
+          },
+          "content": {
+            "bold": false,
+            "isOutlineEnabled": true,
+            "isShadowEnabled": false,
+            "italic": false,
+            "outlineColor": "0;0;0",
+            "outlineThickness": 6,
+            "shadowAngle": 90,
+            "shadowBlurRadius": 2,
+            "shadowColor": "0;0;0",
+            "shadowDistance": 4,
+            "shadowOpacity": 127,
+            "smoothed": true,
+            "underlined": false,
+            "text": "Creadit\n\nscaaca afadad\ndwadwadad\nawdwaddwad\nwdwdwadadawdwa\ndwwadadwadwa\nwadawdwad\nwdwaddaw\nwdawdawdwada",
+            "font": "Pixelmax-Regular.otf",
+            "textAlignment": "center",
+            "verticalTextAlignment": "top",
+            "characterSize": 48,
+            "lineHeight": 0,
+            "color": "255;255;255"
+          }
+        }
+      ],
+      "objectsFolderStructure": {
+        "folderName": "__ROOT",
+        "children": [
+          {
+            "objectName": "Background"
+          },
+          {
+            "objectName": "Skip"
+          },
+          {
+            "objectName": "Text"
+          }
+        ]
+      },
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "DepartScene"
+              },
+              "parameters": [
+                ""
               ]
             }
           ],
-          "actions": []
+          "actions": [
+            {
+              "type": {
+                "value": "Tween::TweenBehavior::AddObjectPositionYTween2"
+              },
+              "parameters": [
+                "Text",
+                "Tween",
+                "\"creditText\"",
+                "-722",
+                "\"linear\"",
+                "10",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "SourisSurObjet"
+              },
+              "parameters": [
+                "Skip",
+                "",
+                "",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "MouseButtonFromTextPressed"
+              },
+              "parameters": [
+                "",
+                "\"Left\""
+              ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SetStringVariable"
+              },
+              "parameters": [
+                "Scene",
+                "=",
+                "\"Home\""
+              ]
+            },
+            {
+              "type": {
+                "value": "Scene"
+              },
+              "parameters": [
+                "",
+                "\"Loading\"",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "Tween::HasFinished"
+              },
+              "parameters": [
+                "Text",
+                "Tween",
+                "\"creditText\""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SetStringVariable"
+              },
+              "parameters": [
+                "Scene",
+                "=",
+                "\"Home\""
+              ]
+            },
+            {
+              "type": {
+                "value": "Scene"
+              },
+              "parameters": [
+                "",
+                "\"Loading\"",
+                ""
+              ]
+            }
+          ]
         }
       ],
       "layers": [
@@ -40730,59 +41723,6 @@
               }
             }
           ]
-        },
-        {
-          "ambientLightColorB": 200,
-          "ambientLightColorG": 200,
-          "ambientLightColorR": 200,
-          "camera3DFarPlaneDistance": 10000,
-          "camera3DFieldOfView": 45,
-          "camera3DNearPlaneDistance": 3,
-          "cameraType": "",
-          "followBaseLayerCamera": false,
-          "isLightingLayer": false,
-          "isLocked": false,
-          "name": "UI",
-          "renderingType": "",
-          "visibility": true,
-          "cameras": [],
-          "effects": [
-            {
-              "effectType": "Scene3D::HemisphereLight",
-              "name": "3D Ambient Hemisphere Light",
-              "doubleParameters": {
-                "elevation": 40,
-                "intensity": 0.33,
-                "rotation": 300
-              },
-              "stringParameters": {
-                "groundColor": "127;127;127",
-                "skyColor": "255;255;255",
-                "top": "Z+"
-              },
-              "booleanParameters": {}
-            },
-            {
-              "effectType": "Scene3D::DirectionalLight",
-              "name": "3D Sun Light",
-              "doubleParameters": {
-                "distanceFromCamera": 1500,
-                "elevation": 40,
-                "frustumSize": 4000,
-                "intensity": 0.75,
-                "minimumShadowBias": 0,
-                "rotation": 300
-              },
-              "stringParameters": {
-                "color": "255;255;255",
-                "shadowQuality": "medium",
-                "top": "Z+"
-              },
-              "booleanParameters": {
-                "isCastingShadow": true
-              }
-            }
-          ]
         }
       ],
       "behaviorsSharedData": [
@@ -40799,28 +41739,8 @@
           "type": "FlippableCapability::FlippableBehavior"
         },
         {
-          "name": "Health",
-          "type": "Health::Health"
-        },
-        {
           "name": "Opacity",
           "type": "OpacityCapability::OpacityBehavior"
-        },
-        {
-          "name": "Pathfinding",
-          "type": "PathfindingBehavior::PathfindingBehavior"
-        },
-        {
-          "name": "Platform",
-          "type": "PlatformBehavior::PlatformBehavior"
-        },
-        {
-          "name": "PlatformerCharacterAnimator",
-          "type": "PlatformerCharacterAnimator::PlatformerCharacterAnimator"
-        },
-        {
-          "name": "PlatformerObject",
-          "type": "PlatformBehavior::PlatformerObjectBehavior"
         },
         {
           "name": "Resizable",
@@ -40829,10 +41749,6 @@
         {
           "name": "Scale",
           "type": "ScalableCapability::ScalableBehavior"
-        },
-        {
-          "name": "ScreenWrap",
-          "type": "ScreenWrap::ScreenWrap"
         },
         {
           "name": "Text",
