@@ -1488,6 +1488,14 @@
         "name": "NewSprite19",
         "smoothed": true,
         "userAdded": false
+      },
+      {
+        "file": "assets/NewSprite20.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite20",
+        "smoothed": true,
+        "userAdded": false
       }
     ],
     "resourceFolders": []
@@ -3619,7 +3627,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.36732575450588484,
+        "zoomFactor": 0.40575189059438554,
         "windowMask": false
       },
       "objectsGroups": [
@@ -3981,6 +3989,22 @@
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "NewSprite",
+          "persistentUuid": "edca6197-01ae-41f8-9c21-fa8d50a1d8ae",
+          "width": 0,
+          "x": 1184,
+          "y": 284,
+          "zOrder": 19,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
         }
       ],
       "objects": [
@@ -4122,6 +4146,7 @@
           "effects": [],
           "behaviors": [
             {
+              "isFolded": true,
               "name": "Platform",
               "type": "PlatformBehavior::PlatformBehavior",
               "canBeGrabbed": false,
@@ -13713,6 +13738,66 @@
               ]
             }
           ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "NewSprite",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "default",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "NewSprite9",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 64,
+                            "y": 0
+                          },
+                          {
+                            "x": 64,
+                            "y": 64
+                          },
+                          {
+                            "x": 0,
+                            "y": 64
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
         }
       ],
       "objectsFolderStructure": {
@@ -13807,6 +13892,9 @@
           },
           {
             "objectName": "Next"
+          },
+          {
+            "objectName": "NewSprite"
           }
         ]
       },
@@ -14610,13 +14698,11 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
-          "folded": true,
           "name": "Spawn Coin",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
           "events": [
             {
-              "folded": true,
               "type": "BuiltinCommonInstructions::Standard",
               "conditions": [
                 {
@@ -14655,7 +14741,6 @@
               ],
               "events": [
                 {
-                  "folded": true,
                   "type": "BuiltinCommonInstructions::Repeat",
                   "repeatExpression": "3",
                   "conditions": [],
@@ -14695,7 +14780,7 @@
                             "",
                             "Coin_Asli",
                             "RandomInRange(0, 938)",
-                            "RandomInRange(0, 504)",
+                            "RandomInRange(0, 284)",
                             ""
                           ]
                         },
@@ -14746,7 +14831,7 @@
                             "",
                             "Coin_Palsu",
                             "RandomInRange(0, 938)",
-                            "RandomInRange(0, 504)",
+                            "RandomInRange(0, 284)",
                             ""
                           ]
                         },
@@ -14809,9 +14894,9 @@
                           "parameters": [
                             "Coin_Asli",
                             "=",
-                            "RandomInRange(0, 1192)",
+                            "RandomInRange(0, 938)",
                             "=",
-                            "RandomInRange(0, 504)"
+                            "RandomInRange(0, 284)"
                           ]
                         },
                         {
@@ -14821,9 +14906,9 @@
                           "parameters": [
                             "Coin_Palsu",
                             "=",
-                            "RandomInRange(0, 1192)",
+                            "RandomInRange(0, 938)",
                             "=",
-                            "RandomInRange(0, 504)"
+                            "RandomInRange(0, 284)"
                           ]
                         }
                       ]
@@ -14849,7 +14934,6 @@
               ]
             },
             {
-              "folded": true,
               "type": "BuiltinCommonInstructions::Standard",
               "conditions": [
                 {
@@ -14876,7 +14960,6 @@
               ],
               "events": [
                 {
-                  "folded": true,
                   "type": "BuiltinCommonInstructions::Repeat",
                   "repeatExpression": "3",
                   "conditions": [],
@@ -14916,7 +14999,7 @@
                             "",
                             "Coin_Asli",
                             "RandomInRange(0, 938)",
-                            "RandomInRange(0, 504)",
+                            "RandomInRange(0, 284)",
                             ""
                           ]
                         },
@@ -14967,7 +15050,7 @@
                             "",
                             "Coin_Palsu",
                             "RandomInRange(0, 938)",
-                            "RandomInRange(0, 504)",
+                            "RandomInRange(0, 284)",
                             ""
                           ]
                         },
@@ -15030,9 +15113,9 @@
                           "parameters": [
                             "Coin_Asli",
                             "=",
-                            "RandomInRange(0, 1192)",
+                            "RandomInRange(0, 938)",
                             "=",
-                            "RandomInRange(0, 504)"
+                            "RandomInRange(0, 284)"
                           ]
                         },
                         {
@@ -15042,9 +15125,9 @@
                           "parameters": [
                             "Coin_Palsu",
                             "=",
-                            "RandomInRange(0, 1192)",
+                            "RandomInRange(0, 938)",
                             "=",
-                            "RandomInRange(0, 504)"
+                            "RandomInRange(0, 284)"
                           ]
                         }
                       ]
@@ -16700,7 +16783,7 @@
           "cameraType": "",
           "followBaseLayerCamera": false,
           "isLightingLayer": false,
-          "isLocked": true,
+          "isLocked": false,
           "name": "",
           "renderingType": "",
           "visibility": true,
@@ -17070,7 +17153,7 @@
           "name": "Pijakan_Atas",
           "persistentUuid": "b565ce8c-0cc8-4db9-a85a-51a4f2048a60",
           "width": 0,
-          "x": -146,
+          "x": -307,
           "y": 339,
           "zOrder": 4,
           "numberProperties": [],
@@ -17268,6 +17351,38 @@
           "x": 258,
           "y": 499,
           "zOrder": 18,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Pijakan_Atas",
+          "persistentUuid": "69715c79-4aa6-4b15-8866-2fb6e2c351f5",
+          "width": 0,
+          "x": 218,
+          "y": 142,
+          "zOrder": 4,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Pembatas",
+          "persistentUuid": "6ffffefe-fcd4-4fb6-906b-9fbaaa4ca5e2",
+          "width": 0,
+          "x": 308,
+          "y": 37,
+          "zOrder": 19,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -27985,7 +28100,7 @@
                             "",
                             "Coin_Asli",
                             "RandomInRange(0, 938)",
-                            "RandomInRange(0, 504)",
+                            "RandomInRange(0, 37)",
                             ""
                           ]
                         },
@@ -28036,7 +28151,7 @@
                             "",
                             "Coin_Palsu",
                             "RandomInRange(0, 938)",
-                            "RandomInRange(0, 504)",
+                            "RandomInRange(0, 37)",
                             ""
                           ]
                         },
@@ -28099,9 +28214,9 @@
                           "parameters": [
                             "Coin_Asli",
                             "=",
-                            "RandomInRange(0, 1192)",
+                            "RandomInRange(0, 938)",
                             "=",
-                            "RandomInRange(0, 504)"
+                            "RandomInRange(0, 37)"
                           ]
                         },
                         {
@@ -28111,9 +28226,9 @@
                           "parameters": [
                             "Coin_Palsu",
                             "=",
-                            "RandomInRange(0, 1192)",
+                            "RandomInRange(0, 938)",
                             "=",
-                            "RandomInRange(0, 504)"
+                            "RandomInRange(0, 37)"
                           ]
                         }
                       ]
@@ -28206,7 +28321,7 @@
                             "",
                             "Coin_Asli",
                             "RandomInRange(0, 938)",
-                            "RandomInRange(0, 504)",
+                            "RandomInRange(0, 37)",
                             ""
                           ]
                         },
@@ -28257,7 +28372,7 @@
                             "",
                             "Coin_Palsu",
                             "RandomInRange(0, 938)",
-                            "RandomInRange(0, 504)",
+                            "RandomInRange(0, 37)",
                             ""
                           ]
                         },
@@ -28320,9 +28435,9 @@
                           "parameters": [
                             "Coin_Asli",
                             "=",
-                            "RandomInRange(0, 1192)",
+                            "RandomInRange(0, 938)",
                             "=",
-                            "RandomInRange(0, 504)"
+                            "RandomInRange(0,  37)"
                           ]
                         },
                         {
@@ -28332,9 +28447,9 @@
                           "parameters": [
                             "Coin_Palsu",
                             "=",
-                            "RandomInRange(0, 1192)",
+                            "RandomInRange(0, 938)",
                             "=",
-                            "RandomInRange(0, 504)"
+                            "RandomInRange(0, 37)"
                           ]
                         }
                       ]
@@ -29993,7 +30108,7 @@
           "isLocked": false,
           "name": "",
           "renderingType": "",
-          "visibility": false,
+          "visibility": true,
           "cameras": [
             {
               "defaultSize": true,
@@ -30163,7 +30278,7 @@
           "isLocked": false,
           "name": "Lose",
           "renderingType": "",
-          "visibility": true,
+          "visibility": false,
           "cameras": [],
           "effects": [
             {
@@ -30283,7 +30398,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.5290357402156874,
+        "zoomFactor": 0.3437520241612344,
         "windowMask": false
       },
       "objectsGroups": [
@@ -30640,10 +30755,10 @@
           "keepRatio": true,
           "layer": "",
           "name": "NewSprite",
-          "persistentUuid": "a9c5d225-9c87-4614-99b8-c79a072ded0b",
+          "persistentUuid": "8a1d5ec8-bfa3-42ef-a1a9-5e52395ebf23",
           "width": 0,
-          "x": 70,
-          "y": 306,
+          "x": 208,
+          "y": 509,
           "zOrder": 19,
           "numberProperties": [],
           "stringProperties": [],
@@ -30656,78 +30771,20 @@
           "keepRatio": true,
           "layer": "",
           "name": "NewSprite",
-          "persistentUuid": "f58ab89d-1cbc-4588-aa8c-b4ac8f60899d",
+          "persistentUuid": "77b42fe5-148c-49ef-96bc-e2c3fcce8551",
           "width": 0,
-          "x": 1102,
-          "y": 309,
+          "x": 991,
+          "y": 521,
           "zOrder": 19,
           "numberProperties": [],
           "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "keepRatio": true,
-          "layer": "",
-          "name": "NewSprite",
-          "persistentUuid": "bb4299bd-61f8-48e4-a621-1b5bf544dbf7",
-          "width": 0,
-          "x": 964,
-          "y": 527,
-          "zOrder": 19,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "keepRatio": true,
-          "layer": "",
-          "name": "NewSprite",
-          "persistentUuid": "3a3e8057-3cd4-42da-be7b-7c514a2eb981",
-          "width": 0,
-          "x": 199,
-          "y": 530,
-          "zOrder": 19,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "keepRatio": true,
-          "layer": "",
-          "name": "NewSprite",
-          "persistentUuid": "b9959007-b791-4f8b-8742-568ae10f7d73",
-          "width": 0,
-          "x": 364,
-          "y": 305,
-          "zOrder": 19,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "keepRatio": true,
-          "layer": "",
-          "name": "NewSprite",
-          "persistentUuid": "240de9f1-8fd1-44e6-a832-0b0faa53ad68",
-          "width": 0,
-          "x": 817,
-          "y": 299,
-          "zOrder": 19,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
+          "initialVariables": [
+            {
+              "name": "i",
+              "type": "number",
+              "value": 1
+            }
+          ]
         }
       ],
       "objects": [
@@ -30938,6 +30995,12 @@
           "effects": [],
           "behaviors": [
             {
+              "name": "PathfindingObstacle",
+              "type": "PathfindingBehavior::PathfindingObstacleBehavior",
+              "cost": 2,
+              "impassable": true
+            },
+            {
               "name": "Platform",
               "type": "PlatformBehavior::PlatformBehavior",
               "canBeGrabbed": false,
@@ -31006,6 +31069,7 @@
           "effects": [],
           "behaviors": [
             {
+              "isFolded": true,
               "name": "Health",
               "type": "Health::Health",
               "Health": 3,
@@ -39352,25 +39416,27 @@
           "effects": [],
           "behaviors": [
             {
-              "acceleration": 400,
+              "isFolded": true,
+              "name": "Pathfinding",
+              "type": "PathfindingBehavior::PathfindingBehavior",
+              "acceleration": 500,
+              "cellHeight": 20,
+              "cellWidth": 20,
+              "maxSpeed": 300,
               "allowDiagonals": true,
               "angleOffset": 0,
               "angularMaxSpeed": 180,
-              "cellHeight": 20,
-              "cellWidth": 20,
               "extraBorder": 0,
               "gridOffsetX": 0,
               "gridOffsetY": 0,
-              "isFolded": true,
-              "maxSpeed": 200,
-              "name": "Pathfinding",
               "rotateObject": false,
-              "smoothingMaxCellGap": 1,
-              "type": "PathfindingBehavior::PathfindingBehavior"
+              "smoothingMaxCellGap": 1
             },
             {
-              "ignoreDefaultControls": true,
-              "jumpSpeed": 800,
+              "gravity": 1000,
+              "jumpSpeed": 1000,
+              "jumpSustainTime": 0.2,
+              "maxFallingSpeed": 700,
               "name": "PlatformerObject",
               "type": "PlatformBehavior::PlatformerObjectBehavior",
               "acceleration": 1500,
@@ -39378,10 +39444,8 @@
               "canGrabPlatforms": false,
               "canGrabWithoutMoving": true,
               "deceleration": 1500,
-              "gravity": 1000,
-              "jumpSustainTime": 0.2,
+              "ignoreDefaultControls": true,
               "ladderClimbingSpeed": 150,
-              "maxFallingSpeed": 700,
               "maxSpeed": 250,
               "slopeMaxAngle": 60,
               "useLegacyTrajectory": false,
@@ -40223,7 +40287,13 @@
           "name": "NewSprite",
           "type": "Sprite",
           "updateIfNotVisible": false,
-          "variables": [],
+          "variables": [
+            {
+              "name": "i",
+              "type": "number",
+              "value": 0
+            }
+          ],
           "effects": [],
           "behaviors": [],
           "animations": [
@@ -41264,7 +41334,7 @@
                             "",
                             "Coin_Asli",
                             "RandomInRange(0, 938)",
-                            "RandomInRange(0, 504)",
+                            "RandomInRange(0, 229)",
                             ""
                           ]
                         },
@@ -41315,7 +41385,7 @@
                             "",
                             "Coin_Palsu",
                             "RandomInRange(0, 938)",
-                            "RandomInRange(0, 504)",
+                            "RandomInRange(0, 229)",
                             ""
                           ]
                         },
@@ -41378,9 +41448,9 @@
                           "parameters": [
                             "Coin_Asli",
                             "=",
-                            "RandomInRange(0, 1192)",
+                            "RandomInRange(0, 938)",
                             "=",
-                            "RandomInRange(0, 504)"
+                            "RandomInRange(0, 229)"
                           ]
                         },
                         {
@@ -41390,9 +41460,9 @@
                           "parameters": [
                             "Coin_Palsu",
                             "=",
-                            "RandomInRange(0, 1192)",
+                            "RandomInRange(0, 938)",
                             "=",
-                            "RandomInRange(0, 504)"
+                            "RandomInRange(0, 229)"
                           ]
                         }
                       ]
@@ -41485,7 +41555,7 @@
                             "",
                             "Coin_Asli",
                             "RandomInRange(0, 938)",
-                            "RandomInRange(0, 504)",
+                            "RandomInRange(0, 229)",
                             ""
                           ]
                         },
@@ -41536,7 +41606,7 @@
                             "",
                             "Coin_Palsu",
                             "RandomInRange(0, 938)",
-                            "RandomInRange(0, 504)",
+                            "RandomInRange(0, 229)",
                             ""
                           ]
                         },
@@ -41599,9 +41669,9 @@
                           "parameters": [
                             "Coin_Asli",
                             "=",
-                            "RandomInRange(0, 1192)",
+                            "RandomInRange(0, 938)",
                             "=",
-                            "RandomInRange(0, 504)"
+                            "RandomInRange(0, 229)"
                           ]
                         },
                         {
@@ -41611,9 +41681,9 @@
                           "parameters": [
                             "Coin_Palsu",
                             "=",
-                            "RandomInRange(0, 1192)",
+                            "RandomInRange(0, 938)",
                             "=",
-                            "RandomInRange(0, 504)"
+                            "RandomInRange(0, 229)"
                           ]
                         }
                       ]
@@ -42836,13 +42906,12 @@
                     "Pathfinding",
                     "",
                     "Marcus.X()",
-                    "Marcus.Y()"
+                    "Prajurit.Y()"
                   ]
                 }
               ]
             },
             {
-              "folded": true,
               "type": "BuiltinCommonInstructions::Standard",
               "conditions": [
                 {
@@ -42860,11 +42929,12 @@
               "actions": [
                 {
                   "type": {
-                    "value": "AddForceVers"
+                    "value": "AddForceVersPos"
                   },
                   "parameters": [
                     "Prajurit",
-                    "Marcus",
+                    "Marcus.X()",
+                    "Marcus.Y()",
                     "200",
                     ""
                   ]
@@ -42932,175 +43002,12 @@
               "conditions": [
                 {
                   "type": {
-                    "value": "CollisionNP"
-                  },
-                  "parameters": [
-                    "Prajurit",
-                    "NewSprite",
-                    "",
-                    "",
-                    ""
-                  ]
-                },
-                {
-                  "type": {
                     "value": "PosY"
                   },
                   "parameters": [
                     "Prajurit",
-                    "=",
-                    "494"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "PosY"
-                  },
-                  "parameters": [
-                    "Prajurit",
-                    "!=",
-                    "Marcus.Y()"
-                  ]
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "PlatformBehavior::SimulateJumpKey"
-                  },
-                  "parameters": [
-                    "Prajurit",
-                    "PlatformerObject"
-                  ]
-                }
-              ]
-            },
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "CollisionNP"
-                  },
-                  "parameters": [
-                    "Prajurit",
-                    "NewSprite",
-                    "",
-                    "",
-                    ""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "PosY"
-                  },
-                  "parameters": [
-                    "Prajurit",
-                    "=",
-                    "277"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "PosY"
-                  },
-                  "parameters": [
-                    "Prajurit",
-                    "!=",
-                    "Marcus.Y()"
-                  ]
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "PlatformBehavior::SimulateJumpKey"
-                  },
-                  "parameters": [
-                    "Prajurit",
-                    "PlatformerObject"
-                  ]
-                }
-              ]
-            },
-            {
-              "disabled": true,
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "BuiltinCommonInstructions::Or"
-                  },
-                  "parameters": [],
-                  "subInstructions": [
-                    {
-                      "type": {
-                        "value": "PosX"
-                      },
-                      "parameters": [
-                        "Prajurit",
-                        "=",
-                        "148"
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "PosX"
-                      },
-                      "parameters": [
-                        "Prajurit",
-                        "=",
-                        "951"
-                      ]
-                    }
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "BuiltinCommonInstructions::Or"
-                  },
-                  "parameters": [],
-                  "subInstructions": [
-                    {
-                      "type": {
-                        "value": "PosX"
-                      },
-                      "parameters": [
-                        "Prajurit",
-                        "=",
-                        "57"
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "PosX"
-                      },
-                      "parameters": [
-                        "Prajurit",
-                        "=",
-                        "350"
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "PosX"
-                      },
-                      "parameters": [
-                        "Prajurit",
-                        "=",
-                        "804"
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "PosX"
-                      },
-                      "parameters": [
-                        "Prajurit",
-                        "=",
-                        "1097"
-                      ]
-                    }
+                    ">",
+                    "Marcus.Y() + 50"
                   ]
                 }
               ],
@@ -43108,24 +43015,81 @@
               "events": [
                 {
                   "type": "BuiltinCommonInstructions::Standard",
-                  "conditions": [],
-                  "actions": []
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "CollisionNP"
+                      },
+                      "parameters": [
+                        "NewSprite",
+                        "Prajurit",
+                        "",
+                        "",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "PosY"
+                      },
+                      "parameters": [
+                        "Prajurit",
+                        ">",
+                        "Marcus.Y() + 50"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "PlatformBehavior::SimulateControl"
+                      },
+                      "parameters": [
+                        "Prajurit",
+                        "PlatformerObject",
+                        "\"Jump\""
+                      ]
+                    }
+                  ]
                 },
                 {
                   "type": "BuiltinCommonInstructions::Standard",
                   "conditions": [
                     {
                       "type": {
-                        "value": "PosX"
+                        "value": "CollisionNP"
+                      },
+                      "parameters": [
+                        "NewSprite",
+                        "Prajurit",
+                        "",
+                        "",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "PosY"
                       },
                       "parameters": [
                         "Prajurit",
-                        "=",
-                        "Marcus.X()"
+                        "<",
+                        "Marcus.Y() - 50"
                       ]
                     }
                   ],
-                  "actions": []
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "PlatformBehavior::SimulateControl"
+                      },
+                      "parameters": [
+                        "Prajurit",
+                        "PlatformerObject",
+                        "\"Jump\""
+                      ]
+                    }
+                  ]
                 }
               ]
             }
@@ -43871,6 +43835,10 @@
         {
           "name": "Pathfinding",
           "type": "PathfindingBehavior::PathfindingBehavior"
+        },
+        {
+          "name": "PathfindingObstacle",
+          "type": "PathfindingBehavior::PathfindingObstacleBehavior"
         },
         {
           "name": "Platform",
