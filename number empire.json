@@ -1864,6 +1864,186 @@
         "name": "chain.png",
         "smoothed": true,
         "userAdded": false
+      },
+      {
+        "file": "sound/Number Empire/Backsound/Backsound 2.wav",
+        "kind": "audio",
+        "metadata": "",
+        "name": "sound\\Number Empire\\Backsound\\Backsound 2.wav",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "sound/Number Empire/Sound Effect/Back.wav",
+        "kind": "audio",
+        "metadata": "",
+        "name": "sound\\Number Empire\\Sound Effect\\Back.wav",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "sound/Number Empire/Sound Effect/Menu.wav",
+        "kind": "audio",
+        "metadata": "",
+        "name": "sound\\Number Empire\\Sound Effect\\Menu.wav",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "sound/Number Empire/Sound Effect/Setting.wav",
+        "kind": "audio",
+        "metadata": "",
+        "name": "sound\\Number Empire\\Sound Effect\\Setting.wav",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "sound/Number Empire/Sound Effect/Press Start.wav",
+        "kind": "audio",
+        "metadata": "",
+        "name": "sound\\Number Empire\\Sound Effect\\Press Start.wav",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "sound/Number Empire/Sound Effect/Mute.wav",
+        "kind": "audio",
+        "metadata": "",
+        "name": "sound\\Number Empire\\Sound Effect\\Mute.wav",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "sound/Number Empire/Sound Effect/Unmute.wav",
+        "kind": "audio",
+        "metadata": "",
+        "name": "sound\\Number Empire\\Sound Effect\\Unmute.wav",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "sound/Number Empire/Backsound/Creadit.wav",
+        "kind": "audio",
+        "metadata": "",
+        "name": "sound\\Number Empire\\Backsound\\Creadit.wav",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "sound/Number Empire/Sound Effect/Skip.wav",
+        "kind": "audio",
+        "metadata": "",
+        "name": "sound\\Number Empire\\Sound Effect\\Skip.wav",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "sound/Number Empire/Backsound/Backsound 1.wav",
+        "kind": "audio",
+        "metadata": "",
+        "name": "sound\\Number Empire\\Backsound\\Backsound 1.wav",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "sound/Number Empire/Sound Effect/Roman Forum.wav",
+        "kind": "audio",
+        "metadata": "",
+        "name": "sound\\Number Empire\\Sound Effect\\Roman Forum.wav",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "sound/Number Empire/Sound Effect/Colosseum.wav",
+        "kind": "audio",
+        "metadata": "",
+        "name": "sound\\Number Empire\\Sound Effect\\Colosseum.wav",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "sound/Number Empire/Sound Effect/Imperial Palace.wav",
+        "kind": "audio",
+        "metadata": "",
+        "name": "sound\\Number Empire\\Sound Effect\\Imperial Palace.wav",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "sound/Number Empire/Sound Effect/Meteor Whoosh.wav",
+        "kind": "audio",
+        "metadata": "",
+        "name": "sound\\Number Empire\\Sound Effect\\Meteor Whoosh.wav",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "sound/Number Empire/Sound Effect/Meteor Meledak.wav",
+        "kind": "audio",
+        "metadata": "",
+        "name": "sound\\Number Empire\\Sound Effect\\Meteor Meledak.wav",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "sound/Number Empire/Sound Effect/Karakter/Guardian Statue.wav",
+        "kind": "audio",
+        "metadata": "",
+        "name": "sound\\Number Empire\\Sound Effect\\Karakter\\Guardian Statue.wav",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "sound/Number Empire/Sound Effect/Senjata atau Serangan/Guardian Statue Punch.wav",
+        "kind": "audio",
+        "metadata": "",
+        "name": "sound\\Number Empire\\Sound Effect\\Senjata atau Serangan\\Guardian Statue Punch.wav",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "sound/Number Empire/Sound Effect/Coin.wav",
+        "kind": "audio",
+        "metadata": "",
+        "name": "sound\\Number Empire\\Sound Effect\\Coin.wav",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
       }
     ],
     "resourceFolders": []
@@ -1879,6 +2059,12 @@
       "type": "structure",
       "children": [
         {
+          "name": "Bgm",
+          "type": "number",
+          "value": 0
+        },
+        {
+          "folded": true,
           "name": "Level",
           "type": "structure",
           "children": [
@@ -1898,6 +2084,11 @@
               "value": 0
             }
           ]
+        },
+        {
+          "name": "Sfx",
+          "type": "number",
+          "value": 0
         }
       ]
     },
@@ -1928,8 +2119,9 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.41943397827590606,
-        "windowMask": false
+        "zoomFactor": 0.4633111824513977,
+        "windowMask": false,
+        "selectedLayer": ""
       },
       "objectsGroups": [],
       "variables": [],
@@ -2920,6 +3112,34 @@
           "conditions": [
             {
               "type": {
+                "value": "DepartScene"
+              },
+              "parameters": [
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "PlayMusicCanal"
+              },
+              "parameters": [
+                "",
+                "sound\\Number Empire\\Backsound\\Backsound 2.wav",
+                "1",
+                "",
+                "80",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
                 "value": "SourisSurObjet"
               },
               "parameters": [
@@ -2948,12 +3168,33 @@
           "actions": [
             {
               "type": {
+                "value": "PlaySoundCanal"
+              },
+              "parameters": [
+                "",
+                "sound\\Number Empire\\Sound Effect\\Press Start.wav",
+                "2",
+                "",
+                "70",
+                ""
+              ]
+            },
+            {
+              "type": {
                 "value": "SetStringVariable"
               },
               "parameters": [
                 "Scene",
                 "=",
                 "\"Level\""
+              ]
+            },
+            {
+              "type": {
+                "value": "Wait"
+              },
+              "parameters": [
+                "0.2"
               ]
             },
             {
@@ -3006,6 +3247,19 @@
               "parameters": [
                 "",
                 "\"Setting\""
+              ]
+            },
+            {
+              "type": {
+                "value": "PlaySoundCanal"
+              },
+              "parameters": [
+                "",
+                "sound\\Number Empire\\Sound Effect\\Setting.wav",
+                "2",
+                "",
+                "70",
+                ""
               ]
             },
             {
@@ -3093,125 +3347,301 @@
           ]
         },
         {
+          "folded": true,
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
             {
               "type": {
-                "value": "SourisSurObjet"
-              },
-              "parameters": [
-                "Back_Button",
-                "",
-                "",
-                ""
-              ]
-            },
-            {
-              "type": {
-                "value": "MouseButtonFromTextPressed"
-              },
-              "parameters": [
-                "",
-                "\"Left\""
-              ]
-            },
-            {
-              "type": {
-                "value": "BuiltinCommonInstructions::Once"
-              },
-              "parameters": []
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "Tween::TweenBehavior::AddObjectOpacityTween2"
+                "value": "Tween::HasFinished"
               },
               "parameters": [
                 "Background_Setting",
                 "Tween",
-                "\"backgroundSetting\"",
-                "0",
-                "\"linear\"",
-                "1",
-                ""
+                "\"backgroundSetting\""
+              ]
+            }
+          ],
+          "actions": [],
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "SourisSurObjet"
+                  },
+                  "parameters": [
+                    "Back_Button",
+                    "",
+                    "",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "MouseButtonFromTextPressed"
+                  },
+                  "parameters": [
+                    "",
+                    "\"Left\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "PlaySoundCanal"
+                  },
+                  "parameters": [
+                    "",
+                    "sound\\Number Empire\\Sound Effect\\Back.wav",
+                    "2",
+                    "",
+                    "70",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Tween::TweenBehavior::AddObjectOpacityTween2"
+                  },
+                  "parameters": [
+                    "Background_Setting",
+                    "Tween",
+                    "\"backgroundSetting\"",
+                    "0",
+                    "\"linear\"",
+                    "1",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Tween::TweenBehavior::AddObjectOpacityTween2"
+                  },
+                  "parameters": [
+                    "SFX",
+                    "Tween",
+                    "\"SFX\"",
+                    "0",
+                    "\"linear\"",
+                    "1",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Tween::TweenBehavior::AddObjectOpacityTween2"
+                  },
+                  "parameters": [
+                    "BGM",
+                    "Tween",
+                    "\"BGM\"",
+                    "0",
+                    "\"linear\"",
+                    "1",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Tween::TweenBehavior::AddObjectOpacityTween2"
+                  },
+                  "parameters": [
+                    "Back_Button",
+                    "Tween",
+                    "\"backButton\"",
+                    "0",
+                    "\"linear\"",
+                    "1",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Tween::TweenBehavior::AddObjectOpacityTween2"
+                  },
+                  "parameters": [
+                    "Menu_Button",
+                    "Tween",
+                    "\"menuButton\"",
+                    "0",
+                    "\"linear\"",
+                    "1",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetLayerEffectParameter"
+                  },
+                  "parameters": [
+                    "",
+                    "",
+                    "\"Effect\"",
+                    "\"brightness\"",
+                    "1"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "HideLayer"
+                  },
+                  "parameters": [
+                    "",
+                    "\"Setting\""
+                  ]
+                }
               ]
             },
             {
-              "type": {
-                "value": "Tween::TweenBehavior::AddObjectOpacityTween2"
-              },
-              "parameters": [
-                "SFX",
-                "Tween",
-                "\"SFX\"",
-                "0",
-                "\"linear\"",
-                "1",
-                ""
-              ]
-            },
-            {
-              "type": {
-                "value": "Tween::TweenBehavior::AddObjectOpacityTween2"
-              },
-              "parameters": [
-                "BGM",
-                "Tween",
-                "\"BGM\"",
-                "0",
-                "\"linear\"",
-                "1",
-                ""
-              ]
-            },
-            {
-              "type": {
-                "value": "Tween::TweenBehavior::AddObjectOpacityTween2"
-              },
-              "parameters": [
-                "Back_Button",
-                "Tween",
-                "\"backButton\"",
-                "0",
-                "\"linear\"",
-                "1",
-                ""
-              ]
-            },
-            {
-              "type": {
-                "value": "Tween::TweenBehavior::AddObjectOpacityTween2"
-              },
-              "parameters": [
-                "Menu_Button",
-                "Tween",
-                "\"menuButton\"",
-                "0",
-                "\"linear\"",
-                "1",
-                ""
-              ]
-            },
-            {
-              "type": {
-                "value": "SetLayerEffectParameter"
-              },
-              "parameters": [
-                "",
-                "",
-                "\"Effect\"",
-                "\"brightness\"",
-                "1"
-              ]
-            },
-            {
-              "type": {
-                "value": "HideLayer"
-              },
-              "parameters": [
-                "",
-                "\"Setting\""
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "SourisSurObjet"
+                  },
+                  "parameters": [
+                    "Menu_Button",
+                    "",
+                    "",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "MouseButtonFromTextPressed"
+                  },
+                  "parameters": [
+                    "",
+                    "\"Left\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "PlaySoundCanal"
+                  },
+                  "parameters": [
+                    "",
+                    "sound\\Number Empire\\Sound Effect\\Menu.wav",
+                    "2",
+                    "",
+                    "70",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Tween::TweenBehavior::AddObjectOpacityTween2"
+                  },
+                  "parameters": [
+                    "Background_Setting",
+                    "Tween",
+                    "\"backgroundSetting\"",
+                    "0",
+                    "\"linear\"",
+                    "1",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Tween::TweenBehavior::AddObjectOpacityTween2"
+                  },
+                  "parameters": [
+                    "SFX",
+                    "Tween",
+                    "\"SFX\"",
+                    "0",
+                    "\"linear\"",
+                    "1",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Tween::TweenBehavior::AddObjectOpacityTween2"
+                  },
+                  "parameters": [
+                    "BGM",
+                    "Tween",
+                    "\"BGM\"",
+                    "0",
+                    "\"linear\"",
+                    "1",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Tween::TweenBehavior::AddObjectOpacityTween2"
+                  },
+                  "parameters": [
+                    "Back_Button",
+                    "Tween",
+                    "\"backButton\"",
+                    "0",
+                    "\"linear\"",
+                    "1",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Tween::TweenBehavior::AddObjectOpacityTween2"
+                  },
+                  "parameters": [
+                    "Menu_Button",
+                    "Tween",
+                    "\"menuButton\"",
+                    "0",
+                    "\"linear\"",
+                    "1",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetStringVariable"
+                  },
+                  "parameters": [
+                    "Scene",
+                    "=",
+                    "\"Home\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Wait"
+                  },
+                  "parameters": [
+                    "0.2"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Scene"
+                  },
+                  "parameters": [
+                    "",
+                    "\"Loading\"",
+                    ""
+                  ]
+                }
               ]
             }
           ]
@@ -3221,123 +3651,113 @@
           "conditions": [
             {
               "type": {
-                "value": "SourisSurObjet"
+                "value": "SpriteToggleSwitch::SpriteToggleSwitch::IsChecked"
               },
               "parameters": [
-                "Menu_Button",
-                "",
-                "",
+                "SFX",
                 ""
               ]
-            },
-            {
-              "type": {
-                "value": "MouseButtonFromTextPressed"
-              },
-              "parameters": [
-                "",
-                "\"Left\""
-              ]
-            },
-            {
-              "type": {
-                "value": "BuiltinCommonInstructions::Once"
-              },
-              "parameters": []
             }
           ],
           "actions": [
             {
               "type": {
-                "value": "Tween::TweenBehavior::AddObjectOpacityTween2"
+                "value": "SetNumberVariable"
               },
               "parameters": [
-                "Background_Setting",
-                "Tween",
-                "\"backgroundSetting\"",
-                "0",
-                "\"linear\"",
-                "1",
-                ""
-              ]
-            },
-            {
-              "type": {
-                "value": "Tween::TweenBehavior::AddObjectOpacityTween2"
-              },
-              "parameters": [
-                "SFX",
-                "Tween",
-                "\"SFX\"",
-                "0",
-                "\"linear\"",
-                "1",
-                ""
-              ]
-            },
-            {
-              "type": {
-                "value": "Tween::TweenBehavior::AddObjectOpacityTween2"
-              },
-              "parameters": [
-                "BGM",
-                "Tween",
-                "\"BGM\"",
-                "0",
-                "\"linear\"",
-                "1",
-                ""
-              ]
-            },
-            {
-              "type": {
-                "value": "Tween::TweenBehavior::AddObjectOpacityTween2"
-              },
-              "parameters": [
-                "Back_Button",
-                "Tween",
-                "\"backButton\"",
-                "0",
-                "\"linear\"",
-                "1",
-                ""
-              ]
-            },
-            {
-              "type": {
-                "value": "Tween::TweenBehavior::AddObjectOpacityTween2"
-              },
-              "parameters": [
-                "Menu_Button",
-                "Tween",
-                "\"menuButton\"",
-                "0",
-                "\"linear\"",
-                "1",
-                ""
-              ]
-            },
-            {
-              "type": {
-                "value": "SetStringVariable"
-              },
-              "parameters": [
-                "Scene",
+                "Data.Sfx",
                 "=",
-                "\"Home\""
-              ]
-            },
-            {
-              "type": {
-                "value": "Scene"
-              },
-              "parameters": [
-                "",
-                "\"Loading\"",
-                ""
+                "0"
               ]
             }
           ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": true,
+                "value": "SpriteToggleSwitch::SpriteToggleSwitch::IsChecked"
+              },
+              "parameters": [
+                "SFX",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "Data.Sfx",
+                "=",
+                "1"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "SpriteToggleSwitch::SpriteToggleSwitch::IsChecked"
+              },
+              "parameters": [
+                "BGM",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "Data.Bgm",
+                "=",
+                "0"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": true,
+                "value": "SpriteToggleSwitch::SpriteToggleSwitch::IsChecked"
+              },
+              "parameters": [
+                "BGM",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "Data.Bgm",
+                "=",
+                "1"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Link",
+          "include": {
+            "includeConfig": 0
+          },
+          "target": "Sound"
         }
       ],
       "layers": [
@@ -3471,7 +3891,7 @@
       "name": "Level",
       "r": 209,
       "standardSortMethod": true,
-      "stopSoundsOnStartup": true,
+      "stopSoundsOnStartup": false,
       "title": "",
       "v": 209,
       "uiSettings": {
@@ -3485,7 +3905,8 @@
         "gridAlpha": 0.8,
         "snap": false,
         "zoomFactor": 0.6455105703311486,
-        "windowMask": false
+        "windowMask": false,
+        "selectedLayer": "Setting"
       },
       "objectsGroups": [],
       "variables": [
@@ -3653,6 +4074,92 @@
           "x": 394,
           "y": 388,
           "zOrder": 9,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 759,
+          "layer": "Setting",
+          "name": "Background_Setting",
+          "opacity": 0,
+          "persistentUuid": "b792a481-7cbc-44b3-8d9a-9fb11bccf137",
+          "width": 473,
+          "x": 403,
+          "y": 2,
+          "zOrder": 10,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 64,
+          "height": 97,
+          "layer": "Setting",
+          "name": "BGM",
+          "opacity": 0,
+          "persistentUuid": "5c6fa7a3-93cd-4644-a0ac-83b29dc9f947",
+          "width": 268,
+          "x": 510,
+          "y": 152,
+          "zOrder": 11,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 64,
+          "height": 95,
+          "layer": "Setting",
+          "name": "SFX",
+          "opacity": 0,
+          "persistentUuid": "47b94682-50ff-4bbd-ab06-c7b46be01582",
+          "width": 268,
+          "x": 510,
+          "y": 245,
+          "zOrder": 12,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 102,
+          "layer": "Setting",
+          "name": "Back_Button",
+          "opacity": 0,
+          "persistentUuid": "f65708fd-2c79-4e0a-91ae-76329253dbb7",
+          "width": 203,
+          "x": 542,
+          "y": 382,
+          "zOrder": 13,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 104,
+          "keepRatio": true,
+          "layer": "Setting",
+          "name": "Menu_Button",
+          "opacity": 0,
+          "persistentUuid": "2a1f5054-636f-407b-8bbe-3efcaa3a9c81",
+          "width": 208,
+          "x": 535,
+          "y": 467,
+          "zOrder": 14,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -4428,6 +4935,519 @@
               ]
             }
           ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "Background_Setting",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [
+            {
+              "name": "Tween",
+              "type": "Tween::TweenBehavior"
+            }
+          ],
+          "animations": [
+            {
+              "name": "default",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "background setting.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 70
+                          },
+                          {
+                            "x": 540,
+                            "y": 70
+                          },
+                          {
+                            "x": 540,
+                            "y": 754
+                          },
+                          {
+                            "x": 0,
+                            "y": 754
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "Back_Button",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [
+            {
+              "name": "Tween",
+              "type": "Tween::TweenBehavior"
+            }
+          ],
+          "animations": [
+            {
+              "name": "default",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": true,
+                  "timeBetweenFrames": 0.2,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "back5.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 48,
+                            "y": 48
+                          },
+                          {
+                            "x": 592,
+                            "y": 48
+                          },
+                          {
+                            "x": 592,
+                            "y": 272
+                          },
+                          {
+                            "x": 48,
+                            "y": 272
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "back4.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 48,
+                            "y": 48
+                          },
+                          {
+                            "x": 592,
+                            "y": 48
+                          },
+                          {
+                            "x": 592,
+                            "y": 272
+                          },
+                          {
+                            "x": 48,
+                            "y": 272
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "back3.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 48,
+                            "y": 48
+                          },
+                          {
+                            "x": 592,
+                            "y": 48
+                          },
+                          {
+                            "x": 592,
+                            "y": 272
+                          },
+                          {
+                            "x": 48,
+                            "y": 272
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "back2.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 48,
+                            "y": 48
+                          },
+                          {
+                            "x": 592,
+                            "y": 48
+                          },
+                          {
+                            "x": 592,
+                            "y": 272
+                          },
+                          {
+                            "x": 48,
+                            "y": 272
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "back.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 48,
+                            "y": 48
+                          },
+                          {
+                            "x": 592,
+                            "y": 48
+                          },
+                          {
+                            "x": 592,
+                            "y": 272
+                          },
+                          {
+                            "x": 48,
+                            "y": 272
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "Menu_Button",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [
+            {
+              "name": "Tween",
+              "type": "Tween::TweenBehavior"
+            }
+          ],
+          "animations": [
+            {
+              "name": "default",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "menu5.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 80,
+                            "y": 48
+                          },
+                          {
+                            "x": 576,
+                            "y": 48
+                          },
+                          {
+                            "x": 576,
+                            "y": 272
+                          },
+                          {
+                            "x": 80,
+                            "y": 272
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "menu4.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 80,
+                            "y": 48
+                          },
+                          {
+                            "x": 576,
+                            "y": 48
+                          },
+                          {
+                            "x": 576,
+                            "y": 272
+                          },
+                          {
+                            "x": 80,
+                            "y": 272
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "menu3.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 80,
+                            "y": 48
+                          },
+                          {
+                            "x": 576,
+                            "y": 48
+                          },
+                          {
+                            "x": 576,
+                            "y": 272
+                          },
+                          {
+                            "x": 80,
+                            "y": 272
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "menu2.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 80,
+                            "y": 48
+                          },
+                          {
+                            "x": 576,
+                            "y": 48
+                          },
+                          {
+                            "x": 576,
+                            "y": 272
+                          },
+                          {
+                            "x": 80,
+                            "y": 272
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "menu1.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 80,
+                            "y": 48
+                          },
+                          {
+                            "x": 576,
+                            "y": 48
+                          },
+                          {
+                            "x": 576,
+                            "y": 272
+                          },
+                          {
+                            "x": 80,
+                            "y": 272
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "assetStoreId": "",
+          "name": "BGM",
+          "type": "SpriteToggleSwitch::SpriteToggleSwitch",
+          "variant": "Music",
+          "variables": [],
+          "effects": [],
+          "behaviors": [
+            {
+              "name": "Tween",
+              "type": "Tween::TweenBehavior"
+            }
+          ],
+          "content": {}
+        },
+        {
+          "assetStoreId": "",
+          "name": "SFX",
+          "type": "SpriteToggleSwitch::SpriteToggleSwitch",
+          "variant": "Sound",
+          "variables": [],
+          "effects": [],
+          "behaviors": [
+            {
+              "name": "Tween",
+              "type": "Tween::TweenBehavior"
+            }
+          ],
+          "content": {}
         }
       ],
       "objectsFolderStructure": {
@@ -4459,11 +5479,27 @@
           },
           {
             "objectName": "Marcus"
+          },
+          {
+            "objectName": "Background_Setting"
+          },
+          {
+            "objectName": "Back_Button"
+          },
+          {
+            "objectName": "Menu_Button"
+          },
+          {
+            "objectName": "BGM"
+          },
+          {
+            "objectName": "SFX"
           }
         ]
       },
       "events": [
         {
+          "folded": true,
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
             {
@@ -4504,6 +5540,19 @@
                 "Click",
                 "=",
                 "0"
+              ]
+            },
+            {
+              "type": {
+                "value": "PlayMusicCanal"
+              },
+              "parameters": [
+                "",
+                "sound\\Number Empire\\Backsound\\Backsound 2.wav",
+                "1",
+                "",
+                "80",
+                ""
               ]
             }
           ],
@@ -4618,6 +5667,19 @@
                 }
               ],
               "actions": [
+                {
+                  "type": {
+                    "value": "PlaySoundCanal"
+                  },
+                  "parameters": [
+                    "",
+                    "sound\\Number Empire\\Sound Effect\\Roman Forum.wav",
+                    "2",
+                    "",
+                    "70",
+                    ""
+                  ]
+                },
                 {
                   "type": {
                     "value": "SetNumberVariable"
@@ -4805,6 +5867,19 @@
                 }
               ],
               "actions": [
+                {
+                  "type": {
+                    "value": "PlaySoundCanal"
+                  },
+                  "parameters": [
+                    "",
+                    "sound\\Number Empire\\Sound Effect\\Colosseum.wav",
+                    "2",
+                    "",
+                    "70",
+                    ""
+                  ]
+                },
                 {
                   "type": {
                     "value": "MettreXY"
@@ -5016,6 +6091,19 @@
               "actions": [
                 {
                   "type": {
+                    "value": "PlaySoundCanal"
+                  },
+                  "parameters": [
+                    "",
+                    "sound\\Number Empire\\Sound Effect\\Imperial Palace.wav",
+                    "2",
+                    "",
+                    "70",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
                     "value": "MettreXY"
                   },
                   "parameters": [
@@ -5172,6 +6260,562 @@
             }
           ],
           "parameters": []
+        },
+        {
+          "colorB": 228,
+          "colorG": 176,
+          "colorR": 74,
+          "creationTime": 0,
+          "folded": true,
+          "name": "Setting",
+          "source": "",
+          "type": "BuiltinCommonInstructions::Group",
+          "events": [
+            {
+              "folded": true,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "Tween::HasFinished"
+                  },
+                  "parameters": [
+                    "Background_Setting",
+                    "Tween",
+                    "\"backgroundSetting\""
+                  ]
+                }
+              ],
+              "actions": [],
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "SourisSurObjet"
+                      },
+                      "parameters": [
+                        "Back_Button",
+                        "",
+                        "",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "MouseButtonFromTextPressed"
+                      },
+                      "parameters": [
+                        "",
+                        "\"Left\""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "BuiltinCommonInstructions::Once"
+                      },
+                      "parameters": []
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "PlaySoundCanal"
+                      },
+                      "parameters": [
+                        "",
+                        "sound\\Number Empire\\Sound Effect\\Back.wav",
+                        "2",
+                        "",
+                        "70",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "Tween::TweenBehavior::AddObjectOpacityTween2"
+                      },
+                      "parameters": [
+                        "Background_Setting",
+                        "Tween",
+                        "\"backgroundSetting\"",
+                        "0",
+                        "\"linear\"",
+                        "1",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "Tween::TweenBehavior::AddObjectOpacityTween2"
+                      },
+                      "parameters": [
+                        "SFX",
+                        "Tween",
+                        "\"SFX\"",
+                        "0",
+                        "\"linear\"",
+                        "1",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "Tween::TweenBehavior::AddObjectOpacityTween2"
+                      },
+                      "parameters": [
+                        "BGM",
+                        "Tween",
+                        "\"BGM\"",
+                        "0",
+                        "\"linear\"",
+                        "1",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "Tween::TweenBehavior::AddObjectOpacityTween2"
+                      },
+                      "parameters": [
+                        "Back_Button",
+                        "Tween",
+                        "\"backButton\"",
+                        "0",
+                        "\"linear\"",
+                        "1",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "Tween::TweenBehavior::AddObjectOpacityTween2"
+                      },
+                      "parameters": [
+                        "Menu_Button",
+                        "Tween",
+                        "\"menuButton\"",
+                        "0",
+                        "\"linear\"",
+                        "1",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "SetLayerEffectParameter"
+                      },
+                      "parameters": [
+                        "",
+                        "",
+                        "\"Effect\"",
+                        "\"brightness\"",
+                        "1"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "HideLayer"
+                      },
+                      "parameters": [
+                        "",
+                        "\"Setting\""
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "SourisSurObjet"
+                      },
+                      "parameters": [
+                        "Menu_Button",
+                        "",
+                        "",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "MouseButtonFromTextPressed"
+                      },
+                      "parameters": [
+                        "",
+                        "\"Left\""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "BuiltinCommonInstructions::Once"
+                      },
+                      "parameters": []
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "PlaySoundCanal"
+                      },
+                      "parameters": [
+                        "",
+                        "sound\\Number Empire\\Sound Effect\\Menu.wav",
+                        "2",
+                        "",
+                        "70",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "Tween::TweenBehavior::AddObjectOpacityTween2"
+                      },
+                      "parameters": [
+                        "Background_Setting",
+                        "Tween",
+                        "\"backgroundSetting\"",
+                        "0",
+                        "\"linear\"",
+                        "1",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "Tween::TweenBehavior::AddObjectOpacityTween2"
+                      },
+                      "parameters": [
+                        "SFX",
+                        "Tween",
+                        "\"SFX\"",
+                        "0",
+                        "\"linear\"",
+                        "1",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "Tween::TweenBehavior::AddObjectOpacityTween2"
+                      },
+                      "parameters": [
+                        "BGM",
+                        "Tween",
+                        "\"BGM\"",
+                        "0",
+                        "\"linear\"",
+                        "1",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "Tween::TweenBehavior::AddObjectOpacityTween2"
+                      },
+                      "parameters": [
+                        "Back_Button",
+                        "Tween",
+                        "\"backButton\"",
+                        "0",
+                        "\"linear\"",
+                        "1",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "Tween::TweenBehavior::AddObjectOpacityTween2"
+                      },
+                      "parameters": [
+                        "Menu_Button",
+                        "Tween",
+                        "\"menuButton\"",
+                        "0",
+                        "\"linear\"",
+                        "1",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "SetStringVariable"
+                      },
+                      "parameters": [
+                        "Scene",
+                        "=",
+                        "\"Home\""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "Wait"
+                      },
+                      "parameters": [
+                        "0.2"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "Scene"
+                      },
+                      "parameters": [
+                        "",
+                        "\"Loading\"",
+                        ""
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "SourisSurObjet"
+                  },
+                  "parameters": [
+                    "Button_Settin",
+                    "",
+                    "",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "MouseButtonFromTextPressed"
+                  },
+                  "parameters": [
+                    "",
+                    "\"Left\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "ShowLayer"
+                  },
+                  "parameters": [
+                    "",
+                    "\"Setting\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "PlaySoundCanal"
+                  },
+                  "parameters": [
+                    "",
+                    "sound\\Number Empire\\Sound Effect\\Setting.wav",
+                    "2",
+                    "",
+                    "70",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetLayerEffectParameter"
+                  },
+                  "parameters": [
+                    "",
+                    "",
+                    "\"Effect\"",
+                    "\"brightness\"",
+                    "0.5"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Tween::TweenBehavior::AddObjectOpacityTween2"
+                  },
+                  "parameters": [
+                    "Background_Setting",
+                    "Tween",
+                    "\"backgroundSetting\"",
+                    "255",
+                    "\"linear\"",
+                    "1",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Tween::TweenBehavior::AddObjectOpacityTween2"
+                  },
+                  "parameters": [
+                    "SFX",
+                    "Tween",
+                    "\"SFX\"",
+                    "255",
+                    "\"linear\"",
+                    "1",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Tween::TweenBehavior::AddObjectOpacityTween2"
+                  },
+                  "parameters": [
+                    "BGM",
+                    "Tween",
+                    "\"BGM\"",
+                    "255",
+                    "\"linear\"",
+                    "1",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Tween::TweenBehavior::AddObjectOpacityTween2"
+                  },
+                  "parameters": [
+                    "Back_Button",
+                    "Tween",
+                    "\"backButton\"",
+                    "255",
+                    "\"linear\"",
+                    "1",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Tween::TweenBehavior::AddObjectOpacityTween2"
+                  },
+                  "parameters": [
+                    "Menu_Button",
+                    "Tween",
+                    "\"menuButton\"",
+                    "255",
+                    "\"linear\"",
+                    "1",
+                    ""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "SpriteToggleSwitch::SpriteToggleSwitch::IsChecked"
+                  },
+                  "parameters": [
+                    "SFX",
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "Data.Sfx",
+                    "=",
+                    "0"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": true,
+                    "value": "SpriteToggleSwitch::SpriteToggleSwitch::IsChecked"
+                  },
+                  "parameters": [
+                    "SFX",
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "Data.Sfx",
+                    "=",
+                    "1"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "SpriteToggleSwitch::SpriteToggleSwitch::IsChecked"
+                  },
+                  "parameters": [
+                    "BGM",
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "Data.Bgm",
+                    "=",
+                    "0"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": true,
+                    "value": "SpriteToggleSwitch::SpriteToggleSwitch::IsChecked"
+                  },
+                  "parameters": [
+                    "BGM",
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "Data.Bgm",
+                    "=",
+                    "1"
+                  ]
+                }
+              ]
+            }
+          ],
+          "parameters": []
         }
       ],
       "layers": [
@@ -5201,6 +6845,33 @@
               "width": 0
             }
           ],
+          "effects": [
+            {
+              "effectType": "Brightness",
+              "name": "Effect",
+              "doubleParameters": {
+                "brightness": 1
+              },
+              "stringParameters": {},
+              "booleanParameters": {}
+            }
+          ]
+        },
+        {
+          "ambientLightColorB": 200,
+          "ambientLightColorG": 200,
+          "ambientLightColorR": 200,
+          "camera3DFarPlaneDistance": 10000,
+          "camera3DFieldOfView": 45,
+          "camera3DNearPlaneDistance": 3,
+          "cameraType": "",
+          "followBaseLayerCamera": false,
+          "isLightingLayer": false,
+          "isLocked": false,
+          "name": "Setting",
+          "renderingType": "",
+          "visibility": false,
+          "cameras": [],
           "effects": [
             {
               "effectType": "Scene3D::HemisphereLight",
@@ -5268,6 +6939,10 @@
         {
           "name": "Scale",
           "type": "ScalableCapability::ScalableBehavior"
+        },
+        {
+          "name": "Tween",
+          "type": "Tween::TweenBehavior"
         }
       ]
     },
@@ -16120,6 +17795,19 @@
           "actions": [
             {
               "type": {
+                "value": "PlayMusicCanal"
+              },
+              "parameters": [
+                "",
+                "sound\\Number Empire\\Backsound\\Backsound 1.wav",
+                "1",
+                "",
+                "80",
+                ""
+              ]
+            },
+            {
+              "type": {
                 "value": "SetNumberVariable"
               },
               "parameters": [
@@ -17355,13 +19043,11 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
-          "folded": true,
           "name": "Marcus Collect Coin",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
           "events": [
             {
-              "folded": true,
               "type": "BuiltinCommonInstructions::Standard",
               "conditions": [
                 {
@@ -17394,6 +19080,19 @@
                     }
                   ],
                   "actions": [
+                    {
+                      "type": {
+                        "value": "PlaySoundCanal"
+                      },
+                      "parameters": [
+                        "",
+                        "sound\\Number Empire\\Sound Effect\\Coin.wav",
+                        "2",
+                        "",
+                        "70",
+                        ""
+                      ]
+                    },
                     {
                       "type": {
                         "value": "Delete"
@@ -17452,6 +19151,19 @@
                     }
                   ],
                   "actions": [
+                    {
+                      "type": {
+                        "value": "PlaySoundCanal"
+                      },
+                      "parameters": [
+                        "",
+                        "sound\\Number Empire\\Sound Effect\\Coin.wav",
+                        "2",
+                        "",
+                        "70",
+                        ""
+                      ]
+                    },
                     {
                       "type": {
                         "value": "Delete"
@@ -17968,6 +19680,7 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
+          "folded": true,
           "name": "Guardian Attack",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -17995,6 +19708,19 @@
                 }
               ],
               "actions": [
+                {
+                  "type": {
+                    "value": "PlaySoundCanal"
+                  },
+                  "parameters": [
+                    "",
+                    "sound\\Number Empire\\Sound Effect\\Karakter\\Guardian Statue.wav",
+                    "2",
+                    "",
+                    "70",
+                    ""
+                  ]
+                },
                 {
                   "type": {
                     "value": "Create"
@@ -18089,6 +19815,19 @@
                         "Tangan_Kanan",
                         "1055",
                         "-215",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "PlaySoundCanal"
+                      },
+                      "parameters": [
+                        "",
+                        "sound\\Number Empire\\Sound Effect\\Senjata atau Serangan\\Guardian Statue Punch.wav",
+                        "2",
+                        "",
+                        "70",
                         ""
                       ]
                     },
@@ -18200,6 +19939,19 @@
                     },
                     {
                       "type": {
+                        "value": "PlaySoundCanal"
+                      },
+                      "parameters": [
+                        "",
+                        "sound\\Number Empire\\Sound Effect\\Senjata atau Serangan\\Guardian Statue Punch.wav",
+                        "2",
+                        "",
+                        "70",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
                         "value": "Tween::TweenBehavior::AddObjectPositionXTween2"
                       },
                       "parameters": [
@@ -18306,6 +20058,19 @@
                     },
                     {
                       "type": {
+                        "value": "PlaySoundCanal"
+                      },
+                      "parameters": [
+                        "",
+                        "sound\\Number Empire\\Sound Effect\\Meteor Whoosh.wav",
+                        "2",
+                        "",
+                        "70",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
                         "value": "Tween::TweenBehavior::AddObjectPositionYTween2"
                       },
                       "parameters": [
@@ -18341,6 +20106,19 @@
                           },
                           "parameters": [
                             "1.5"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "PlaySoundCanal"
+                          },
+                          "parameters": [
+                            "",
+                            "sound\\Number Empire\\Sound Effect\\Meteor Meledak.wav",
+                            "2",
+                            "",
+                            "70",
+                            ""
                           ]
                         },
                         {
@@ -18843,6 +20621,306 @@
           "type": "BuiltinCommonInstructions::Group",
           "events": [
             {
+              "folded": true,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "Tween::HasFinished"
+                  },
+                  "parameters": [
+                    "Background_Setting",
+                    "Tween",
+                    "\"backgroundSetting\""
+                  ]
+                }
+              ],
+              "actions": [],
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "SourisSurObjet"
+                      },
+                      "parameters": [
+                        "Back_Button",
+                        "",
+                        "",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "MouseButtonFromTextPressed"
+                      },
+                      "parameters": [
+                        "",
+                        "\"Left\""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "BuiltinCommonInstructions::Once"
+                      },
+                      "parameters": []
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "PlaySoundCanal"
+                      },
+                      "parameters": [
+                        "",
+                        "sound\\Number Empire\\Sound Effect\\Back.wav",
+                        "2",
+                        "",
+                        "70",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "Tween::TweenBehavior::AddObjectOpacityTween2"
+                      },
+                      "parameters": [
+                        "Background_Setting",
+                        "Tween",
+                        "\"backgroundSetting\"",
+                        "0",
+                        "\"linear\"",
+                        "1",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "Tween::TweenBehavior::AddObjectOpacityTween2"
+                      },
+                      "parameters": [
+                        "SFX",
+                        "Tween",
+                        "\"SFX\"",
+                        "0",
+                        "\"linear\"",
+                        "1",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "Tween::TweenBehavior::AddObjectOpacityTween2"
+                      },
+                      "parameters": [
+                        "BGM",
+                        "Tween",
+                        "\"BGM\"",
+                        "0",
+                        "\"linear\"",
+                        "1",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "Tween::TweenBehavior::AddObjectOpacityTween2"
+                      },
+                      "parameters": [
+                        "Back_Button",
+                        "Tween",
+                        "\"backButton\"",
+                        "0",
+                        "\"linear\"",
+                        "1",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "Tween::TweenBehavior::AddObjectOpacityTween2"
+                      },
+                      "parameters": [
+                        "Menu_Button",
+                        "Tween",
+                        "\"menuButton\"",
+                        "0",
+                        "\"linear\"",
+                        "1",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "SetLayerEffectParameter"
+                      },
+                      "parameters": [
+                        "",
+                        "",
+                        "\"Effect\"",
+                        "\"brightness\"",
+                        "1"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "HideLayer"
+                      },
+                      "parameters": [
+                        "",
+                        "\"Setting\""
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "SourisSurObjet"
+                      },
+                      "parameters": [
+                        "Menu_Button",
+                        "",
+                        "",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "MouseButtonFromTextPressed"
+                      },
+                      "parameters": [
+                        "",
+                        "\"Left\""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "BuiltinCommonInstructions::Once"
+                      },
+                      "parameters": []
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "PlaySoundCanal"
+                      },
+                      "parameters": [
+                        "",
+                        "sound\\Number Empire\\Sound Effect\\Menu.wav",
+                        "2",
+                        "",
+                        "70",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "Tween::TweenBehavior::AddObjectOpacityTween2"
+                      },
+                      "parameters": [
+                        "Background_Setting",
+                        "Tween",
+                        "\"backgroundSetting\"",
+                        "0",
+                        "\"linear\"",
+                        "1",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "Tween::TweenBehavior::AddObjectOpacityTween2"
+                      },
+                      "parameters": [
+                        "SFX",
+                        "Tween",
+                        "\"SFX\"",
+                        "0",
+                        "\"linear\"",
+                        "1",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "Tween::TweenBehavior::AddObjectOpacityTween2"
+                      },
+                      "parameters": [
+                        "BGM",
+                        "Tween",
+                        "\"BGM\"",
+                        "0",
+                        "\"linear\"",
+                        "1",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "Tween::TweenBehavior::AddObjectOpacityTween2"
+                      },
+                      "parameters": [
+                        "Back_Button",
+                        "Tween",
+                        "\"backButton\"",
+                        "0",
+                        "\"linear\"",
+                        "1",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "Tween::TweenBehavior::AddObjectOpacityTween2"
+                      },
+                      "parameters": [
+                        "Menu_Button",
+                        "Tween",
+                        "\"menuButton\"",
+                        "0",
+                        "\"linear\"",
+                        "1",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "SetStringVariable"
+                      },
+                      "parameters": [
+                        "Scene",
+                        "=",
+                        "\"Home\""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "Wait"
+                      },
+                      "parameters": [
+                        "0.2"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "Scene"
+                      },
+                      "parameters": [
+                        "",
+                        "\"Loading\"",
+                        ""
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
               "type": "BuiltinCommonInstructions::Standard",
               "conditions": [
                 {
@@ -18884,6 +20962,19 @@
                 },
                 {
                   "type": {
+                    "value": "PlaySoundCanal"
+                  },
+                  "parameters": [
+                    "",
+                    "sound\\Number Empire\\Sound Effect\\Setting.wav",
+                    "2",
+                    "",
+                    "70",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
                     "value": "SetLayerEffectParameter"
                   },
                   "parameters": [
@@ -18896,95 +20987,99 @@
                 },
                 {
                   "type": {
-                    "value": "SetLayerEffectParameter"
+                    "value": "Tween::TweenBehavior::AddObjectOpacityTween2"
                   },
                   "parameters": [
-                    "",
-                    "\"UI\"",
-                    "\"Effect\"",
-                    "\"brightness\"",
-                    "0.5"
+                    "Background_Setting",
+                    "Tween",
+                    "\"backgroundSetting\"",
+                    "255",
+                    "\"linear\"",
+                    "1",
+                    ""
                   ]
                 },
                 {
                   "type": {
-                    "value": "ChangeLayerTimeScale"
+                    "value": "Tween::TweenBehavior::AddObjectOpacityTween2"
                   },
                   "parameters": [
-                    "",
-                    "",
+                    "SFX",
+                    "Tween",
+                    "\"SFX\"",
+                    "255",
+                    "\"linear\"",
+                    "1",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Tween::TweenBehavior::AddObjectOpacityTween2"
+                  },
+                  "parameters": [
+                    "BGM",
+                    "Tween",
+                    "\"BGM\"",
+                    "255",
+                    "\"linear\"",
+                    "1",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Tween::TweenBehavior::AddObjectOpacityTween2"
+                  },
+                  "parameters": [
+                    "Back_Button",
+                    "Tween",
+                    "\"backButton\"",
+                    "255",
+                    "\"linear\"",
+                    "1",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Tween::TweenBehavior::AddObjectOpacityTween2"
+                  },
+                  "parameters": [
+                    "Menu_Button",
+                    "Tween",
+                    "\"menuButton\"",
+                    "255",
+                    "\"linear\"",
+                    "1",
+                    ""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "SpriteToggleSwitch::SpriteToggleSwitch::IsChecked"
+                  },
+                  "parameters": [
+                    "SFX",
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "Data.Sfx",
+                    "=",
                     "0"
                   ]
-                },
-                {
-                  "type": {
-                    "value": "Tween::TweenBehavior::AddObjectOpacityTween2"
-                  },
-                  "parameters": [
-                    "Background_Setting",
-                    "Tween",
-                    "\"backgroundSetting\"",
-                    "255",
-                    "\"linear\"",
-                    "1",
-                    ""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "Tween::TweenBehavior::AddObjectOpacityTween2"
-                  },
-                  "parameters": [
-                    "SFX",
-                    "Tween",
-                    "\"SFX\"",
-                    "255",
-                    "\"linear\"",
-                    "1",
-                    ""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "Tween::TweenBehavior::AddObjectOpacityTween2"
-                  },
-                  "parameters": [
-                    "BGM",
-                    "Tween",
-                    "\"BGM\"",
-                    "255",
-                    "\"linear\"",
-                    "1",
-                    ""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "Tween::TweenBehavior::AddObjectOpacityTween2"
-                  },
-                  "parameters": [
-                    "Back_Button",
-                    "Tween",
-                    "\"backButton\"",
-                    "255",
-                    "\"linear\"",
-                    "1",
-                    ""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "Tween::TweenBehavior::AddObjectOpacityTween2"
-                  },
-                  "parameters": [
-                    "Menu_Button",
-                    "Tween",
-                    "\"menuButton\"",
-                    "255",
-                    "\"linear\"",
-                    "1",
-                    ""
-                  ]
                 }
               ]
             },
@@ -18993,266 +21088,77 @@
               "conditions": [
                 {
                   "type": {
-                    "value": "SourisSurObjet"
+                    "inverted": true,
+                    "value": "SpriteToggleSwitch::SpriteToggleSwitch::IsChecked"
                   },
                   "parameters": [
-                    "Back_Button",
-                    "",
-                    "",
+                    "SFX",
                     ""
                   ]
-                },
-                {
-                  "type": {
-                    "value": "MouseButtonFromTextPressed"
-                  },
-                  "parameters": [
-                    "",
-                    "\"Left\""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "BuiltinCommonInstructions::Once"
-                  },
-                  "parameters": []
                 }
               ],
               "actions": [
                 {
                   "type": {
-                    "value": "Tween::TweenBehavior::AddObjectOpacityTween2"
+                    "value": "SetNumberVariable"
                   },
                   "parameters": [
-                    "Background_Setting",
-                    "Tween",
-                    "\"backgroundSetting\"",
-                    "0",
-                    "\"linear\"",
-                    "1",
-                    ""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "Tween::TweenBehavior::AddObjectOpacityTween2"
-                  },
-                  "parameters": [
-                    "SFX",
-                    "Tween",
-                    "\"SFX\"",
-                    "0",
-                    "\"linear\"",
-                    "1",
-                    ""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "Tween::TweenBehavior::AddObjectOpacityTween2"
-                  },
-                  "parameters": [
-                    "BGM",
-                    "Tween",
-                    "\"BGM\"",
-                    "0",
-                    "\"linear\"",
-                    "1",
-                    ""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "Tween::TweenBehavior::AddObjectOpacityTween2"
-                  },
-                  "parameters": [
-                    "Back_Button",
-                    "Tween",
-                    "\"backButton\"",
-                    "0",
-                    "\"linear\"",
-                    "1",
-                    ""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "Tween::TweenBehavior::AddObjectOpacityTween2"
-                  },
-                  "parameters": [
-                    "Menu_Button",
-                    "Tween",
-                    "\"menuButton\"",
-                    "0",
-                    "\"linear\"",
-                    "1",
-                    ""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "SetLayerEffectParameter"
-                  },
-                  "parameters": [
-                    "",
-                    "",
-                    "\"Effect\"",
-                    "\"brightness\"",
-                    "1"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "SetLayerEffectParameter"
-                  },
-                  "parameters": [
-                    "",
-                    "\"UI\"",
-                    "\"Effect\"",
-                    "\"brightness\"",
-                    "1"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "ChangeLayerTimeScale"
-                  },
-                  "parameters": [
-                    "",
-                    "",
-                    "1"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "HideLayer"
-                  },
-                  "parameters": [
-                    "",
-                    "\"Setting\""
-                  ]
-                }
-              ]
-            },
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "SourisSurObjet"
-                  },
-                  "parameters": [
-                    "Menu_Button",
-                    "",
-                    "",
-                    ""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "MouseButtonFromTextPressed"
-                  },
-                  "parameters": [
-                    "",
-                    "\"Left\""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "BuiltinCommonInstructions::Once"
-                  },
-                  "parameters": []
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "Tween::TweenBehavior::AddObjectOpacityTween2"
-                  },
-                  "parameters": [
-                    "Background_Setting",
-                    "Tween",
-                    "\"backgroundSetting\"",
-                    "0",
-                    "\"linear\"",
-                    "1",
-                    ""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "Tween::TweenBehavior::AddObjectOpacityTween2"
-                  },
-                  "parameters": [
-                    "SFX",
-                    "Tween",
-                    "\"SFX\"",
-                    "0",
-                    "\"linear\"",
-                    "1",
-                    ""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "Tween::TweenBehavior::AddObjectOpacityTween2"
-                  },
-                  "parameters": [
-                    "BGM",
-                    "Tween",
-                    "\"BGM\"",
-                    "0",
-                    "\"linear\"",
-                    "1",
-                    ""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "Tween::TweenBehavior::AddObjectOpacityTween2"
-                  },
-                  "parameters": [
-                    "Back_Button",
-                    "Tween",
-                    "\"backButton\"",
-                    "0",
-                    "\"linear\"",
-                    "1",
-                    ""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "Tween::TweenBehavior::AddObjectOpacityTween2"
-                  },
-                  "parameters": [
-                    "Menu_Button",
-                    "Tween",
-                    "\"menuButton\"",
-                    "0",
-                    "\"linear\"",
-                    "1",
-                    ""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "SetStringVariable"
-                  },
-                  "parameters": [
-                    "Scene",
+                    "Data.Sfx",
                     "=",
-                    "\"Home\""
+                    "1"
                   ]
-                },
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
                 {
                   "type": {
-                    "value": "Scene"
+                    "value": "SpriteToggleSwitch::SpriteToggleSwitch::IsChecked"
                   },
                   "parameters": [
-                    "",
-                    "\"Loading\"",
+                    "BGM",
                     ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "Data.Bgm",
+                    "=",
+                    "0"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": true,
+                    "value": "SpriteToggleSwitch::SpriteToggleSwitch::IsChecked"
+                  },
+                  "parameters": [
+                    "BGM",
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "Data.Bgm",
+                    "=",
+                    "1"
                   ]
                 }
               ]
@@ -20072,7 +21978,7 @@
           "opacity": 0,
           "persistentUuid": "554c86e4-d098-4481-b581-b9a63d38c279",
           "width": 0,
-          "x": 269,
+          "x": 260,
           "y": 515,
           "zOrder": 19,
           "numberProperties": [],
@@ -20123,7 +22029,7 @@
           "opacity": 0,
           "persistentUuid": "dd5e4245-2987-4a26-ba75-f64695b47bb0",
           "width": 0,
-          "x": 130,
+          "x": 174,
           "y": 295,
           "zOrder": 19,
           "numberProperties": [],
@@ -20249,14 +22155,15 @@
         },
         {
           "angle": 0,
-          "customSize": false,
-          "height": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 105,
           "keepRatio": true,
           "layer": "",
           "name": "Pijakan_Bos",
           "persistentUuid": "b865c150-0e02-47d1-9492-d78f6ba4eab6",
-          "width": 0,
-          "x": 218,
+          "width": 453,
+          "x": 324,
           "y": 142,
           "zOrder": 27,
           "numberProperties": [],
@@ -20475,17 +22382,7 @@
           "updateIfNotVisible": false,
           "variables": [
             {
-              "name": "platform",
-              "type": "number",
-              "value": 0
-            },
-            {
-              "name": "pijakan1",
-              "type": "number",
-              "value": 0
-            },
-            {
-              "name": "pijakan2",
+              "name": "platformId",
               "type": "number",
               "value": 0
             }
@@ -29296,17 +31193,7 @@
           "updateIfNotVisible": false,
           "variables": [
             {
-              "name": "platform",
-              "type": "number",
-              "value": 0
-            },
-            {
-              "name": "pijakan1",
-              "type": "number",
-              "value": 0
-            },
-            {
-              "name": "pijakan2",
+              "name": "platformId",
               "type": "number",
               "value": 0
             }
@@ -29342,9 +31229,9 @@
               "PercentDamageReduction": 0
             },
             {
-              "jumpSpeed": 980,
               "name": "PlatformerObject",
               "type": "PlatformBehavior::PlatformerObjectBehavior",
+              "jumpSpeed": 980,
               "maxSpeed": 200,
               "acceleration": 1500,
               "canGoDownFromJumpthru": true,
@@ -30829,6 +32716,19 @@
             }
           ],
           "actions": [
+            {
+              "type": {
+                "value": "PlayMusicCanal"
+              },
+              "parameters": [
+                "",
+                "sound\\Number Empire\\Backsound\\Backsound 1.wav",
+                "1",
+                "",
+                "80",
+                ""
+              ]
+            },
             {
               "type": {
                 "value": "SetNumberVariable"
@@ -32577,6 +34477,7 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
+          "folded": true,
           "name": "Colo Attack",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -32598,174 +34499,33 @@
               "actions": [],
               "events": [
                 {
-                  "colorB": 228,
-                  "colorG": 176,
-                  "colorR": 74,
-                  "creationTime": 0,
-                  "name": "colo di platform marcus di pijakan1",
-                  "source": "",
-                  "type": "BuiltinCommonInstructions::Group",
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "NumberObjectVariable"
+                      },
+                      "parameters": [
+                        "Colo",
+                        "platformId",
+                        "=",
+                        "Marcus.platformId"
+                      ]
+                    }
+                  ],
+                  "actions": [],
                   "events": [
                     {
                       "type": "BuiltinCommonInstructions::Standard",
                       "conditions": [
                         {
                           "type": {
-                            "value": "NumberObjectVariable"
-                          },
-                          "parameters": [
-                            "Colo",
-                            "platform",
-                            "!=",
-                            "Marcus.platform"
-                          ]
-                        }
-                      ],
-                      "actions": [],
-                      "events": [
-                        {
-                          "type": "BuiltinCommonInstructions::Standard",
-                          "conditions": [
-                            {
-                              "type": {
-                                "value": "PosX"
-                              },
-                              "parameters": [
-                                "Colo",
-                                "<",
-                                "NewSprite.X()"
-                              ]
-                            },
-                            {
-                              "type": {
-                                "value": "Distance"
-                              },
-                              "parameters": [
-                                "NewSprite",
-                                "Colo",
-                                "10",
-                                ""
-                              ]
-                            }
-                          ],
-                          "actions": [
-                            {
-                              "type": {
-                                "value": "FlippableCapability::FlippableBehavior::FlipX"
-                              },
-                              "parameters": [
-                                "Colo",
-                                "Flippable",
-                                "yes"
-                              ]
-                            },
-                            {
-                              "type": {
-                                "value": "PlatformBehavior::SimulateControl"
-                              },
-                              "parameters": [
-                                "Colo",
-                                "PlatformerObject",
-                                "\"Right\""
-                              ]
-                            }
-                          ]
-                        },
-                        {
-                          "type": "BuiltinCommonInstructions::Standard",
-                          "conditions": [
-                            {
-                              "type": {
-                                "value": "PosX"
-                              },
-                              "parameters": [
-                                "Colo",
-                                ">",
-                                "NewSprite.X()"
-                              ]
-                            },
-                            {
-                              "type": {
-                                "inverted": true,
-                                "value": "Distance"
-                              },
-                              "parameters": [
-                                "NewSprite",
-                                "Colo",
-                                "10",
-                                ""
-                              ]
-                            }
-                          ],
-                          "actions": [
-                            {
-                              "type": {
-                                "value": "FlippableCapability::FlippableBehavior::FlipX"
-                              },
-                              "parameters": [
-                                "Colo",
-                                "Flippable",
-                                "no"
-                              ]
-                            },
-                            {
-                              "type": {
-                                "value": "PlatformBehavior::SimulateControl"
-                              },
-                              "parameters": [
-                                "Colo",
-                                "PlatformerObject",
-                                "\"Left\""
-                              ]
-                            }
-                          ]
-                        }
-                      ]
-                    },
-                    {
-                      "disabled": true,
-                      "type": "BuiltinCommonInstructions::Standard",
-                      "conditions": [
-                        {
-                          "type": {
                             "value": "PosX"
                           },
                           "parameters": [
-                            "Colo",
-                            "<",
-                            "Marcus.X()"
-                          ]
-                        },
-                        {
-                          "type": {
-                            "value": "PosX"
-                          },
-                          "parameters": [
-                            "Colo",
+                            "Marcus",
                             ">",
-                            "Marcus.X()"
-                          ]
-                        },
-                        {
-                          "type": {
-                            "value": "NumberObjectVariable"
-                          },
-                          "parameters": [
-                            "Colo",
-                            "platform",
-                            "!=",
-                            "Marcus.platform"
-                          ]
-                        },
-                        {
-                          "type": {
-                            "value": "PickNearest"
-                          },
-                          "parameters": [
-                            "NewSprite",
-                            "Colo.X()",
-                            "Colo.Y()",
-                            ""
+                            "Colo.X()"
                           ]
                         }
                       ],
@@ -32782,6 +34542,16 @@
                         },
                         {
                           "type": {
+                            "value": "PlatformBehavior::SimulateControl"
+                          },
+                          "parameters": [
+                            "Colo",
+                            "PlatformerObject",
+                            "\"Right\""
+                          ]
+                        },
+                        {
+                          "type": {
                             "value": "PlatformBehavior::MaxSpeed"
                           },
                           "parameters": [
@@ -32789,6 +34559,33 @@
                             "PlatformerObject",
                             "=",
                             "200"
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "PosX"
+                          },
+                          "parameters": [
+                            "Marcus",
+                            "<",
+                            "Colo.X()"
+                          ]
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "FlippableCapability::FlippableBehavior::FlipX"
+                          },
+                          "parameters": [
+                            "Colo",
+                            "Flippable",
+                            "no"
                           ]
                         },
                         {
@@ -32800,44 +34597,83 @@
                             "PlatformerObject",
                             "\"Left\""
                           ]
+                        },
+                        {
+                          "type": {
+                            "value": "PlatformBehavior::MaxSpeed"
+                          },
+                          "parameters": [
+                            "Colo",
+                            "PlatformerObject",
+                            "=",
+                            "200"
+                          ]
                         }
+                      ]
+                    },
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [],
+                      "actions": []
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "inverted": true,
+                        "value": "NumberObjectVariable"
+                      },
+                      "parameters": [
+                        "Colo",
+                        "platformId",
+                        "=",
+                        "Marcus.platformId"
                       ]
                     }
                   ],
-                  "parameters": []
-                },
-                {
-                  "colorB": 228,
-                  "colorG": 176,
-                  "colorR": 74,
-                  "creationTime": 0,
-                  "name": "kalo sama",
-                  "source": "",
-                  "type": "BuiltinCommonInstructions::Group",
+                  "actions": [],
                   "events": [
                     {
                       "type": "BuiltinCommonInstructions::Standard",
-                      "conditions": [
+                      "conditions": [],
+                      "actions": [
                         {
                           "type": {
-                            "value": "NumberObjectVariable"
+                            "value": "PickNearest"
                           },
                           "parameters": [
-                            "Colo",
-                            "platform",
-                            "=",
-                            "1"
+                            "NewSprite",
+                            "Colo.X()",
+                            "Colo.Y()"
                           ]
                         },
                         {
                           "type": {
-                            "value": "NumberObjectVariable"
+                            "value": "LinkedObjects::LinkObjects"
                           },
                           "parameters": [
-                            "Marcus",
-                            "platform",
-                            "=",
-                            "1"
+                            "",
+                            "NewSprite",
+                            "Colo"
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "LinkedObjects::PickObjectsLinkedTo"
+                          },
+                          "parameters": [
+                            "",
+                            "NewSprite",
+                            "Colo",
+                            ""
                           ]
                         }
                       ],
@@ -32851,9 +34687,9 @@
                                 "value": "PosX"
                               },
                               "parameters": [
-                                "Colo",
-                                "<",
-                                "Marcus.X()"
+                                "NewSprite",
+                                ">",
+                                "Colo.X()"
                               ]
                             }
                           ],
@@ -32899,9 +34735,9 @@
                                 "value": "PosX"
                               },
                               "parameters": [
-                                "Colo",
-                                ">",
-                                "Marcus.X()"
+                                "NewSprite",
+                                "<",
+                                "Colo.X()"
                               ]
                             }
                           ],
@@ -32942,261 +34778,65 @@
                       ]
                     },
                     {
-                      "folded": true,
                       "type": "BuiltinCommonInstructions::Standard",
                       "conditions": [
                         {
                           "type": {
-                            "value": "NumberObjectVariable"
+                            "value": "LinkedObjects::PickObjectsLinkedTo"
+                          },
+                          "parameters": [
+                            "",
+                            "NewSprite",
+                            "Colo",
+                            ""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "CollisionNP"
+                          },
+                          "parameters": [
+                            "NewSprite",
+                            "Colo",
+                            "",
+                            "",
+                            ""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "PlatformBehavior::IsOnFloor"
                           },
                           "parameters": [
                             "Colo",
-                            "pijakan1",
-                            "=",
-                            "1"
-                          ]
-                        },
-                        {
-                          "type": {
-                            "value": "NumberObjectVariable"
-                          },
-                          "parameters": [
-                            "Marcus",
-                            "pijakan1",
-                            "=",
-                            "1"
+                            "PlatformerObject"
                           ]
                         }
                       ],
-                      "actions": [],
-                      "events": [
-                        {
-                          "type": "BuiltinCommonInstructions::Standard",
-                          "conditions": [
-                            {
-                              "type": {
-                                "value": "PosX"
-                              },
-                              "parameters": [
-                                "Colo",
-                                "<",
-                                "Marcus.X()"
-                              ]
-                            }
-                          ],
-                          "actions": [
-                            {
-                              "type": {
-                                "value": "FlippableCapability::FlippableBehavior::FlipX"
-                              },
-                              "parameters": [
-                                "Colo",
-                                "Flippable",
-                                "yes"
-                              ]
-                            },
-                            {
-                              "type": {
-                                "value": "PlatformBehavior::SimulateControl"
-                              },
-                              "parameters": [
-                                "Colo",
-                                "PlatformerObject",
-                                "\"Right\""
-                              ]
-                            },
-                            {
-                              "type": {
-                                "value": "PlatformBehavior::MaxSpeed"
-                              },
-                              "parameters": [
-                                "Colo",
-                                "PlatformerObject",
-                                "=",
-                                "200"
-                              ]
-                            }
-                          ]
-                        },
-                        {
-                          "type": "BuiltinCommonInstructions::Standard",
-                          "conditions": [
-                            {
-                              "type": {
-                                "value": "PosX"
-                              },
-                              "parameters": [
-                                "Colo",
-                                ">",
-                                "Marcus.X()"
-                              ]
-                            }
-                          ],
-                          "actions": [
-                            {
-                              "type": {
-                                "value": "FlippableCapability::FlippableBehavior::FlipX"
-                              },
-                              "parameters": [
-                                "Colo",
-                                "Flippable",
-                                "no"
-                              ]
-                            },
-                            {
-                              "type": {
-                                "value": "PlatformBehavior::SimulateControl"
-                              },
-                              "parameters": [
-                                "Colo",
-                                "PlatformerObject",
-                                "\"Left\""
-                              ]
-                            },
-                            {
-                              "type": {
-                                "value": "PlatformBehavior::MaxSpeed"
-                              },
-                              "parameters": [
-                                "Colo",
-                                "PlatformerObject",
-                                "=",
-                                "200"
-                              ]
-                            }
-                          ]
-                        }
-                      ]
-                    },
-                    {
-                      "folded": true,
-                      "type": "BuiltinCommonInstructions::Standard",
-                      "conditions": [
+                      "actions": [
                         {
                           "type": {
-                            "value": "NumberObjectVariable"
+                            "value": "PlatformBehavior::SimulateControl"
                           },
                           "parameters": [
                             "Colo",
-                            "pijakan2",
-                            "=",
-                            "1"
+                            "PlatformerObject",
+                            "\"Jump\""
                           ]
                         },
                         {
                           "type": {
-                            "value": "NumberObjectVariable"
+                            "value": "LinkedObjects::RemoveLinkBetween"
                           },
                           "parameters": [
-                            "Marcus",
-                            "pijakan2",
-                            "=",
-                            "1"
-                          ]
-                        }
-                      ],
-                      "actions": [],
-                      "events": [
-                        {
-                          "type": "BuiltinCommonInstructions::Standard",
-                          "conditions": [
-                            {
-                              "type": {
-                                "value": "PosX"
-                              },
-                              "parameters": [
-                                "Colo",
-                                "<",
-                                "Marcus.X()"
-                              ]
-                            }
-                          ],
-                          "actions": [
-                            {
-                              "type": {
-                                "value": "FlippableCapability::FlippableBehavior::FlipX"
-                              },
-                              "parameters": [
-                                "Colo",
-                                "Flippable",
-                                "yes"
-                              ]
-                            },
-                            {
-                              "type": {
-                                "value": "PlatformBehavior::SimulateControl"
-                              },
-                              "parameters": [
-                                "Colo",
-                                "PlatformerObject",
-                                "\"Right\""
-                              ]
-                            },
-                            {
-                              "type": {
-                                "value": "PlatformBehavior::MaxSpeed"
-                              },
-                              "parameters": [
-                                "Colo",
-                                "PlatformerObject",
-                                "=",
-                                "200"
-                              ]
-                            }
-                          ]
-                        },
-                        {
-                          "type": "BuiltinCommonInstructions::Standard",
-                          "conditions": [
-                            {
-                              "type": {
-                                "value": "PosX"
-                              },
-                              "parameters": [
-                                "Colo",
-                                ">",
-                                "Marcus.X()"
-                              ]
-                            }
-                          ],
-                          "actions": [
-                            {
-                              "type": {
-                                "value": "FlippableCapability::FlippableBehavior::FlipX"
-                              },
-                              "parameters": [
-                                "Colo",
-                                "Flippable",
-                                "no"
-                              ]
-                            },
-                            {
-                              "type": {
-                                "value": "PlatformBehavior::SimulateControl"
-                              },
-                              "parameters": [
-                                "Colo",
-                                "PlatformerObject",
-                                "\"Left\""
-                              ]
-                            },
-                            {
-                              "type": {
-                                "value": "PlatformBehavior::MaxSpeed"
-                              },
-                              "parameters": [
-                                "Colo",
-                                "PlatformerObject",
-                                "=",
-                                "200"
-                              ]
-                            }
+                            "",
+                            "NewSprite",
+                            "Colo"
                           ]
                         }
                       ]
                     }
-                  ],
-                  "parameters": []
+                  ]
                 }
               ]
             },
@@ -33316,6 +34956,7 @@
               ]
             },
             {
+              "disabled": true,
               "type": "BuiltinCommonInstructions::Standard",
               "conditions": [
                 {
@@ -34093,6 +35734,306 @@
           "type": "BuiltinCommonInstructions::Group",
           "events": [
             {
+              "folded": true,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "Tween::HasFinished"
+                  },
+                  "parameters": [
+                    "Background_Setting",
+                    "Tween",
+                    "\"backgroundSetting\""
+                  ]
+                }
+              ],
+              "actions": [],
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "SourisSurObjet"
+                      },
+                      "parameters": [
+                        "Back_Button",
+                        "",
+                        "",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "MouseButtonFromTextPressed"
+                      },
+                      "parameters": [
+                        "",
+                        "\"Left\""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "BuiltinCommonInstructions::Once"
+                      },
+                      "parameters": []
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "PlaySoundCanal"
+                      },
+                      "parameters": [
+                        "",
+                        "sound\\Number Empire\\Sound Effect\\Back.wav",
+                        "2",
+                        "",
+                        "70",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "Tween::TweenBehavior::AddObjectOpacityTween2"
+                      },
+                      "parameters": [
+                        "Background_Setting",
+                        "Tween",
+                        "\"backgroundSetting\"",
+                        "0",
+                        "\"linear\"",
+                        "1",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "Tween::TweenBehavior::AddObjectOpacityTween2"
+                      },
+                      "parameters": [
+                        "SFX",
+                        "Tween",
+                        "\"SFX\"",
+                        "0",
+                        "\"linear\"",
+                        "1",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "Tween::TweenBehavior::AddObjectOpacityTween2"
+                      },
+                      "parameters": [
+                        "BGM",
+                        "Tween",
+                        "\"BGM\"",
+                        "0",
+                        "\"linear\"",
+                        "1",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "Tween::TweenBehavior::AddObjectOpacityTween2"
+                      },
+                      "parameters": [
+                        "Back_Button",
+                        "Tween",
+                        "\"backButton\"",
+                        "0",
+                        "\"linear\"",
+                        "1",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "Tween::TweenBehavior::AddObjectOpacityTween2"
+                      },
+                      "parameters": [
+                        "Menu_Button",
+                        "Tween",
+                        "\"menuButton\"",
+                        "0",
+                        "\"linear\"",
+                        "1",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "SetLayerEffectParameter"
+                      },
+                      "parameters": [
+                        "",
+                        "",
+                        "\"Effect\"",
+                        "\"brightness\"",
+                        "1"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "HideLayer"
+                      },
+                      "parameters": [
+                        "",
+                        "\"Setting\""
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "SourisSurObjet"
+                      },
+                      "parameters": [
+                        "Menu_Button",
+                        "",
+                        "",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "MouseButtonFromTextPressed"
+                      },
+                      "parameters": [
+                        "",
+                        "\"Left\""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "BuiltinCommonInstructions::Once"
+                      },
+                      "parameters": []
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "PlaySoundCanal"
+                      },
+                      "parameters": [
+                        "",
+                        "sound\\Number Empire\\Sound Effect\\Menu.wav",
+                        "2",
+                        "",
+                        "70",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "Tween::TweenBehavior::AddObjectOpacityTween2"
+                      },
+                      "parameters": [
+                        "Background_Setting",
+                        "Tween",
+                        "\"backgroundSetting\"",
+                        "0",
+                        "\"linear\"",
+                        "1",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "Tween::TweenBehavior::AddObjectOpacityTween2"
+                      },
+                      "parameters": [
+                        "SFX",
+                        "Tween",
+                        "\"SFX\"",
+                        "0",
+                        "\"linear\"",
+                        "1",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "Tween::TweenBehavior::AddObjectOpacityTween2"
+                      },
+                      "parameters": [
+                        "BGM",
+                        "Tween",
+                        "\"BGM\"",
+                        "0",
+                        "\"linear\"",
+                        "1",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "Tween::TweenBehavior::AddObjectOpacityTween2"
+                      },
+                      "parameters": [
+                        "Back_Button",
+                        "Tween",
+                        "\"backButton\"",
+                        "0",
+                        "\"linear\"",
+                        "1",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "Tween::TweenBehavior::AddObjectOpacityTween2"
+                      },
+                      "parameters": [
+                        "Menu_Button",
+                        "Tween",
+                        "\"menuButton\"",
+                        "0",
+                        "\"linear\"",
+                        "1",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "SetStringVariable"
+                      },
+                      "parameters": [
+                        "Scene",
+                        "=",
+                        "\"Home\""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "Wait"
+                      },
+                      "parameters": [
+                        "0.2"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "Scene"
+                      },
+                      "parameters": [
+                        "",
+                        "\"Loading\"",
+                        ""
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
               "type": "BuiltinCommonInstructions::Standard",
               "conditions": [
                 {
@@ -34134,6 +36075,19 @@
                 },
                 {
                   "type": {
+                    "value": "PlaySoundCanal"
+                  },
+                  "parameters": [
+                    "",
+                    "sound\\Number Empire\\Sound Effect\\Setting.wav",
+                    "2",
+                    "",
+                    "70",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
                     "value": "SetLayerEffectParameter"
                   },
                   "parameters": [
@@ -34146,95 +36100,99 @@
                 },
                 {
                   "type": {
-                    "value": "SetLayerEffectParameter"
+                    "value": "Tween::TweenBehavior::AddObjectOpacityTween2"
                   },
                   "parameters": [
-                    "",
-                    "\"UI\"",
-                    "\"Effect\"",
-                    "\"brightness\"",
-                    "0.5"
+                    "Background_Setting",
+                    "Tween",
+                    "\"backgroundSetting\"",
+                    "255",
+                    "\"linear\"",
+                    "1",
+                    ""
                   ]
                 },
                 {
                   "type": {
-                    "value": "ChangeLayerTimeScale"
+                    "value": "Tween::TweenBehavior::AddObjectOpacityTween2"
                   },
                   "parameters": [
-                    "",
-                    "",
+                    "SFX",
+                    "Tween",
+                    "\"SFX\"",
+                    "255",
+                    "\"linear\"",
+                    "1",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Tween::TweenBehavior::AddObjectOpacityTween2"
+                  },
+                  "parameters": [
+                    "BGM",
+                    "Tween",
+                    "\"BGM\"",
+                    "255",
+                    "\"linear\"",
+                    "1",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Tween::TweenBehavior::AddObjectOpacityTween2"
+                  },
+                  "parameters": [
+                    "Back_Button",
+                    "Tween",
+                    "\"backButton\"",
+                    "255",
+                    "\"linear\"",
+                    "1",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Tween::TweenBehavior::AddObjectOpacityTween2"
+                  },
+                  "parameters": [
+                    "Menu_Button",
+                    "Tween",
+                    "\"menuButton\"",
+                    "255",
+                    "\"linear\"",
+                    "1",
+                    ""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "SpriteToggleSwitch::SpriteToggleSwitch::IsChecked"
+                  },
+                  "parameters": [
+                    "SFX",
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "Data.Sfx",
+                    "=",
                     "0"
                   ]
-                },
-                {
-                  "type": {
-                    "value": "Tween::TweenBehavior::AddObjectOpacityTween2"
-                  },
-                  "parameters": [
-                    "Background_Setting",
-                    "Tween",
-                    "\"backgroundSetting\"",
-                    "255",
-                    "\"linear\"",
-                    "1",
-                    ""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "Tween::TweenBehavior::AddObjectOpacityTween2"
-                  },
-                  "parameters": [
-                    "SFX",
-                    "Tween",
-                    "\"SFX\"",
-                    "255",
-                    "\"linear\"",
-                    "1",
-                    ""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "Tween::TweenBehavior::AddObjectOpacityTween2"
-                  },
-                  "parameters": [
-                    "BGM",
-                    "Tween",
-                    "\"BGM\"",
-                    "255",
-                    "\"linear\"",
-                    "1",
-                    ""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "Tween::TweenBehavior::AddObjectOpacityTween2"
-                  },
-                  "parameters": [
-                    "Back_Button",
-                    "Tween",
-                    "\"backButton\"",
-                    "255",
-                    "\"linear\"",
-                    "1",
-                    ""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "Tween::TweenBehavior::AddObjectOpacityTween2"
-                  },
-                  "parameters": [
-                    "Menu_Button",
-                    "Tween",
-                    "\"menuButton\"",
-                    "255",
-                    "\"linear\"",
-                    "1",
-                    ""
-                  ]
                 }
               ]
             },
@@ -34243,266 +36201,77 @@
               "conditions": [
                 {
                   "type": {
-                    "value": "SourisSurObjet"
+                    "inverted": true,
+                    "value": "SpriteToggleSwitch::SpriteToggleSwitch::IsChecked"
                   },
                   "parameters": [
-                    "Back_Button",
-                    "",
-                    "",
+                    "SFX",
                     ""
                   ]
-                },
-                {
-                  "type": {
-                    "value": "MouseButtonFromTextPressed"
-                  },
-                  "parameters": [
-                    "",
-                    "\"Left\""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "BuiltinCommonInstructions::Once"
-                  },
-                  "parameters": []
                 }
               ],
               "actions": [
                 {
                   "type": {
-                    "value": "Tween::TweenBehavior::AddObjectOpacityTween2"
+                    "value": "SetNumberVariable"
                   },
                   "parameters": [
-                    "Background_Setting",
-                    "Tween",
-                    "\"backgroundSetting\"",
-                    "0",
-                    "\"linear\"",
-                    "1",
-                    ""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "Tween::TweenBehavior::AddObjectOpacityTween2"
-                  },
-                  "parameters": [
-                    "SFX",
-                    "Tween",
-                    "\"SFX\"",
-                    "0",
-                    "\"linear\"",
-                    "1",
-                    ""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "Tween::TweenBehavior::AddObjectOpacityTween2"
-                  },
-                  "parameters": [
-                    "BGM",
-                    "Tween",
-                    "\"BGM\"",
-                    "0",
-                    "\"linear\"",
-                    "1",
-                    ""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "Tween::TweenBehavior::AddObjectOpacityTween2"
-                  },
-                  "parameters": [
-                    "Back_Button",
-                    "Tween",
-                    "\"backButton\"",
-                    "0",
-                    "\"linear\"",
-                    "1",
-                    ""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "Tween::TweenBehavior::AddObjectOpacityTween2"
-                  },
-                  "parameters": [
-                    "Menu_Button",
-                    "Tween",
-                    "\"menuButton\"",
-                    "0",
-                    "\"linear\"",
-                    "1",
-                    ""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "SetLayerEffectParameter"
-                  },
-                  "parameters": [
-                    "",
-                    "",
-                    "\"Effect\"",
-                    "\"brightness\"",
-                    "1"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "SetLayerEffectParameter"
-                  },
-                  "parameters": [
-                    "",
-                    "\"UI\"",
-                    "\"Effect\"",
-                    "\"brightness\"",
-                    "1"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "ChangeLayerTimeScale"
-                  },
-                  "parameters": [
-                    "",
-                    "",
-                    "1"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "HideLayer"
-                  },
-                  "parameters": [
-                    "",
-                    "\"Setting\""
-                  ]
-                }
-              ]
-            },
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "SourisSurObjet"
-                  },
-                  "parameters": [
-                    "Menu_Button",
-                    "",
-                    "",
-                    ""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "MouseButtonFromTextPressed"
-                  },
-                  "parameters": [
-                    "",
-                    "\"Left\""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "BuiltinCommonInstructions::Once"
-                  },
-                  "parameters": []
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "Tween::TweenBehavior::AddObjectOpacityTween2"
-                  },
-                  "parameters": [
-                    "Background_Setting",
-                    "Tween",
-                    "\"backgroundSetting\"",
-                    "0",
-                    "\"linear\"",
-                    "1",
-                    ""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "Tween::TweenBehavior::AddObjectOpacityTween2"
-                  },
-                  "parameters": [
-                    "SFX",
-                    "Tween",
-                    "\"SFX\"",
-                    "0",
-                    "\"linear\"",
-                    "1",
-                    ""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "Tween::TweenBehavior::AddObjectOpacityTween2"
-                  },
-                  "parameters": [
-                    "BGM",
-                    "Tween",
-                    "\"BGM\"",
-                    "0",
-                    "\"linear\"",
-                    "1",
-                    ""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "Tween::TweenBehavior::AddObjectOpacityTween2"
-                  },
-                  "parameters": [
-                    "Back_Button",
-                    "Tween",
-                    "\"backButton\"",
-                    "0",
-                    "\"linear\"",
-                    "1",
-                    ""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "Tween::TweenBehavior::AddObjectOpacityTween2"
-                  },
-                  "parameters": [
-                    "Menu_Button",
-                    "Tween",
-                    "\"menuButton\"",
-                    "0",
-                    "\"linear\"",
-                    "1",
-                    ""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "SetStringVariable"
-                  },
-                  "parameters": [
-                    "Scene",
+                    "Data.Sfx",
                     "=",
-                    "\"Home\""
+                    "1"
                   ]
-                },
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
                 {
                   "type": {
-                    "value": "Scene"
+                    "value": "SpriteToggleSwitch::SpriteToggleSwitch::IsChecked"
                   },
                   "parameters": [
-                    "",
-                    "\"Loading\"",
+                    "BGM",
                     ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "Data.Bgm",
+                    "=",
+                    "0"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": true,
+                    "value": "SpriteToggleSwitch::SpriteToggleSwitch::IsChecked"
+                  },
+                  "parameters": [
+                    "BGM",
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "Data.Bgm",
+                    "=",
+                    "1"
                   ]
                 }
               ]
@@ -34719,31 +36488,9 @@
                   },
                   "parameters": [
                     "Marcus",
-                    "platform",
+                    "platformId",
                     "=",
                     "1"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "SetNumberObjectVariable"
-                  },
-                  "parameters": [
-                    "Marcus",
-                    "pijakan1",
-                    "=",
-                    "0"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "SetNumberObjectVariable"
-                  },
-                  "parameters": [
-                    "Marcus",
-                    "pijakan2",
-                    "=",
-                    "0"
                   ]
                 }
               ]
@@ -34788,31 +36535,9 @@
                   },
                   "parameters": [
                     "Marcus",
-                    "platform",
+                    "platformId",
                     "=",
-                    "0"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "SetNumberObjectVariable"
-                  },
-                  "parameters": [
-                    "Marcus",
-                    "pijakan1",
-                    "=",
-                    "1"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "SetNumberObjectVariable"
-                  },
-                  "parameters": [
-                    "Marcus",
-                    "pijakan2",
-                    "=",
-                    "0"
+                    "2"
                   ]
                 }
               ]
@@ -34847,31 +36572,9 @@
                   },
                   "parameters": [
                     "Marcus",
-                    "platform",
+                    "platformId",
                     "=",
-                    "0"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "SetNumberObjectVariable"
-                  },
-                  "parameters": [
-                    "Marcus",
-                    "pijakan1",
-                    "=",
-                    "0"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "SetNumberObjectVariable"
-                  },
-                  "parameters": [
-                    "Marcus",
-                    "pijakan2",
-                    "=",
-                    "1"
+                    "3"
                   ]
                 }
               ]
@@ -34929,31 +36632,9 @@
                   },
                   "parameters": [
                     "Colo",
-                    "platform",
+                    "platformId",
                     "=",
                     "1"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "SetNumberObjectVariable"
-                  },
-                  "parameters": [
-                    "Colo",
-                    "pijakan1",
-                    "=",
-                    "0"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "SetNumberObjectVariable"
-                  },
-                  "parameters": [
-                    "Colo",
-                    "pijakan2",
-                    "=",
-                    "0"
                   ]
                 }
               ]
@@ -34998,31 +36679,9 @@
                   },
                   "parameters": [
                     "Colo",
-                    "platform",
+                    "platformId",
                     "=",
-                    "0"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "SetNumberObjectVariable"
-                  },
-                  "parameters": [
-                    "Colo",
-                    "pijakan1",
-                    "=",
-                    "1"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "SetNumberObjectVariable"
-                  },
-                  "parameters": [
-                    "Colo",
-                    "pijakan2",
-                    "=",
-                    "0"
+                    "2"
                   ]
                 }
               ]
@@ -35057,31 +36716,9 @@
                   },
                   "parameters": [
                     "Colo",
-                    "platform",
+                    "platformId",
                     "=",
-                    "0"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "SetNumberObjectVariable"
-                  },
-                  "parameters": [
-                    "Colo",
-                    "pijakan1",
-                    "=",
-                    "0"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "SetNumberObjectVariable"
-                  },
-                  "parameters": [
-                    "Colo",
-                    "pijakan2",
-                    "=",
-                    "1"
+                    "3"
                   ]
                 }
               ]
@@ -35142,7 +36779,7 @@
           "isLocked": false,
           "name": "UI",
           "renderingType": "",
-          "visibility": true,
+          "visibility": false,
           "cameras": [],
           "effects": [
             {
@@ -46322,6 +47959,19 @@
           "actions": [
             {
               "type": {
+                "value": "PlayMusicCanal"
+              },
+              "parameters": [
+                "",
+                "sound\\Number Empire\\Backsound\\Backsound 1.wav",
+                "1",
+                "",
+                "80",
+                ""
+              ]
+            },
+            {
+              "type": {
                 "value": "SetNumberVariable"
               },
               "parameters": [
@@ -48518,6 +50168,7 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
+          "folded": true,
           "name": "Kaisar Attack",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -49359,6 +51010,306 @@
           "type": "BuiltinCommonInstructions::Group",
           "events": [
             {
+              "folded": true,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "Tween::HasFinished"
+                  },
+                  "parameters": [
+                    "Background_Setting",
+                    "Tween",
+                    "\"backgroundSetting\""
+                  ]
+                }
+              ],
+              "actions": [],
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "SourisSurObjet"
+                      },
+                      "parameters": [
+                        "Back_Button",
+                        "",
+                        "",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "MouseButtonFromTextPressed"
+                      },
+                      "parameters": [
+                        "",
+                        "\"Left\""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "BuiltinCommonInstructions::Once"
+                      },
+                      "parameters": []
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "PlaySoundCanal"
+                      },
+                      "parameters": [
+                        "",
+                        "sound\\Number Empire\\Sound Effect\\Back.wav",
+                        "2",
+                        "",
+                        "70",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "Tween::TweenBehavior::AddObjectOpacityTween2"
+                      },
+                      "parameters": [
+                        "Background_Setting",
+                        "Tween",
+                        "\"backgroundSetting\"",
+                        "0",
+                        "\"linear\"",
+                        "1",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "Tween::TweenBehavior::AddObjectOpacityTween2"
+                      },
+                      "parameters": [
+                        "SFX",
+                        "Tween",
+                        "\"SFX\"",
+                        "0",
+                        "\"linear\"",
+                        "1",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "Tween::TweenBehavior::AddObjectOpacityTween2"
+                      },
+                      "parameters": [
+                        "BGM",
+                        "Tween",
+                        "\"BGM\"",
+                        "0",
+                        "\"linear\"",
+                        "1",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "Tween::TweenBehavior::AddObjectOpacityTween2"
+                      },
+                      "parameters": [
+                        "Back_Button",
+                        "Tween",
+                        "\"backButton\"",
+                        "0",
+                        "\"linear\"",
+                        "1",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "Tween::TweenBehavior::AddObjectOpacityTween2"
+                      },
+                      "parameters": [
+                        "Menu_Button",
+                        "Tween",
+                        "\"menuButton\"",
+                        "0",
+                        "\"linear\"",
+                        "1",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "SetLayerEffectParameter"
+                      },
+                      "parameters": [
+                        "",
+                        "",
+                        "\"Effect\"",
+                        "\"brightness\"",
+                        "1"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "HideLayer"
+                      },
+                      "parameters": [
+                        "",
+                        "\"Setting\""
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "SourisSurObjet"
+                      },
+                      "parameters": [
+                        "Menu_Button",
+                        "",
+                        "",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "MouseButtonFromTextPressed"
+                      },
+                      "parameters": [
+                        "",
+                        "\"Left\""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "BuiltinCommonInstructions::Once"
+                      },
+                      "parameters": []
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "PlaySoundCanal"
+                      },
+                      "parameters": [
+                        "",
+                        "sound\\Number Empire\\Sound Effect\\Menu.wav",
+                        "2",
+                        "",
+                        "70",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "Tween::TweenBehavior::AddObjectOpacityTween2"
+                      },
+                      "parameters": [
+                        "Background_Setting",
+                        "Tween",
+                        "\"backgroundSetting\"",
+                        "0",
+                        "\"linear\"",
+                        "1",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "Tween::TweenBehavior::AddObjectOpacityTween2"
+                      },
+                      "parameters": [
+                        "SFX",
+                        "Tween",
+                        "\"SFX\"",
+                        "0",
+                        "\"linear\"",
+                        "1",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "Tween::TweenBehavior::AddObjectOpacityTween2"
+                      },
+                      "parameters": [
+                        "BGM",
+                        "Tween",
+                        "\"BGM\"",
+                        "0",
+                        "\"linear\"",
+                        "1",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "Tween::TweenBehavior::AddObjectOpacityTween2"
+                      },
+                      "parameters": [
+                        "Back_Button",
+                        "Tween",
+                        "\"backButton\"",
+                        "0",
+                        "\"linear\"",
+                        "1",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "Tween::TweenBehavior::AddObjectOpacityTween2"
+                      },
+                      "parameters": [
+                        "Menu_Button",
+                        "Tween",
+                        "\"menuButton\"",
+                        "0",
+                        "\"linear\"",
+                        "1",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "SetStringVariable"
+                      },
+                      "parameters": [
+                        "Scene",
+                        "=",
+                        "\"Home\""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "Wait"
+                      },
+                      "parameters": [
+                        "0.2"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "Scene"
+                      },
+                      "parameters": [
+                        "",
+                        "\"Loading\"",
+                        ""
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
               "type": "BuiltinCommonInstructions::Standard",
               "conditions": [
                 {
@@ -49400,6 +51351,19 @@
                 },
                 {
                   "type": {
+                    "value": "PlaySoundCanal"
+                  },
+                  "parameters": [
+                    "",
+                    "sound\\Number Empire\\Sound Effect\\Setting.wav",
+                    "2",
+                    "",
+                    "70",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
                     "value": "SetLayerEffectParameter"
                   },
                   "parameters": [
@@ -49412,95 +51376,99 @@
                 },
                 {
                   "type": {
-                    "value": "SetLayerEffectParameter"
+                    "value": "Tween::TweenBehavior::AddObjectOpacityTween2"
                   },
                   "parameters": [
-                    "",
-                    "\"UI\"",
-                    "\"Effect\"",
-                    "\"brightness\"",
-                    "0.5"
+                    "Background_Setting",
+                    "Tween",
+                    "\"backgroundSetting\"",
+                    "255",
+                    "\"linear\"",
+                    "1",
+                    ""
                   ]
                 },
                 {
                   "type": {
-                    "value": "ChangeLayerTimeScale"
+                    "value": "Tween::TweenBehavior::AddObjectOpacityTween2"
                   },
                   "parameters": [
-                    "",
-                    "",
+                    "SFX",
+                    "Tween",
+                    "\"SFX\"",
+                    "255",
+                    "\"linear\"",
+                    "1",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Tween::TweenBehavior::AddObjectOpacityTween2"
+                  },
+                  "parameters": [
+                    "BGM",
+                    "Tween",
+                    "\"BGM\"",
+                    "255",
+                    "\"linear\"",
+                    "1",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Tween::TweenBehavior::AddObjectOpacityTween2"
+                  },
+                  "parameters": [
+                    "Back_Button",
+                    "Tween",
+                    "\"backButton\"",
+                    "255",
+                    "\"linear\"",
+                    "1",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Tween::TweenBehavior::AddObjectOpacityTween2"
+                  },
+                  "parameters": [
+                    "Menu_Button",
+                    "Tween",
+                    "\"menuButton\"",
+                    "255",
+                    "\"linear\"",
+                    "1",
+                    ""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "SpriteToggleSwitch::SpriteToggleSwitch::IsChecked"
+                  },
+                  "parameters": [
+                    "SFX",
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "Data.Sfx",
+                    "=",
                     "0"
                   ]
-                },
-                {
-                  "type": {
-                    "value": "Tween::TweenBehavior::AddObjectOpacityTween2"
-                  },
-                  "parameters": [
-                    "Background_Setting",
-                    "Tween",
-                    "\"backgroundSetting\"",
-                    "255",
-                    "\"linear\"",
-                    "1",
-                    ""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "Tween::TweenBehavior::AddObjectOpacityTween2"
-                  },
-                  "parameters": [
-                    "SFX",
-                    "Tween",
-                    "\"SFX\"",
-                    "255",
-                    "\"linear\"",
-                    "1",
-                    ""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "Tween::TweenBehavior::AddObjectOpacityTween2"
-                  },
-                  "parameters": [
-                    "BGM",
-                    "Tween",
-                    "\"BGM\"",
-                    "255",
-                    "\"linear\"",
-                    "1",
-                    ""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "Tween::TweenBehavior::AddObjectOpacityTween2"
-                  },
-                  "parameters": [
-                    "Back_Button",
-                    "Tween",
-                    "\"backButton\"",
-                    "255",
-                    "\"linear\"",
-                    "1",
-                    ""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "Tween::TweenBehavior::AddObjectOpacityTween2"
-                  },
-                  "parameters": [
-                    "Menu_Button",
-                    "Tween",
-                    "\"menuButton\"",
-                    "255",
-                    "\"linear\"",
-                    "1",
-                    ""
-                  ]
                 }
               ]
             },
@@ -49509,266 +51477,77 @@
               "conditions": [
                 {
                   "type": {
-                    "value": "SourisSurObjet"
+                    "inverted": true,
+                    "value": "SpriteToggleSwitch::SpriteToggleSwitch::IsChecked"
                   },
                   "parameters": [
-                    "Back_Button",
-                    "",
-                    "",
+                    "SFX",
                     ""
                   ]
-                },
-                {
-                  "type": {
-                    "value": "MouseButtonFromTextPressed"
-                  },
-                  "parameters": [
-                    "",
-                    "\"Left\""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "BuiltinCommonInstructions::Once"
-                  },
-                  "parameters": []
                 }
               ],
               "actions": [
                 {
                   "type": {
-                    "value": "Tween::TweenBehavior::AddObjectOpacityTween2"
+                    "value": "SetNumberVariable"
                   },
                   "parameters": [
-                    "Background_Setting",
-                    "Tween",
-                    "\"backgroundSetting\"",
-                    "0",
-                    "\"linear\"",
-                    "1",
-                    ""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "Tween::TweenBehavior::AddObjectOpacityTween2"
-                  },
-                  "parameters": [
-                    "SFX",
-                    "Tween",
-                    "\"SFX\"",
-                    "0",
-                    "\"linear\"",
-                    "1",
-                    ""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "Tween::TweenBehavior::AddObjectOpacityTween2"
-                  },
-                  "parameters": [
-                    "BGM",
-                    "Tween",
-                    "\"BGM\"",
-                    "0",
-                    "\"linear\"",
-                    "1",
-                    ""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "Tween::TweenBehavior::AddObjectOpacityTween2"
-                  },
-                  "parameters": [
-                    "Back_Button",
-                    "Tween",
-                    "\"backButton\"",
-                    "0",
-                    "\"linear\"",
-                    "1",
-                    ""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "Tween::TweenBehavior::AddObjectOpacityTween2"
-                  },
-                  "parameters": [
-                    "Menu_Button",
-                    "Tween",
-                    "\"menuButton\"",
-                    "0",
-                    "\"linear\"",
-                    "1",
-                    ""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "SetLayerEffectParameter"
-                  },
-                  "parameters": [
-                    "",
-                    "",
-                    "\"Effect\"",
-                    "\"brightness\"",
-                    "1"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "SetLayerEffectParameter"
-                  },
-                  "parameters": [
-                    "",
-                    "\"UI\"",
-                    "\"Effect\"",
-                    "\"brightness\"",
-                    "1"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "ChangeLayerTimeScale"
-                  },
-                  "parameters": [
-                    "",
-                    "",
-                    "1"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "HideLayer"
-                  },
-                  "parameters": [
-                    "",
-                    "\"Setting\""
-                  ]
-                }
-              ]
-            },
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "SourisSurObjet"
-                  },
-                  "parameters": [
-                    "Menu_Button",
-                    "",
-                    "",
-                    ""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "MouseButtonFromTextPressed"
-                  },
-                  "parameters": [
-                    "",
-                    "\"Left\""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "BuiltinCommonInstructions::Once"
-                  },
-                  "parameters": []
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "Tween::TweenBehavior::AddObjectOpacityTween2"
-                  },
-                  "parameters": [
-                    "Background_Setting",
-                    "Tween",
-                    "\"backgroundSetting\"",
-                    "0",
-                    "\"linear\"",
-                    "1",
-                    ""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "Tween::TweenBehavior::AddObjectOpacityTween2"
-                  },
-                  "parameters": [
-                    "SFX",
-                    "Tween",
-                    "\"SFX\"",
-                    "0",
-                    "\"linear\"",
-                    "1",
-                    ""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "Tween::TweenBehavior::AddObjectOpacityTween2"
-                  },
-                  "parameters": [
-                    "BGM",
-                    "Tween",
-                    "\"BGM\"",
-                    "0",
-                    "\"linear\"",
-                    "1",
-                    ""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "Tween::TweenBehavior::AddObjectOpacityTween2"
-                  },
-                  "parameters": [
-                    "Back_Button",
-                    "Tween",
-                    "\"backButton\"",
-                    "0",
-                    "\"linear\"",
-                    "1",
-                    ""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "Tween::TweenBehavior::AddObjectOpacityTween2"
-                  },
-                  "parameters": [
-                    "Menu_Button",
-                    "Tween",
-                    "\"menuButton\"",
-                    "0",
-                    "\"linear\"",
-                    "1",
-                    ""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "SetStringVariable"
-                  },
-                  "parameters": [
-                    "Scene",
+                    "Data.Sfx",
                     "=",
-                    "\"Home\""
+                    "1"
                   ]
-                },
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
                 {
                   "type": {
-                    "value": "Scene"
+                    "value": "SpriteToggleSwitch::SpriteToggleSwitch::IsChecked"
                   },
                   "parameters": [
-                    "",
-                    "\"Loading\"",
+                    "BGM",
                     ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "Data.Bgm",
+                    "=",
+                    "0"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": true,
+                    "value": "SpriteToggleSwitch::SpriteToggleSwitch::IsChecked"
+                  },
+                  "parameters": [
+                    "BGM",
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "Data.Bgm",
+                    "=",
+                    "1"
                   ]
                 }
               ]
@@ -50263,7 +52042,8 @@
         "gridAlpha": 0.8,
         "snap": false,
         "zoomFactor": 0.3797121001947931,
-        "windowMask": false
+        "windowMask": false,
+        "selectedLayer": ""
       },
       "objectsGroups": [],
       "variables": [],
@@ -50518,6 +52298,19 @@
           "actions": [
             {
               "type": {
+                "value": "PlayMusicCanal"
+              },
+              "parameters": [
+                "",
+                "sound\\Number Empire\\Backsound\\Creadit.wav",
+                "1",
+                "",
+                "80",
+                ""
+              ]
+            },
+            {
+              "type": {
                 "value": "Tween::TweenBehavior::AddObjectPositionYTween2"
               },
               "parameters": [
@@ -50565,12 +52358,33 @@
           "actions": [
             {
               "type": {
+                "value": "PlaySoundCanal"
+              },
+              "parameters": [
+                "",
+                "sound\\Number Empire\\Sound Effect\\Skip.wav",
+                "2",
+                "",
+                "70",
+                ""
+              ]
+            },
+            {
+              "type": {
                 "value": "SetStringVariable"
               },
               "parameters": [
                 "Scene",
                 "=",
                 "\"Home\""
+              ]
+            },
+            {
+              "type": {
+                "value": "Wait"
+              },
+              "parameters": [
+                "0.2"
               ]
             },
             {
@@ -51250,9 +53064,215 @@
           "type": "ScalableCapability::ScalableBehavior"
         }
       ]
+    },
+    {
+      "b": 209,
+      "disableInputWhenNotFocused": true,
+      "mangledName": "Sound",
+      "name": "Sound",
+      "r": 209,
+      "standardSortMethod": true,
+      "stopSoundsOnStartup": true,
+      "title": "",
+      "v": 209,
+      "uiSettings": {},
+      "objectsGroups": [],
+      "variables": [],
+      "instances": [],
+      "objects": [],
+      "objectsFolderStructure": {
+        "folderName": "__ROOT"
+      },
+      "events": [],
+      "layers": [
+        {
+          "ambientLightColorB": 200,
+          "ambientLightColorG": 200,
+          "ambientLightColorR": 200,
+          "camera3DFarPlaneDistance": 10000,
+          "camera3DFieldOfView": 45,
+          "camera3DNearPlaneDistance": 3,
+          "cameraType": "",
+          "followBaseLayerCamera": false,
+          "isLightingLayer": false,
+          "isLocked": false,
+          "name": "",
+          "renderingType": "",
+          "visibility": true,
+          "cameras": [
+            {
+              "defaultSize": true,
+              "defaultViewport": true,
+              "height": 0,
+              "viewportBottom": 1,
+              "viewportLeft": 0,
+              "viewportRight": 1,
+              "viewportTop": 0,
+              "width": 0
+            }
+          ],
+          "effects": [
+            {
+              "effectType": "Scene3D::HemisphereLight",
+              "name": "3D Ambient Hemisphere Light",
+              "doubleParameters": {
+                "elevation": 40,
+                "intensity": 0.33,
+                "rotation": 300
+              },
+              "stringParameters": {
+                "groundColor": "127;127;127",
+                "skyColor": "255;255;255",
+                "top": "Z+"
+              },
+              "booleanParameters": {}
+            },
+            {
+              "effectType": "Scene3D::DirectionalLight",
+              "name": "3D Sun Light",
+              "doubleParameters": {
+                "distanceFromCamera": 1500,
+                "elevation": 40,
+                "frustumSize": 4000,
+                "intensity": 0.75,
+                "minimumShadowBias": 0,
+                "rotation": 300
+              },
+              "stringParameters": {
+                "color": "255;255;255",
+                "shadowQuality": "medium",
+                "top": "Z+"
+              },
+              "booleanParameters": {
+                "isCastingShadow": true
+              }
+            }
+          ]
+        }
+      ],
+      "behaviorsSharedData": []
     }
   ],
-  "externalEvents": [],
+  "externalEvents": [
+    {
+      "associatedLayout": "Sound",
+      "name": "Sound",
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "NumberVariable"
+              },
+              "parameters": [
+                "Data.Bgm",
+                "=",
+                "1"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "ModVolumeMusicCanal"
+              },
+              "parameters": [
+                "",
+                "1",
+                "=",
+                "0"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "NumberVariable"
+              },
+              "parameters": [
+                "Data.Bgm",
+                "=",
+                "0"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "ModVolumeMusicCanal"
+              },
+              "parameters": [
+                "",
+                "1",
+                "=",
+                "100"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "NumberVariable"
+              },
+              "parameters": [
+                "Data.Sfx",
+                "=",
+                "1"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "ModVolumeSoundCanal"
+              },
+              "parameters": [
+                "",
+                "2",
+                "=",
+                "0"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "NumberVariable"
+              },
+              "parameters": [
+                "Data.Sfx",
+                "=",
+                "0"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "ModVolumeSoundCanal"
+              },
+              "parameters": [
+                "",
+                "2",
+                "=",
+                "100"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
   "eventsFunctionsExtensions": [
     {
       "author": "",
