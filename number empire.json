@@ -2044,6 +2044,76 @@
         "preloadAsSound": false,
         "preloadInCache": false,
         "userAdded": false
+      },
+      {
+        "file": "sound/Number Empire/Sound Effect/Nyawa Berkurang.wav",
+        "kind": "audio",
+        "metadata": "",
+        "name": "sound\\Number Empire\\Sound Effect\\Nyawa Berkurang.wav",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "sound/Number Empire/Sound Effect/Enemy Blood Hit.wav",
+        "kind": "audio",
+        "metadata": "",
+        "name": "sound\\Number Empire\\Sound Effect\\Enemy Blood Hit.wav",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "sound/Number Empire/Sound Effect/Death.wav",
+        "kind": "audio",
+        "metadata": "",
+        "name": "sound\\Number Empire\\Sound Effect\\Death.wav",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "sound/Number Empire/Sound Effect/Karakter/Berlari di Batu - Level 1.wav",
+        "kind": "audio",
+        "metadata": "",
+        "name": "sound\\Number Empire\\Sound Effect\\Karakter\\Berlari di Batu - Level 1.wav",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "sound/Number Empire/Sound Effect/Senjata atau Serangan/Sword Slash 1.wav",
+        "kind": "audio",
+        "metadata": "",
+        "name": "sound\\Number Empire\\Sound Effect\\Senjata atau Serangan\\Sword Slash 1.wav",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "sound/Number Empire/Sound Effect/Rantai.wav",
+        "kind": "audio",
+        "metadata": "",
+        "name": "sound\\Number Empire\\Sound Effect\\Rantai.wav",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "sound/Number Empire/Sound Effect/Karakter/Marcus Terikat.wav",
+        "kind": "audio",
+        "metadata": "",
+        "name": "sound\\Number Empire\\Sound Effect\\Karakter\\Marcus Terikat.wav",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
       }
     ],
     "resourceFolders": []
@@ -5622,6 +5692,7 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
+          "folded": true,
           "name": "Level 1",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -5822,6 +5893,7 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
+          "folded": true,
           "name": "Level 2",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -6044,6 +6116,7 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
+          "folded": true,
           "name": "Level 3",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -6816,6 +6889,13 @@
             }
           ],
           "parameters": []
+        },
+        {
+          "type": "BuiltinCommonInstructions::Link",
+          "include": {
+            "includeConfig": 0
+          },
+          "target": "Sound"
         }
       ],
       "layers": [
@@ -17802,7 +17882,7 @@
                 "sound\\Number Empire\\Backsound\\Backsound 1.wav",
                 "1",
                 "",
-                "80",
+                "50",
                 ""
               ]
             },
@@ -18311,48 +18391,6 @@
                     "PlatformerObject",
                     "=",
                     "350"
-                  ]
-                }
-              ]
-            },
-            {
-              "type": "BuiltinCommonInstructions::Comment",
-              "color": {
-                "b": 109,
-                "g": 230,
-                "r": 255,
-                "textB": 0,
-                "textG": 0,
-                "textR": 0
-              },
-              "comment": "change animation idle"
-            },
-            {
-              "disabled": true,
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "PlatformBehavior::MaxSpeed"
-                  },
-                  "parameters": [
-                    "Marcus",
-                    "PlatformerObject",
-                    "=",
-                    "0"
-                  ]
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "AnimatableCapability::AnimatableBehavior::SetName"
-                  },
-                  "parameters": [
-                    "Marcus",
-                    "Animation",
-                    "=",
-                    "\"idle\""
                   ]
                 }
               ]
@@ -19043,11 +19081,13 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
+          "folded": true,
           "name": "Marcus Collect Coin",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
           "events": [
             {
+              "folded": true,
               "type": "BuiltinCommonInstructions::Standard",
               "conditions": [
                 {
@@ -19589,6 +19629,19 @@
                 },
                 {
                   "type": {
+                    "value": "PlaySoundCanal"
+                  },
+                  "parameters": [
+                    "",
+                    "sound\\Number Empire\\Sound Effect\\Enemy Blood Hit.wav",
+                    "2",
+                    "",
+                    "70",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
                     "value": "SetNumberVariable"
                   },
                   "parameters": [
@@ -19624,6 +19677,19 @@
                 }
               ],
               "actions": [
+                {
+                  "type": {
+                    "value": "PlaySoundCanal"
+                  },
+                  "parameters": [
+                    "",
+                    "sound\\Number Empire\\Sound Effect\\Enemy Blood Hit.wav",
+                    "2",
+                    "",
+                    "70",
+                    ""
+                  ]
+                },
                 {
                   "type": {
                     "value": "Delete"
@@ -20211,6 +20277,19 @@
                 },
                 {
                   "type": {
+                    "value": "PlaySoundCanal"
+                  },
+                  "parameters": [
+                    "",
+                    "sound\\Number Empire\\Sound Effect\\Nyawa Berkurang.wav",
+                    "2",
+                    "",
+                    "70",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
                     "value": "SetNumberVariable"
                   },
                   "parameters": [
@@ -20260,6 +20339,19 @@
                 }
               ],
               "actions": [
+                {
+                  "type": {
+                    "value": "PlaySoundCanal"
+                  },
+                  "parameters": [
+                    "",
+                    "sound\\Number Empire\\Sound Effect\\Death.wav",
+                    "2",
+                    "",
+                    "70",
+                    ""
+                  ]
+                },
                 {
                   "type": {
                     "value": "ShowLayer"
@@ -21324,6 +21416,13 @@
               ]
             }
           ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Link",
+          "include": {
+            "includeConfig": 0
+          },
+          "target": "Sound"
         }
       ],
       "layers": [
@@ -22418,7 +22517,6 @@
               "PercentDamageReduction": 0
             },
             {
-              "isFolded": true,
               "name": "PlatformerCharacterAnimator",
               "type": "PlatformerCharacterAnimator::PlatformerCharacterAnimator",
               "EnableAnimationChanges": true,
@@ -23997,7 +24095,26 @@
                         "x": 70.5,
                         "y": 76.5
                       },
-                      "customCollisionMask": []
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 41,
+                            "y": 9.5
+                          },
+                          {
+                            "x": 104,
+                            "y": 8
+                          },
+                          {
+                            "x": 101.5,
+                            "y": 134
+                          },
+                          {
+                            "x": 49.5,
+                            "y": 134
+                          }
+                        ]
+                      ]
                     },
                     {
                       "hasCustomCollisionMask": true,
@@ -24020,7 +24137,26 @@
                         "x": 0,
                         "y": 0
                       },
-                      "customCollisionMask": []
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 41,
+                            "y": 9.5
+                          },
+                          {
+                            "x": 104,
+                            "y": 8
+                          },
+                          {
+                            "x": 102,
+                            "y": 128
+                          },
+                          {
+                            "x": 36,
+                            "y": 131.5
+                          }
+                        ]
+                      ]
                     },
                     {
                       "hasCustomCollisionMask": true,
@@ -24043,7 +24179,26 @@
                         "x": 0,
                         "y": 0
                       },
-                      "customCollisionMask": []
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 41,
+                            "y": 9.5
+                          },
+                          {
+                            "x": 104,
+                            "y": 8
+                          },
+                          {
+                            "x": 107.5,
+                            "y": 126
+                          },
+                          {
+                            "x": 37.5,
+                            "y": 131
+                          }
+                        ]
+                      ]
                     },
                     {
                       "hasCustomCollisionMask": true,
@@ -24066,7 +24221,26 @@
                         "x": 0,
                         "y": 0
                       },
-                      "customCollisionMask": []
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 41,
+                            "y": 9.5
+                          },
+                          {
+                            "x": 104,
+                            "y": 8
+                          },
+                          {
+                            "x": 104,
+                            "y": 127
+                          },
+                          {
+                            "x": 38,
+                            "y": 131.5
+                          }
+                        ]
+                      ]
                     },
                     {
                       "hasCustomCollisionMask": true,
@@ -24083,7 +24257,26 @@
                         "x": 0,
                         "y": 0
                       },
-                      "customCollisionMask": []
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 41,
+                            "y": 9.5
+                          },
+                          {
+                            "x": 104,
+                            "y": 8
+                          },
+                          {
+                            "x": 101.5,
+                            "y": 134
+                          },
+                          {
+                            "x": 49.5,
+                            "y": 134
+                          }
+                        ]
+                      ]
                     }
                   ]
                 }
@@ -24094,13 +24287,13 @@
               "useMultipleDirections": false,
               "directions": [
                 {
-                  "looping": true,
+                  "looping": false,
                   "metadata": "{\"pskl\":{}}",
-                  "timeBetweenFrames": 0.2,
+                  "timeBetweenFrames": 0.8,
                   "sprites": [
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "terrante",
+                      "image": "terikat.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -24113,11 +24306,30 @@
                         "x": 0,
                         "y": 0
                       },
-                      "customCollisionMask": []
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 34.5,
+                            "y": 5
+                          },
+                          {
+                            "x": 95.5,
+                            "y": 4
+                          },
+                          {
+                            "x": 86,
+                            "y": 129
+                          },
+                          {
+                            "x": 45.5,
+                            "y": 130
+                          }
+                        ]
+                      ]
                     },
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "terrante2",
+                      "image": "terikat2.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -24130,7 +24342,26 @@
                         "x": 0,
                         "y": 0
                       },
-                      "customCollisionMask": []
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 34.5,
+                            "y": 5
+                          },
+                          {
+                            "x": 95.5,
+                            "y": 4
+                          },
+                          {
+                            "x": 86,
+                            "y": 129
+                          },
+                          {
+                            "x": 45.5,
+                            "y": 130
+                          }
+                        ]
+                      ]
                     }
                   ]
                 }
@@ -33977,6 +34208,19 @@
                   "actions": [
                     {
                       "type": {
+                        "value": "PlaySoundCanal"
+                      },
+                      "parameters": [
+                        "",
+                        "sound\\Number Empire\\Sound Effect\\Coin.wav",
+                        "2",
+                        "",
+                        "70",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
                         "value": "Delete"
                       },
                       "parameters": [
@@ -34033,6 +34277,19 @@
                     }
                   ],
                   "actions": [
+                    {
+                      "type": {
+                        "value": "PlaySoundCanal"
+                      },
+                      "parameters": [
+                        "",
+                        "sound\\Number Empire\\Sound Effect\\Coin.wav",
+                        "2",
+                        "",
+                        "70",
+                        ""
+                      ]
+                    },
                     {
                       "type": {
                         "value": "Delete"
@@ -34423,6 +34680,19 @@
                 },
                 {
                   "type": {
+                    "value": "PlaySoundCanal"
+                  },
+                  "parameters": [
+                    "",
+                    "sound\\Number Empire\\Sound Effect\\Enemy Blood Hit.wav",
+                    "2",
+                    "",
+                    "70",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
                     "value": "SetNumberVariable"
                   },
                   "parameters": [
@@ -34460,6 +34730,19 @@
               "actions": [
                 {
                   "type": {
+                    "value": "PlaySoundCanal"
+                  },
+                  "parameters": [
+                    "",
+                    "sound\\Number Empire\\Sound Effect\\Enemy Blood Hit.wav",
+                    "2",
+                    "",
+                    "70",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
                     "value": "Delete"
                   },
                   "parameters": [
@@ -34483,16 +34766,19 @@
           "type": "BuiltinCommonInstructions::Group",
           "events": [
             {
+              "folded": true,
               "type": "BuiltinCommonInstructions::Standard",
               "conditions": [
                 {
                   "type": {
-                    "value": "NumberVariable"
+                    "inverted": true,
+                    "value": "NumberObjectVariable"
                   },
                   "parameters": [
-                    "coloAttack",
+                    "Colo",
+                    "platformId",
                     "=",
-                    "0"
+                    "Marcus.platformId"
                   ]
                 }
               ],
@@ -34500,16 +34786,43 @@
               "events": [
                 {
                   "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "PickNearest"
+                      },
+                      "parameters": [
+                        "NewSprite",
+                        "Colo.X()",
+                        "Colo.Y()"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "LinkedObjects::LinkObjects"
+                      },
+                      "parameters": [
+                        "",
+                        "NewSprite",
+                        "Colo"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "folded": true,
+                  "type": "BuiltinCommonInstructions::Standard",
                   "conditions": [
                     {
                       "type": {
-                        "value": "NumberObjectVariable"
+                        "value": "LinkedObjects::PickObjectsLinkedTo"
                       },
                       "parameters": [
+                        "",
+                        "NewSprite",
                         "Colo",
-                        "platformId",
-                        "=",
-                        "Marcus.platformId"
+                        ""
                       ]
                     }
                   ],
@@ -34523,7 +34836,7 @@
                             "value": "PosX"
                           },
                           "parameters": [
-                            "Marcus",
+                            "NewSprite",
                             ">",
                             "Colo.X()"
                           ]
@@ -34571,7 +34884,7 @@
                             "value": "PosX"
                           },
                           "parameters": [
-                            "Marcus",
+                            "NewSprite",
                             "<",
                             "Colo.X()"
                           ]
@@ -34610,11 +34923,6 @@
                           ]
                         }
                       ]
-                    },
-                    {
-                      "type": "BuiltinCommonInstructions::Standard",
-                      "conditions": [],
-                      "actions": []
                     }
                   ]
                 },
@@ -34623,217 +34931,172 @@
                   "conditions": [
                     {
                       "type": {
-                        "inverted": true,
-                        "value": "NumberObjectVariable"
+                        "value": "LinkedObjects::PickObjectsLinkedTo"
+                      },
+                      "parameters": [
+                        "",
+                        "NewSprite",
+                        "Colo",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "CollisionNP"
+                      },
+                      "parameters": [
+                        "NewSprite",
+                        "Colo",
+                        "",
+                        "",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "PlatformBehavior::IsOnFloor"
                       },
                       "parameters": [
                         "Colo",
-                        "platformId",
-                        "=",
-                        "Marcus.platformId"
+                        "PlatformerObject"
                       ]
                     }
                   ],
-                  "actions": [],
-                  "events": [
+                  "actions": [
                     {
-                      "type": "BuiltinCommonInstructions::Standard",
-                      "conditions": [],
-                      "actions": [
-                        {
-                          "type": {
-                            "value": "PickNearest"
-                          },
-                          "parameters": [
-                            "NewSprite",
-                            "Colo.X()",
-                            "Colo.Y()"
-                          ]
-                        },
-                        {
-                          "type": {
-                            "value": "LinkedObjects::LinkObjects"
-                          },
-                          "parameters": [
-                            "",
-                            "NewSprite",
-                            "Colo"
-                          ]
-                        }
+                      "type": {
+                        "value": "PlatformBehavior::SimulateControl"
+                      },
+                      "parameters": [
+                        "Colo",
+                        "PlatformerObject",
+                        "\"Jump\""
                       ]
                     },
                     {
-                      "type": "BuiltinCommonInstructions::Standard",
-                      "conditions": [
-                        {
-                          "type": {
-                            "value": "LinkedObjects::PickObjectsLinkedTo"
-                          },
-                          "parameters": [
-                            "",
-                            "NewSprite",
-                            "Colo",
-                            ""
-                          ]
-                        }
-                      ],
-                      "actions": [],
-                      "events": [
-                        {
-                          "type": "BuiltinCommonInstructions::Standard",
-                          "conditions": [
-                            {
-                              "type": {
-                                "value": "PosX"
-                              },
-                              "parameters": [
-                                "NewSprite",
-                                ">",
-                                "Colo.X()"
-                              ]
-                            }
-                          ],
-                          "actions": [
-                            {
-                              "type": {
-                                "value": "FlippableCapability::FlippableBehavior::FlipX"
-                              },
-                              "parameters": [
-                                "Colo",
-                                "Flippable",
-                                "yes"
-                              ]
-                            },
-                            {
-                              "type": {
-                                "value": "PlatformBehavior::SimulateControl"
-                              },
-                              "parameters": [
-                                "Colo",
-                                "PlatformerObject",
-                                "\"Right\""
-                              ]
-                            },
-                            {
-                              "type": {
-                                "value": "PlatformBehavior::MaxSpeed"
-                              },
-                              "parameters": [
-                                "Colo",
-                                "PlatformerObject",
-                                "=",
-                                "200"
-                              ]
-                            }
-                          ]
-                        },
-                        {
-                          "type": "BuiltinCommonInstructions::Standard",
-                          "conditions": [
-                            {
-                              "type": {
-                                "value": "PosX"
-                              },
-                              "parameters": [
-                                "NewSprite",
-                                "<",
-                                "Colo.X()"
-                              ]
-                            }
-                          ],
-                          "actions": [
-                            {
-                              "type": {
-                                "value": "FlippableCapability::FlippableBehavior::FlipX"
-                              },
-                              "parameters": [
-                                "Colo",
-                                "Flippable",
-                                "no"
-                              ]
-                            },
-                            {
-                              "type": {
-                                "value": "PlatformBehavior::SimulateControl"
-                              },
-                              "parameters": [
-                                "Colo",
-                                "PlatformerObject",
-                                "\"Left\""
-                              ]
-                            },
-                            {
-                              "type": {
-                                "value": "PlatformBehavior::MaxSpeed"
-                              },
-                              "parameters": [
-                                "Colo",
-                                "PlatformerObject",
-                                "=",
-                                "200"
-                              ]
-                            }
-                          ]
-                        }
+                      "type": {
+                        "value": "LinkedObjects::RemoveLinkBetween"
+                      },
+                      "parameters": [
+                        "",
+                        "NewSprite",
+                        "Colo"
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "folded": true,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "NumberObjectVariable"
+                  },
+                  "parameters": [
+                    "Colo",
+                    "platformId",
+                    "=",
+                    "Marcus.platformId"
+                  ]
+                }
+              ],
+              "actions": [],
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "PosX"
+                      },
+                      "parameters": [
+                        "Marcus",
+                        ">",
+                        "Colo.X()"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "FlippableCapability::FlippableBehavior::FlipX"
+                      },
+                      "parameters": [
+                        "Colo",
+                        "Flippable",
+                        "yes"
                       ]
                     },
                     {
-                      "type": "BuiltinCommonInstructions::Standard",
-                      "conditions": [
-                        {
-                          "type": {
-                            "value": "LinkedObjects::PickObjectsLinkedTo"
-                          },
-                          "parameters": [
-                            "",
-                            "NewSprite",
-                            "Colo",
-                            ""
-                          ]
-                        },
-                        {
-                          "type": {
-                            "value": "CollisionNP"
-                          },
-                          "parameters": [
-                            "NewSprite",
-                            "Colo",
-                            "",
-                            "",
-                            ""
-                          ]
-                        },
-                        {
-                          "type": {
-                            "value": "PlatformBehavior::IsOnFloor"
-                          },
-                          "parameters": [
-                            "Colo",
-                            "PlatformerObject"
-                          ]
-                        }
-                      ],
-                      "actions": [
-                        {
-                          "type": {
-                            "value": "PlatformBehavior::SimulateControl"
-                          },
-                          "parameters": [
-                            "Colo",
-                            "PlatformerObject",
-                            "\"Jump\""
-                          ]
-                        },
-                        {
-                          "type": {
-                            "value": "LinkedObjects::RemoveLinkBetween"
-                          },
-                          "parameters": [
-                            "",
-                            "NewSprite",
-                            "Colo"
-                          ]
-                        }
+                      "type": {
+                        "value": "PlatformBehavior::SimulateControl"
+                      },
+                      "parameters": [
+                        "Colo",
+                        "PlatformerObject",
+                        "\"Right\""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "PlatformBehavior::MaxSpeed"
+                      },
+                      "parameters": [
+                        "Colo",
+                        "PlatformerObject",
+                        "=",
+                        "200"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "PosX"
+                      },
+                      "parameters": [
+                        "Marcus",
+                        "<",
+                        "Colo.X()"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "FlippableCapability::FlippableBehavior::FlipX"
+                      },
+                      "parameters": [
+                        "Colo",
+                        "Flippable",
+                        "no"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "PlatformBehavior::SimulateControl"
+                      },
+                      "parameters": [
+                        "Colo",
+                        "PlatformerObject",
+                        "\"Left\""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "PlatformBehavior::MaxSpeed"
+                      },
+                      "parameters": [
+                        "Colo",
+                        "PlatformerObject",
+                        "=",
+                        "200"
                       ]
                     }
                   ]
@@ -34956,55 +35219,6 @@
               ]
             },
             {
-              "disabled": true,
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "CollisionNP"
-                  },
-                  "parameters": [
-                    "NewSprite",
-                    "Colo",
-                    "",
-                    "",
-                    ""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "PosY"
-                  },
-                  "parameters": [
-                    "Colo",
-                    ">",
-                    "Marcus.Y() + 50"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "PlatformBehavior::IsOnFloor"
-                  },
-                  "parameters": [
-                    "Colo",
-                    "PlatformerObject"
-                  ]
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "PlatformBehavior::SimulateControl"
-                  },
-                  "parameters": [
-                    "Colo",
-                    "PlatformerObject",
-                    "\"Jump\""
-                  ]
-                }
-              ]
-            },
-            {
               "type": "BuiltinCommonInstructions::Standard",
               "conditions": [
                 {
@@ -35096,7 +35310,7 @@
                   "parameters": [
                     "coloAttack",
                     "=",
-                    "1"
+                    "RandomInRange(1, 3)"
                   ]
                 }
               ],
@@ -35116,6 +35330,19 @@
                     }
                   ],
                   "actions": [
+                    {
+                      "type": {
+                        "value": "PlaySoundCanal"
+                      },
+                      "parameters": [
+                        "",
+                        "sound\\Number Empire\\Sound Effect\\Senjata atau Serangan\\Sword Slash 1.wav",
+                        "2",
+                        "",
+                        "70",
+                        ""
+                      ]
+                    },
                     {
                       "type": {
                         "value": "AnimatableCapability::AnimatableBehavior::SetName"
@@ -35144,6 +35371,19 @@
                     }
                   ],
                   "actions": [
+                    {
+                      "type": {
+                        "value": "PlaySoundCanal"
+                      },
+                      "parameters": [
+                        "",
+                        "sound\\Number Empire\\Sound Effect\\Senjata atau Serangan\\Sword Slash 1.wav",
+                        "2",
+                        "",
+                        "70",
+                        ""
+                      ]
+                    },
                     {
                       "type": {
                         "value": "AnimatableCapability::AnimatableBehavior::SetName"
@@ -35236,6 +35476,18 @@
                         "AdvancedProjectile",
                         ""
                       ]
+                    },
+                    {
+                      "type": {
+                        "value": "CollisionNP"
+                      },
+                      "parameters": [
+                        "chain",
+                        "Marcus",
+                        "",
+                        "",
+                        ""
+                      ]
                     }
                   ]
                 }
@@ -35248,16 +35500,6 @@
                   "parameters": [
                     "Warning_Bos_Attack",
                     ""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "SetNumberVariable"
-                  },
-                  "parameters": [
-                    "coloAttack",
-                    "=",
-                    "0"
                   ]
                 },
                 {
@@ -35314,6 +35556,19 @@
                     "Colo.Y()",
                     ""
                   ]
+                },
+                {
+                  "type": {
+                    "value": "PlaySoundCanal"
+                  },
+                  "parameters": [
+                    "",
+                    "sound\\Number Empire\\Sound Effect\\Rantai.wav",
+                    "2",
+                    "",
+                    "70",
+                    ""
+                  ]
                 }
               ]
             },
@@ -35341,6 +35596,227 @@
                   "parameters": [
                     "chain",
                     ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                  },
+                  "parameters": [
+                    "Marcus",
+                    "Animation",
+                    "=",
+                    "\"terrante\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "PlaySoundCanal"
+                  },
+                  "parameters": [
+                    "",
+                    "sound\\Number Empire\\Sound Effect\\Karakter\\Marcus Terikat.wav",
+                    "2",
+                    "",
+                    "70",
+                    ""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "CollisionNP"
+                  },
+                  "parameters": [
+                    "Marcus",
+                    "Colo",
+                    "",
+                    "",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::Or"
+                  },
+                  "parameters": [],
+                  "subInstructions": [
+                    {
+                      "type": {
+                        "value": "AnimatableCapability::AnimatableBehavior::Name"
+                      },
+                      "parameters": [
+                        "Colo",
+                        "Animation",
+                        "=",
+                        "\"attack\""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "AnimatableCapability::AnimatableBehavior::Name"
+                      },
+                      "parameters": [
+                        "Colo",
+                        "Animation",
+                        "=",
+                        "\"dash\""
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Health::Health::Hit"
+                  },
+                  "parameters": [
+                    "Marcus",
+                    "Health",
+                    "1",
+                    "",
+                    "",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "PlaySoundCanal"
+                  },
+                  "parameters": [
+                    "",
+                    "sound\\Number Empire\\Sound Effect\\Nyawa Berkurang.wav",
+                    "2",
+                    "",
+                    "70",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "healtPlayer",
+                    "-",
+                    "1"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                  },
+                  "parameters": [
+                    "Healt_Player",
+                    "Animation",
+                    "=",
+                    "healtPlayer"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "AnimatableCapability::AnimatableBehavior::Name"
+                  },
+                  "parameters": [
+                    "Marcus",
+                    "Animation",
+                    "=",
+                    "\"terrante\""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "ActivateBehavior"
+                  },
+                  "parameters": [
+                    "Marcus",
+                    "PlatformerObject",
+                    ""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "AnimatableCapability::AnimatableBehavior::Name"
+                  },
+                  "parameters": [
+                    "Marcus",
+                    "Animation",
+                    "=",
+                    "\"terrante\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "AnimatableCapability::AnimatableBehavior::HasAnimationEnded"
+                  },
+                  "parameters": [
+                    "Marcus",
+                    "Animation"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                  },
+                  "parameters": [
+                    "Marcus",
+                    "Animation",
+                    "=",
+                    "\"idle\""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": true,
+                    "value": "AnimatableCapability::AnimatableBehavior::Name"
+                  },
+                  "parameters": [
+                    "Marcus",
+                    "Animation",
+                    "=",
+                    "\"terrante\""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "ActivateBehavior"
+                  },
+                  "parameters": [
+                    "Marcus",
+                    "PlatformerObject",
+                    "yes"
                   ]
                 }
               ]
@@ -35373,6 +35849,19 @@
                 }
               ],
               "actions": [
+                {
+                  "type": {
+                    "value": "PlaySoundCanal"
+                  },
+                  "parameters": [
+                    "",
+                    "sound\\Number Empire\\Sound Effect\\Death.wav",
+                    "2",
+                    "",
+                    "70",
+                    ""
+                  ]
+                },
                 {
                   "type": {
                     "value": "ShowLayer"
@@ -36725,6 +37214,13 @@
             }
           ],
           "parameters": []
+        },
+        {
+          "type": "BuiltinCommonInstructions::Link",
+          "include": {
+            "includeConfig": 0
+          },
+          "target": "Sound"
         }
       ],
       "layers": [
@@ -36779,7 +37275,7 @@
           "isLocked": false,
           "name": "UI",
           "renderingType": "",
-          "visibility": false,
+          "visibility": true,
           "cameras": [],
           "effects": [
             {
@@ -49259,6 +49755,19 @@
                   "actions": [
                     {
                       "type": {
+                        "value": "PlaySoundCanal"
+                      },
+                      "parameters": [
+                        "",
+                        "sound\\Number Empire\\Sound Effect\\Coin.wav",
+                        "2",
+                        "",
+                        "70",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
                         "value": "Delete"
                       },
                       "parameters": [
@@ -49315,6 +49824,19 @@
                     }
                   ],
                   "actions": [
+                    {
+                      "type": {
+                        "value": "PlaySoundCanal"
+                      },
+                      "parameters": [
+                        "",
+                        "sound\\Number Empire\\Sound Effect\\Coin.wav",
+                        "2",
+                        "",
+                        "70",
+                        ""
+                      ]
+                    },
                     {
                       "type": {
                         "value": "Delete"
@@ -49997,6 +50519,19 @@
               "actions": [
                 {
                   "type": {
+                    "value": "PlaySoundCanal"
+                  },
+                  "parameters": [
+                    "",
+                    "sound\\Number Empire\\Sound Effect\\Enemy Blood Hit.wav",
+                    "2",
+                    "",
+                    "70",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
                     "value": "Delete"
                   },
                   "parameters": [
@@ -50056,6 +50591,19 @@
                 },
                 {
                   "type": {
+                    "value": "PlaySoundCanal"
+                  },
+                  "parameters": [
+                    "",
+                    "sound\\Number Empire\\Sound Effect\\Enemy Blood Hit.wav",
+                    "2",
+                    "",
+                    "70",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
                     "value": "SetNumberVariable"
                   },
                   "parameters": [
@@ -50096,6 +50644,19 @@
               "actions": [
                 {
                   "type": {
+                    "value": "PlaySoundCanal"
+                  },
+                  "parameters": [
+                    "",
+                    "sound\\Number Empire\\Sound Effect\\Enemy Blood Hit.wav",
+                    "2",
+                    "",
+                    "70",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
                     "value": "Delete"
                   },
                   "parameters": [
@@ -50122,6 +50683,19 @@
                 }
               ],
               "actions": [
+                {
+                  "type": {
+                    "value": "PlaySoundCanal"
+                  },
+                  "parameters": [
+                    "",
+                    "sound\\Number Empire\\Sound Effect\\Enemy Blood Hit.wav",
+                    "2",
+                    "",
+                    "70",
+                    ""
+                  ]
+                },
                 {
                   "type": {
                     "value": "Delete"
@@ -50390,6 +50964,19 @@
                 },
                 {
                   "type": {
+                    "value": "PlaySoundCanal"
+                  },
+                  "parameters": [
+                    "",
+                    "sound\\Number Empire\\Sound Effect\\Nyawa Berkurang.wav",
+                    "2",
+                    "",
+                    "70",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
                     "value": "SetNumberVariable"
                   },
                   "parameters": [
@@ -50639,7 +51226,6 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
-          "folded": true,
           "name": "Win Or Lose",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -50659,6 +51245,19 @@
                 }
               ],
               "actions": [
+                {
+                  "type": {
+                    "value": "PlaySoundCanal"
+                  },
+                  "parameters": [
+                    "",
+                    "sound\\Number Empire\\Sound Effect\\Death.wav",
+                    "2",
+                    "",
+                    "70",
+                    ""
+                  ]
+                },
                 {
                   "type": {
                     "value": "ShowLayer"
@@ -51713,6 +52312,13 @@
               ]
             }
           ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Link",
+          "include": {
+            "includeConfig": 0
+          },
+          "target": "Sound"
         }
       ],
       "layers": [
@@ -52559,7 +53165,8 @@
         "gridAlpha": 0.8,
         "snap": false,
         "zoomFactor": 0.546875,
-        "windowMask": false
+        "windowMask": false,
+        "selectedLayer": ""
       },
       "objectsGroups": [],
       "variables": [],
